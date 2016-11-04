@@ -1,0 +1,1523 @@
+/****************************************************************************/
+/* This is the default custom CSS file that is included in every template.  */
+/* It can be edited, but it cannot be renamed or deleted.                   */
+/****************************************************************************/
+
+
+/*Breakpoint-NAV*/
+
+
+.try-free-button,.custom-menu-primary-new/*,.custom-menu-primary-new .hs-menu-wrapper.hs-menu-flow-vertical.no-flyouts>ul li.hs-item-has-children ul.hs-menu-children-wrapper,.custom-menu-primary-new .hs-menu-wrapper.hs-menu-flow-horizontal.no-flyouts>ul li.hs-item-has-children ul.hs-menu-children-wrapper*/{display:none!important;visibility:hidden;}
+
+
+
+
+
+/*Blog Breadcrumb*/
+
+
+.main-blog .body-container-wrapper{margin-top:-12px;}
+
+.main-blog .tg_breadcrumb{background-image:none;}
+
+
+/*Author Archive*/
+
+.filter-expand-link{padding:10px 20px;display:block;}
+
+.hs-blog-listing .author-block .hs-author-profile{max-width:370px;padding-top: 130px;display:block;}
+
+.author_boi{display:none;visibility:hidden;}
+
+.author-block{padding-bottom:37px;}
+
+.hs-blog-listing .hs-author-avatar{position: absolute;top: 327px;margin-left: -145px;}
+
+.author-info .hs-author-social-links{position: relative;right: 122px;top: -28px;}
+
+.hs-author-social-links a.hs-author-social-link.hs-social-twitter {
+border-left-width: 1px!important;
+border-radius: 0 0 0 3px;}
+
+.hs-author-social-links a.hs-author-social-link.hs-author-email {
+border-radius: 0 0 3px 0;
+}
+
+.hs-author-social-links a.hs-author-social-link {
+border: 0 solid #e3e5e5!important;
+border-bottom-width: 1px!important;
+border-right-width: 1px!important;
+text-align: center;
+border-radius: 0;
+margin-right: -4px;
+}
+
+.main-blog .body-container-wrapper{margin-top:-12px;}
+
+.main-blog .tg_breadcrumb{background-image:none;}
+
+
+
+
+
+/* FOOTER MESSAGE */
+
+a.back-to-top {
+    float: left;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    padding: 15px 0;
+    text-align: center;
+    border-right: 1px solid #525961;
+}
+span.footer-message {
+    display: inline-block;
+    line-height: 20px;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #99a3b0;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+/*removed border using add this page*/
+
+
+.hs-blog-post .footer-container-wrapper,.hs-landing-page .footer-container-wrapper{margin-bottom:-1px;}
+
+
+
+/*map-canvas-contact*/
+
+
+
+
+#map-canvas-contact a img{display:none;}
+
+.g-map{height:290px;}
+
+p.tg-g-map{font-size:11px;background:url(https://resources.tradegecko.com/hs-fs/hub/407937/file-2198180504-png/tradegecko_images/google-map-patch-bg.png) no-repeat;
+display:block;
+margin:0px;
+width:150px;
+height:40px;
+float: right;
+position: relative;
+bottom: 41px;
+max-width: 150px;
+text-align: center;
+border-bottom:1px solid #f1f1f4;
+}
+
+.tg-g-map a{display: block;
+padding: 14px 20px 14px 55px;}
+
+
+
+/*Blog Style*/
+
+/*Blog-Right-text*/
+
+.blog-right-text{}
+
+
+
+
+
+
+.m-show{display:none;visibilty:hidden;}
+
+
+.text-blog-gray{color:#cdcfcf;}
+
+.tg_blog_body .hs-featured-image{float: left;
+ margin: 0 40px 35px 0;
+ max-width: 100%;
+ position: relative;
+ border-radius: 50%;
+ width:165px;
+ height:165px;}
+
+.more-link .fa{margin-left:3px;font-size:15px;}
+
+.tg_blog_body .post-item{margin-bottom:100px;}
+
+.tg_blog_body .post-header h2{font-size:28px;font-weight:300;margin-bottom:0px;}
+
+.tg-blog-left-sidebar{padding: 80px 80px 80px 0px;}
+
+.tg-blog-right-sidebar{margin-top:95px;}
+
+.tg_blog_vertical_menu ul li a{
+    background:#fff;
+    font-weight:bold;
+    color:#6c7279;
+    border: 1px solid #f3f3f3;
+    border-top:none;
+    font-family: "Raleway",sans-serif;
+    padding:10px 20px;
+    display:block;
+    }
+
+.tg_blog_top_posts_menu ul li a{
+    font-weight:400;
+    font-size:13px;
+    font-family:"Open Sans", sans-serif;
+}
+
+.tg_blog_vertical_menu ul li.active a,.tg_blog_vertical_menu ul li a:active,.tg_blog_vertical_menu ul li a:hover{background:#f4f4f5;color:#6c7279;}
+
+.tg_blog_vertical_menu h3{display:none;visibility:hidden;}
+
+.tg_blog_vertical_menu ul li:last-child a{border-radius:0px 0px 5px 5px;}
+
+.tg_blog_vertical_menu ul{padding:0px;list-style:none;margin:0px;}
+
+.categories h3{padding:10px 20px;border-left:1px solid #f3f3f3;border-bottom:1px solid #f3f3f3;}
+
+.blog_image{margin-bottom:20px;}
+
+.tg_blog_body ul.page-numbers{list-style:none;padding-left:0px;}
+
+.tg_blog_body ul.page-numbers li{float:left;margin-right:5px;}
+
+.tg_blog_body ul.page-numbers li a{background-color:transparent;
+ color: #6c7279;
+ text-transform: uppercase;
+ font-size: 13px;
+ padding: 7px 16px;
+ border: 1px solid #70cf32;
+ border-radius: 3px;
+ display: inline-block;
+ font-weight: bold;
+ text-decoration: none;
+ cursor: pointer;
+ font-family: "Raleway",sans-serif;}
+
+.tg_blog_body ul.page-numbers li.current a{background-color: #70cf32;color: #ffffff;}
+
+.tg_blog_body .previous-posts-link{float:left;
+ margin-right:5px;
+ background-color:transparent;
+ color: #2d3033;
+ text-transform: uppercase;
+ font-size: 13px;
+ padding: 9.5px 16px;
+ border: 1px solid #70cf32;
+ border-radius: 3px;
+ display: inline-block;
+ font-weight: bold;
+ text-decoration: none;
+ cursor: pointer;
+ font-family: "Raleway",sans-serif;}
+
+.tg_blog_body .previous-posts-link .fa{margin-right:5px;}
+
+.tg_blog_body .next-posts-link{
+ float: right;
+ background-color:transparent;
+ color: #2d3033;
+ text-transform: uppercase;
+ font-size: 13px;
+ padding: 9.5px 16px;
+ border: 1px solid #70cf32;
+ border-radius: 3px;
+ display: inline-block;
+ font-weight: bold;
+ text-decoration: none;
+ cursor: pointer;
+ font-family: "Raleway",sans-serif;}
+
+.tg_blog_body .next-posts-link .fa {margin-left:5px;}
+
+/*.tg_blog_body .hs_sidebar_fixheight {
+height: 970px;
+}*/
+
+.hs-blog-post .tg_blog_body .hs_sidebar_fixheight{height:0px;}
+
+.blog-summary-long-border{position: relative;padding-bottom:15px;}
+
+.blog-summary-long-border:after{content: '';
+ position: absolute;
+ right: 0;
+ bottom: 0;
+ height: 1px;
+ background-color: #e1e3e4;
+ width: 400%;}
+
+ /*Blog Slide Down CTA*/
+
+#blog-slidedown{
+    position: fixed;
+    top: -133px;
+    z-index: 10000000000;
+    background-color: #71CF32;
+    color: white;
+    font-size: 15px;
+}
+#blog-slidedown h4{
+    text-align:right;
+}
+#blog-slidedown label{
+    display:none;
+}
+#blog-slidedown form.hs-form {
+    margin:10px 0;
+}
+#blog-slidedown form {
+    padding:0;
+    background:none !important;
+}
+#blog-slidedown .form-title {
+    display:none;
+}
+#blog-slidedown .input {
+    margin:0 !important;
+}
+#blog-slidedown .hs-form input[type="email"]{
+    background:#fff;
+    border:0;
+    width:60% !important;
+    margin:0;
+}
+#blog-slidedown .hs-form input[type="submit"]{
+    border:1px solid #fff;
+    margin:0;
+}
+#blog-slidedown .hs_submit{
+    display: inline-block;
+    width: 35%;
+    float: right;
+    margin-top: -40px;
+}
+#blog-slidedown .hs-error-msgs{
+    display:none !important;
+}
+#blog-slidedown .submitted-message{
+    margin-top:20px;
+}
+#blog-slidedown a.close{
+    background-image:url(http://cdn2.hubspot.net/hubfs/407937/blog-files/slide-cta-close-btn-white.png);
+    margin: 8px 12px;
+    opacity: 0.6;
+}
+@media only screen and (max-width : 979px) {
+    #blog-slidedown{
+        display:none;
+    }
+}
+
+/*Blog Post*/
+
+
+
+
+.section.post-body{margin-top:40px;}
+
+.hs-blog-post .hs_blockquote{font-size:26px;color:#6a7e6c;font-weight:300;}
+
+img.blog-large-image{border-top:1px solid #2d3033;margin:40px 0px 20px;}
+
+span.image-wrapper{max-width:262px;margin:0px 0px 13px 40px;font-weight:300;border-top:1px solid #2d3033;line-height:18px;}
+
+span.image-wrapper img{margin-bottom:12px;}
+
+.text-size18{font-size:18px;}
+
+.tg_blog_body blockquote{margin:50px 0px;}
+
+.b-pad-30{padding-bottom:40px;}
+
+.hs-blog-listing .vertical-pad-45{padding:0px;}
+
+.hs-blog-listing .text-size20{font-size:14px;}
+
+.blog-listing-wrapper p.vertical-pad-25{padding:0px;}
+
+.blog-listing-wrapper p.text-size18{font-size:16px;font-weight:400;}
+
+.horizontal_point ul li{font-size:16px;padding-left:12px;}
+
+.iv_ans ol li{font-size:16px;}
+
+
+
+/*.hs-blog-post .post-hide{display:none;}*/
+
+.section.post-body img.for-hide{display:none;}
+
+.hs-blog-listing .blog-nav,.hs-blog-listing .subscription-form{display:none!important;visibility:hidden;}
+
+.tg-blog-right-sidebar .hs_download_form{margin-top:80px;}
+
+.hs_download_form .hs-button.primary{border-radius:0px 0px 5px 5px;}
+
+.tg_google_search form,.tg_google_search .hs-form{background:#fff!important;}
+
+.tg_google_search form label,.tg_google_search .hs-form label{display:none;font-size:20px;font-weight:300!important;text-transform:capitalize;margin-left:0px;}
+
+.tg_google_search form input,.tg_google_search form input:focus{
+ margin:0px!important;
+ outline:none;
+ background:#f1f1f1;
+ border:none!important;
+ width: 80%!important;
+ display:inline-block;
+ border-radius: 3px 0 0 3px;}
+
+.tg_google_search .hs_cos_wrapper_type_google_search a.hs-button.primary{
+    background: #70cf32 url(//resources.tradegecko.com/hs-fs/hub/407937/file-2130642377-png/google-search.png?t=1442285910212) center no-repeat;
+    border-radius: 0 3px 3px 0;
+    height: 40px;
+    width: 20%;
+    float: right;
+    padding: 0;
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://resources.tradegecko.com/hs-fs/hub/407937/file-2130642377-png/google-search.png',sizingMethod='scale');
+ -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://resources.tradegecko.com/hs-fs/hub/407937/file-2130642377-png/google-search.png',sizingMethod='scale')"/*IE Version 8 bg_filter*/
+
+}
+
+.subscription-form{background:#e5e6e6;padding: 15px 0 20px;}
+
+.subscription-form form label,.subscription-form .hs-form label{display:none;}
+
+.subscription-form form,.subscription-form .hs-form{background-color:transparent;}
+
+.subscription-form form.hs-form input[type="email"]{margin-left:0px;max-width:250px;margin-top:0px;}
+
+.subscription-form .input{margin-bottom:6px!important;}
+
+.subscription-form form input[type="submit"],.subscription-form .hs-form input[type="submit"]{max-width:105px;position: absolute;border-top:none;
+ margin-top: -70px;
+ margin-left: 260px;
+ -webkit-appearance:none;
+ }
+
+.subscription-form h2{margin: 0px;padding:54px 0px 0px;text-align:right;}
+
+.subscription-form form.hs-form input[type="email"]::-webkit-input-placeholder {
+ font-family:"Raleway",sans-serif;
+ font-size:12px;
+ font-weight:700;
+ color:#fff;
+ padding-left:10px;}
+
+.subscription-form form.hs-form input[type="email"]:-moz-placeholder { /* Firefox 18- */
+ color:#fff;
+ font-family: "Raleway",sans-serif;
+ font-size:12px;
+ font-weight:700;
+ padding-left:10px;}
+
+.subscription-form form.hs-form input[type="email"]::-moz-placeholder {  /* Firefox 19+ */
+ color:#fff;
+ font-family: "Raleway",sans-serif;
+ font-size:12px;
+ font-weight:700;
+ padding-left:10px;}
+
+.subscription-form form.hs-form input[type="email"]:-ms-input-placeholder {
+ color:#fff;
+ font-family: "Raleway",sans-serif;
+ font-size:12px;
+ font-weight:700;
+ padding-left:10px;}
+
+
+/* .author_boi .hs-author-social-links a.hs-author-social-link.hs-social-linkedin{
+ background-image:url("http://resources.tradegecko.com/hs-fs/hub/407937/file-2166244155-png/tradegecko_images/linked_icon1.png")!important;
+ background-position: 0px 0px;
+ height:37px;
+ width: 41px;
+ background-size: 40px;
+ border: 1px solid #f4f4f5;
+ border-top:none;
+ border-right:none;
+ border-bottom-left-radius:3px;}
+
+.author_boi .hs-author-social-links a.hs-author-social-link.hs-social-linkedin:hover{background-position: 0px -42px;-webkit-transition: all 0.2s ease-out;
+-moz-transition: all 0.2s ease-out;
+-o-transition: all 0.2s ease-out;
+-ms-transition: all 0.2s ease-out;
+ transition: all 0.2s ease-out;}
+
+
+.author_boi .hs-author-social-links a.hs-author-social-link.hs-social-twitter{background-image: url("https://resources.tradegecko.com/hs-fs/hub/407937/file-2165049906-jpg/tradegecko_images/twitter_icon1.jpg")!important;
+ background-position: 0px 0px;
+ height:37px;
+ width: 41px;
+ background-size: 40px;
+ border: 1px solid #f4f4f5;
+ border-top:none;
+ border-right:none;
+ margin-left: -4px;}
+
+
+.author_boi .hs-author-social-links a.hs-author-social-link.hs-social-twitter:hover{background-position: 0px -42px;-webkit-transition: all 0.2s ease-out;
+-moz-transition: all 0.2s ease-out;
+-o-transition: all 0.2s ease-out;
+-ms-transition: all 0.2s ease-out;
+transition: all 0.2s ease-out;}
+
+.author_boi .hs-author-social-links a.hs-author-social-link.hs-social-google-plus{background-image: url("http://resources.tradegecko.com/hs-fs/hub/407937/file-2166244160-jpg/tradegecko_images/g+i_con1.jpg")!important;
+ background-position: 0px 0px;
+ height:37px;
+ width: 41px;
+ background-size:40px;
+ border: 1px solid #f4f4f5;
+ border-top:none;
+ margin-left: -4px;
+ border-bottom-right-radius:3px;}
+
+.author_boi .hs-author-social-links a.hs-author-social-link.hs-social-google-plus:hover{background-position: 0px -42px;-webkit-transition: all 0.2s ease-out;
+-moz-transition: all 0.2s ease-out;
+-o-transition: all 0.2s ease-out;
+-ms-transition: all 0.2s ease-out;
+transition: all 0.2s ease-out;}*/
+
+.author_boi .hs-author-social-section{margin-top: -15px;border-top:1px solid #e1e3e4;}
+
+/*.hs-content-path-tradegecko-blogauthortester.hs-blog-name-tradegecko-blog .tg_patric,.hs-content-path-tradegecko-blogauthorblog-tester.hs-blog-name-tradegecko-blog .tg_patric{display:none;}
+.hs-content-path-new-blogauthortester.hs-blog-name-tradegecko-blog .author_boi,.hs-content-path-new-blogauthortester.hs-blog-name-tradegecko-blog{display:block!important;}
+*/
+
+
+
+.hs-author-listing-header{border-bottom: 1px solid #e1e3e4;
+ margin:15px 0px 20px!important;
+ padding:0px 0px 10px;
+ font-size:20px;top: -74px;position:relative;}
+
+.post-listing .hs-author-social-label,.post-listing .hs-author-bio{font-size:16px;}
+
+.hs-author-social-section{margin:10px 0px;}
+
+.main-blog .tg_patric{padding-bottom:80px;}
+
+.hs-author-social-links a.hs-author-social-link{text-indent: inherit!important;background-image:none!important;text-align:center;padding:8px;color:#6b727a;}
+
+.hs-author-social-links .hs-social-twitter:hover{color:#2aa9df;}
+
+.hs-author-social-links .hs-social-linkedin:hover{color:#006e93;}
+
+.hs-author-social-links .hs-social-google-plus:hover{color:#d3544b;}
+
+.hs-author-social-links .hs-author-email:hover{color:#70cf32;}
+
+.hs-author-social-links{margin-left:10px;}
+
+.hs-author-social-links .fa{font-size:16px;}
+
+.author_boi .fa{font-size:16px;}
+
+.author_boi a.hs-author-social-link{}
+
+.author_boi .hs-author-social-links a.hs-author-social-link{
+ border: 0 solid #e3e5e5!important;
+ border-bottom-width: 1px!important;
+ border-right-width: 1px!important;
+ text-align: center;
+ border-radius:0px;
+ margin-right: -4px;}
+
+
+.hs-author-social-links a.hs-author-social-link:first-child{
+ border-left-width:1px!important;border-radius:0px 0px 0px 3px;}
+
+.hs-author-social-links a.hs-author-social-link:last-child{border-radius:0px 0px 3px 0px;}
+.hs-author-social-links a.hs-author-social-link:only-child{border-radius:0px 0px 3px 3px;}
+
+
+.author_boi .hs-author-social-links{margin-left:0px;}
+
+.author_boi .fa-linkedin{border:none!important;}
+
+.author_boi .fa-google-plus{border:none!important;}
+
+.author_box .author_fix{position: relative;bottom: 169px;}
+
+.hs-blog-post .blog-breadcrumb,.hs-blog-listing .post-crumb{display:none!important;visibility:hidden;}
+
+
+
+.post-crumb li:first-child{padding-left:0px;}
+
+.hs-breadcrumb-menu-post a{text-transform: capitalize;
+ font-size: 24px;
+ font-weight: 300;
+ line-height: 2.8;
+ padding-top: 12px;
+ padding-right: 21px;
+ padding-left: 10px;}
+
+.post.hs-breadcrumb-menu-item.last-crumb{display:block!important;}
+
+
+
+
+
+/*Blog-STyle End*/
+
+
+.hs-blog-post .inventory_text{margin-top:80px;}
+
+.hs-blog-post .tg_patric{display:none!important;visibility:hidden;}
+
+.avatar-module{text-align:center;}
+
+.author-name{text-align:center;font-size:22px;}
+
+.content_author p{font-weight:300;padding-bottom:15px;}
+
+.author_boi .hs-author-social-section{text-align:center;}
+
+.author_boi p{color:#959595;font-size:13px;font-weight:400;line-height:18px;}
+
+/*.author_boi{display:none;visibility:hidden;}*/
+
+.more-consig_cta{text-align:right;}
+
+
+/*end*/
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Mobile Menu - Hubspot Standard Toggle Menu
+   ========================================================================== */
+
+
+/**
+ * Special Note
+ *
+ * When the menu is open, a class of .mobile-open is applied to the body. You can
+ * use this for custom styling on any element when the menu is in the open position.
+ */
+
+.mobile-open .header-nav-container .custom-menu-primary .hs-menu-wrapper.hs-menu-flow-horizontal>ul li a,
+.mobile-open .hs_home_top_nav .hs-menu-wrapper.hs-menu-flow-horizontal>ul li:nth-of-type(5) a{
+    max-width: 100%!important;
+    padding: 2px 20px !important;
+}
+
+@media(max-width:1024px){.form_field textarea,.form_field form input, .form_field .hs-form input{max-width:195px;}}
+
+@media(max-width:800px){
+
+
+.tg-blog-left-sidebar {
+padding: 60px 20px 60px 0;
+}
+.categories h3,.tg_blog_vertical_menu .hs-menu-wrapper.hs-menu-flow-vertical>ul li.hs-menu-depth-1>a{font-size:10px;padding: 12px 5px;}
+
+.hs-blog-listing .hs-author-profile {
+max-width: 295px;}
+
+.hs-blog-listing .hs-author-avatar {
+top: 354px;
+margin-left: -65px;
+}
+
+.author-info .hs-author-social-links {right: 43px;}
+
+.gmap iframe{max-width: 172px;}
+
+#hubspot-topic_data{font-size:10px!important;}
+
+ .form_field textarea,.form_field form input, .form_field .hs-form input{max-width:145px;}
+
+ .subscription-form h2{text-align: center;
+  padding-top:25px;}
+
+ .form_field textarea{margin-right:20px;}
+
+ .tg_contact_left select{background-size: 24px;
+padding: 5px 0px;font-size: 10px;}
+
+
+
+.hs-blog-listing .author-block .hs-author-profile{max-width:295px;}
+
+
+}
+
+@media (min-width: 768px){
+
+  a.mobile-trigger, a.child-trigger {
+      display: none !important; /* Hide button on Desktop */
+  }
+.gmap iframe{max-width:163px;}
+
+}
+
+@media (max-width: 767px){
+
+.row-fluid .hs-menu-wrapper.hs-menu-flow-horizontal>ul li:nth-of-type(5) a{border-radius:0px!important;border-bottom:none!important;}
+
+.row-fluid .hs-menu-wrapper.hs-menu-flow-horizontal>ul li:nth-of-type(6) a{border-radius:0px!important;}
+
+.custom-menu-primary .hs-menu-flow-horizontal ul li:nth-of-type(6){border-top:none!important;}
+
+
+.main-blog .hs-menu-flow-horizontal ul li a{margin-bottom:-3px;}
+
+
+
+.hs-blog-post .footer-container-wrapper, .hs-landing-page .footer-container-wrapper{margin-bottom:-20px;}
+
+.main-blog .footer-container .footer-top-nav-area .bottom-feedback-button{margin: 0;
+float: none;
+display: block;
+text-align: center;
+margin-top: -28px;
+padding: 15px 5px;
+font-size:12px;}
+
+
+ .m-hide{display:none;visibilty:hidden;}
+
+ .m-show{display:block;visibilty:visible;}
+
+ a.more-link{float: none;
+display: block;
+padding-bottom: 10px;}
+
+ .hs-blog-listing .hs-author-profile {max-width:100%;margin-bottom:60px;}
+
+ .main-blog .body-container-wrapper {margin-top:0px;}
+
+ .hs-blog-post .body-container-wrapper {margin-top:0px;}
+
+
+  .tg_google_search form input, .tg_google_search form input:focus{max-width:100%;}
+
+  .contact_fm{}
+
+  .tg_blog_body .hs_sidebar_fixheight{height:0px;}
+
+  .form_fork .form_field{margin-top:-75px;}
+
+  .post-item .left {float:none!important;}
+
+  .tg-blog-right-sidebar{margin-top:40px;}
+
+  .tg_patric,.blog_image,.tg_blog_body .hs-featured-image{float:none;display:block;margin:20px auto;}
+
+  .tg-blog-left-sidebar{padding: 20px  0px 20px;}
+
+  .tg_blog_body{padding-bottom:50px;}
+
+  .hs_site_nav .hs-menu-wrapper.hs-menu-flow-horizontal>ul li a{color:#fff!important;}
+
+  .categories h3,.tg_blog_vertical_menu .hs-menu-wrapper.hs-menu-flow-vertical>ul li.hs-menu-depth-1>a{font-size:12px;padding: 10px 20px;}
+
+  .categories h3{border:1px solid #f3f3f3;border-bottom:1px solid #f3f3f3!important;}
+
+
+  #hubspot-topic_data{font-size:12px!important;}
+
+
+  .cta_center{text-align:center;}
+
+  .white-bg-form{border-bottom:1px solid #ccc;}
+
+  .pdf-form{padding-bottom:20px;padding-left: 20px;padding-right: 20px;}
+
+  .form_field form input, .form_field .hs-form input{max-width:100%!important;}
+
+  .form_field .actions{max-width:135px;float:right;margin-left:0px;margin-right:0px;}
+
+  .try_blog_cta,.more-consig_cta{text-align:center;margin-bottom:20px;}
+
+   span .image-wrapper{float:none!important;margin:0px auto 40px!important;display:block;}
+
+  .tg_blog_body span.right{float:none;}
+
+  .subscription-form h2{text-align:center;}
+
+  .subscription-form form.hs-form input[type="email"]{width:100%;max-width:100%;}
+
+  .subscription-form form input[type="submit"], .subscription-form .hs-form input[type="submit"]{margin: 0px auto 30px!important;float:none;position:static;max-width:100%;padding-top:7px;}
+
+  .form_field textarea{margin-right:16px;max-width:100%!important;}
+
+  .tg_contact_left select{background-size:inherit; padding: 9px 10px;font-size:12px;}
+
+ .author-block{display:none;visibility:hidden;}
+
+ .author_boi{display:block;visibility:visible;padding-bottom:50px;max-width: 400px;margin:-42px auto 0px!important;float: none!important;}
+
+ table{ overflow-x: auto;
+      display: block;}
+
+ .vertical-pad-60{padding-top:30px;padding-bottom:30px;}
+
+.hs-featured-image-wrapper,.main-blog .tg_breadcrumb{display:none!important;visibility:hidden;}
+
+
+  /* Variables
+     ========================================================================== */
+
+  {% set menuColorMobile = "#2d3033" %}   /* Set Mobile Menu Background Color */
+  {% set aColorMobile = "#ffffff" %}      /* Set Link Color */
+  {% set aColorHoverMobile = "#ffffff" %} /* Set Link Hover Color */
+  {% set aColorLightestGray = "#5f646b" %}
+
+  /* Menu Reset - Remove styling from desktop version of custom-menu-primary */
+  /* Place any additional CSS you want removed from the mobile menu in this reset */
+  .custom-menu-primary, .custom-menu-primary *{
+    display: block;
+    float: none;
+    position: static;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    padding: 0px;
+    margin: 0px;
+    background-image: none;
+    background-color: transparent;
+    border: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow:    none;
+    box-shadow:         none;
+    max-width: none;
+    width: 100%;
+    height: auto;
+    line-height: 1;
+    font-weight: normal;
+    text-decoration: none;
+    text-indent: 0px;
+    text-align: left;
+    color: {{aColorMobile}};
+    }
+
+
+  /* Toggle Button
+     ========================================================================== */
+
+  a.mobile-trigger {
+      display: inline-block !important; /* Hide button on Desktop */
+      cursor: pointer; /* Mouse pointer type on hover */
+      position: absolute; /*******************************************/
+      top: 55px;
+      right:5px;       /*******************************************/
+      width: 80px; /* Button width */
+      height: auto; /* Button height */
+      padding:22px 10px 12px;
+      background: {{ menuColorMobile }}; /* Background color */
+      z-index: 99999999999; /* Z-index to keep button on top of other layers */
+      -webkit-transition: background-color 0.2s linear; /* Button color transition effect */
+      font-size: 16px;
+      font-weight: normal;
+      text-align: left;
+      text-transform: uppercase;
+     -webkit-border-top-left-radius:3px;
+      -webkit-border-bottom-left-radius:3px;
+      -moz-border-radius-topleft: 3px;
+      -moz-border-radius-bottomleft:3px;
+      border-bottom-left-radius: 3px;
+      border-top-left-radius: 3px;
+      -webkit-transition:color .2s ease-in;
+      -moz-transition:color .2s ease-in;
+      transition:color .2s ease-in;
+  }
+
+  a.mobile-trigger:hover {
+      text-decoration: none; /* Removes link text underline on button */
+      color: {{ aColorHoverMobile }};
+  }
+
+  a.mobile-trigger span{
+      display: inline;
+  }
+
+  a.mobile-trigger span:before{
+      position: absolute;
+      content: 'menu'; /* Change the text on the closed toggle button */
+      font-size: 13px;
+      font-weight: bold;
+      text-align: center;
+      font-family: "Raleway",sans-serif;
+      text-transform: uppercase;
+      display: block;
+      top: 13px;
+      left: 40px;
+      color:#70cf32;
+  }
+
+  a.mobile-trigger span:after{
+      position: relative;
+      right: 2px;
+      content: ''; /* Change the text on the open toggle button */
+      background-color: {{ menuColorMobile }};
+      opacity: 0;
+      transition: opacity .4s ease-in-out;
+      -moz-transition: opacity .4s ease-in-out;
+      -webkit-transition: opacity .4s ease-in-out;
+  }
+
+  /* Change button when menu is open */
+  .mobile-open a.mobile-trigger{
+      -webkit-transition:background-color 0.2s linear; /* Button color transition effect */
+      -moz-transition:background-color 0.2s linear; /* Button color transition effect */
+      transition:background-color 0.2s linear; /* Button color transition effect */
+      background: transparent; /* Changes button background to be slightly darker than open menu color */
+      top: 5px;
+  }
+
+  .mobile-open a.mobile-trigger span:after{
+     opacity: 1;
+  }
+
+
+  /* Toggle Button Icon & Animations
+     ========================================================================== */
+
+  a.mobile-trigger i {
+      display: inline;
+      position: relative;
+      top: -5px;
+      margin-left: 5px;
+      -webkit-transition-duration: 0s;
+      -webkit-transition-delay: .2s;
+      -moz-transition-duration: 0s;
+      -moz-transition-delay: .2s;
+      transition-duration: 0s;
+      transition-delay: .2s;
+  }
+  a.mobile-trigger  i:before, a.mobile-trigger i:after {
+      position: absolute;
+      content: '';
+  }
+  a.mobile-trigger  i, a.mobile-trigger  i:before, a.mobile-trigger  i:after {
+      width:16px; /* Icon line width */
+      height:2px; /* Icon line height */
+      background-color: #70cf32; /* Icon color */
+     display:block;
+
+  }
+  a.mobile-trigger  i:before {
+      margin-top: -5px; /* Position top line */
+      -webkit-transition-property: margin, -webkit-transform;
+      -webkit-transition-duration: .2s;
+      -webkit-transition-delay: .2s, 0;
+  }
+  a.mobile-trigger  i:after {
+      margin-top: 5px; /* Position bottom line */
+      -webkit-transition-property: margin, -webkit-transform;
+      -webkit-transition-duration: .2s;
+      -webkit-transition-delay: .2s, 0;
+  }
+  .mobile-open a.mobile-trigger i {
+      background-color: rgba(0,0,0,0.0);
+      -webkit-transition-delay: .2s;
+      -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0);
+      -moz-box-shadow:    0px 1px 1px rgba(0, 0, 0, 0);
+      box-shadow:         0px 1px 1px rgba(0, 0, 0, 0);
+  }
+  .mobile-open a.mobile-trigger i:before {
+      margin-top: 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      -webkit-transition-delay: 0, .2s;
+      -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0);
+      -moz-box-shadow:    0px 1px 1px rgba(0, 0, 0, 0);
+      box-shadow:         0px 1px 1px rgba(0, 0, 0, 0);
+  }
+  .mobile-open a.mobile-trigger i:after {
+      margin-top: 0;
+      -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      -webkit-transition-delay: 0, .2s;
+      -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0);
+      -moz-box-shadow:    0px 1px 1px rgba(0, 0, 0, 0);
+      box-shadow:         0px 1px 1px rgba(0, 0, 0, 0);
+  }
+
+  /* Child Toggle Button
+     ========================================================================== */
+
+  a.child-trigger {
+      display: block !important; /* Hide button on Desktop */
+      cursor: pointer; /* Mouse pointer type on hover */
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      width: 55px !important; /* Button width */
+      min-width: 55px !important;
+      height: 45px !important; /* Button height */
+      padding: 0 !important;
+
+  }
+  a.child-trigger:hover {
+      text-decoration: none;
+  }
+
+
+  /* Child Toggle Button Icon & Animations
+     ========================================================================== */
+
+  a.child-trigger span {
+      position: relative;
+      top: 50%; /* Centers icon inside button */
+      margin: 0 auto !important;
+      -webkit-transition-duration: .2s;
+      -moz-transition-duration: .2s;
+      transition-duration: .2s;
+  }
+  a.child-trigger span:after {
+      position: absolute;
+      content: '';
+  }
+  a.child-trigger span, a.child-trigger span:after {
+      width: 10px; /* Icon line width */
+      height: 1px; /* Icon line height */
+      background-color: {{ aColorMobile }}; /* Icon color */
+      display: block;
+  }
+  a.child-trigger span:after {
+      -webkit-transform: rotate(-90deg);
+       -ms-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+       -webkit-transition-duration: .2s;
+       -moz-transition-duration: .2s;
+      transition-duration: .2s;
+  }
+  a.child-trigger.child-open span:after {
+      -webkit-transform: rotate(-180deg);
+       -ms-transform: rotate(-180deg);
+      transform: rotate(-180deg);
+       -webkit-transition-duration: .2s;
+       -moz-transition-duration: .2s;
+      transition-duration: .2s;
+  }
+  a.child-trigger.child-open span {
+      -webkit-transform: rotate(180deg);
+       -ms-transform: rotate(180deg);
+      transform: rotate(180deg);
+       -webkit-transition-duration: .2s;
+       -moz-transition-duration: .2s;
+      transition-duration: .2s;
+  }
+
+
+  /* Menu Styles on Mobile Devices
+     ========================================================================== */
+
+
+  /* Hide menu on mobile */
+  .custom-menu-primary.js-enabled .hs-menu-flow-horizontal,
+  .custom-menu-primary.js-enabled .hs-menu-children-wrapper{
+      display: none;
+  }
+
+  /* Make child lists appear below parent items */
+  .custom-menu-primary ul.hs-menu-children-wrapper {
+      visibility: visible !important;
+      opacity: 1 !important;
+      position: static !important;
+      display: none;
+  }
+
+  /* Mobile Menu Styles */
+  .custom-menu-primary.js-enabled .hs-menu-flow-horizontal{
+      position: absolute; /**************************************************************/
+      top: 0;             /* Positions the menu to drop from the very top of the screen */
+      left: 0px;          /**************************************************************/
+      width: 100%;
+      -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.65);
+      -moz-box-shadow:    0px 5px 5px 0px rgba(0, 0, 0, 0.65);
+      box-shadow:         0px 5px 5px 0px rgba(0, 0, 0, 0.65);
+  }
+  .custom-menu-primary .hs-menu-flow-horizontal{
+      padding: 40px 0 0 0; /* Padding to add room for close button */
+      background-color: {{ menuColorMobile }}; /* Menu background color set off global mobile-menuColor variable */
+      width: 100%; /* Full screen width */
+      z-index: 8888;
+  }
+
+   /* Level 1 Menu List Styles */
+  .custom-menu-primary .hs-menu-flow-horizontal > ul > li{
+      position: relative;
+   }
+  .custom-menu-primary .hs-menu-flow-horizontal > ul > li a{
+      font-size: 22px; /* Font size of top level list items */
+      line-height: 45px;
+      overflow: visible;
+  }
+
+  /* Level 1 and Higher Menu List Styles */
+  .custom-menu-primary .hs-menu-flow-horizontal ul li{
+      border-top: 1px solid {{aColorLightestGray}};
+  }
+  .custom-menu-primary .hs-menu-flow-horizontal ul li a{
+      padding: 0 10px;
+  }
+  .custom-menu-primary .hs-menu-flow-horizontal ul li a:hover{
+      color: {{ aColorHoverMobile }}; /* link hover color set by global mobile-aColorHover variable */
+  }
+
+  /* Level 2 and Higher Menu List Styles */
+  .custom-menu-primary .hs-menu-flow-horizontal > ul ul li{
+     background-color: rgba(255, 255, 255, .08);
+  }
+  .custom-menu-primary .hs-menu-flow-horizontal > ul ul li a{
+      text-indent: 10px; /* Indent Child lists */
+      font-size: 16px; /* Font size of child lists */
+  }
+
+  /* Level 3 and Higher Menu List Styles */
+  .custom-menu-primary .hs-menu-flow-horizontal > ul ul ul li a{
+      text-indent: 30px; /* Indent Child lists */
+  }
+  .custom-menu-primary .hs-menu-flow-horizontal > ul ul ul ul li a{
+      text-indent: 50px; /* Indent Child lists */
+  }
+}
+/*Mobile-menu End*/
+
+
+
+
+@media(max-width:1100px) and (min-width:768px){
+
+body{overflow-x:hidden;}
+
+/*MENU for Breaking Points*/
+
+a.mobile-trigger1, a.child-trigger1 {
+      display:block!important; /* Hide button on Desktop */
+  }
+
+
+.custom-menu-primary-new .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li a,
+.hs_site_nav .hs-menu-wrapper.hs-menu-flow-horizontal>ul li a{max-width:100%!important;}
+
+.row-fluid .header-nav-container .hs-menu-wrapper.hs-menu-flow-horizontal>ul li a{color:#fff;}
+
+.hs_site_nav .hs-menu-wrapper.hs-menu-flow-horizontal>ul li:nth-of-type(6){display:none;visibility:hidden;}
+
+.custom-menu-primary-new ul li{margin:0px;}
+
+.custom-menu-primary-new .hs-menu-wrapper.hs-menu-flow-horizontal>ul li:nth-of-type(5){margin-left:0px!important;}
+
+.custom-menu-primary{display:none!important;visibility:hidden;}
+
+.try-free-button,.custom-menu-primary-new/*,.custom-menu-primary-new .hs-menu-wrapper.hs-menu-flow-vertical.no-flyouts>ul li.hs-item-has-children ul.hs-menu-children-wrapper,.custom-menu-primary-new .hs-menu-wrapper.hs-menu-flow-horizontal.no-flyouts>ul li.hs-item-has-children ul.hs-menu-children-wrapper*/{display:block!important;visibility:visible!important;}
+
+.custom-menu-primary-new ul{margin:0px;}
+
+.try-free-button ul{list-style:none;padding-left: 20px;margin:0;}
+
+.try-free-button ul li a{background: #2d3033!important;
+color: #70cf32;
+border-radius: 3px;
+border: 1px solid #2d3033;
+padding: 7px 15px;
+font-size: 13px;
+font-weight: bold;
+text-align: center;
+font-family: "Raleway",sans-serif;
+text-transform: uppercase;
+display:block;
+max-width:212px;
+float: right;}
+
+
+
+
+
+
+
+/* Variables
+     ========================================================================== */
+
+  {% set menuColorMobile = "#2d3033" %}   /* Set Mobile Menu Background Color */
+  {% set aColorMobile = "#ffffff" %}      /* Set Link Color */
+  {% set aColorHoverMobile = "#ffffff" %} /* Set Link Hover Color */
+  {% set aColorLightestGray = "#5f646b" %}
+
+  /* Menu Reset - Remove styling from desktop version of custom-menu-primary */
+  /* Place any additional CSS you want removed from the mobile menu in this reset */
+  .custom-menu-primary-new, .custom-menu-primary-new *{
+    display: block;
+    float: none;
+    position: static;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    padding: 0px;
+    margin: 0px;
+    background-image: none;
+    background-color: transparent;
+    border: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow:    none;
+    box-shadow:         none;
+    max-width: none;
+    width: 100%;
+    height: auto;
+    line-height: 1;
+    font-weight: normal;
+    text-decoration: none;
+    text-indent: 0px;
+    text-align: left;
+    color: {{aColorMobile}};
+    }
+
+
+  /* Toggle Button
+     ========================================================================== */
+
+  a.mobile-trigger1 {
+      display: inline-block !important; /* Hide button on Desktop */
+      cursor: pointer; /* Mouse pointer type on hover */
+      position: absolute; /*******************************************/
+      right: 232px;       /*******************************************/
+      width:70px; /* Button width */
+      height: auto; /* Button height */
+      padding: 24px 10px 12px;
+      /*background: {{ menuColorMobile }}; /* Background color */
+      z-index: 99999999999; /* Z-index to keep button on top of other layers */
+      -webkit-transition: background-color 0.2s linear; /* Button color transition effect */
+      font-size: 16px;
+      font-weight: normal;
+      text-align: left;
+      text-transform: uppercase;
+      border: 1px solid #70cf32;
+      border-radius: 3px;
+     /* -webkit-border-bottom-right-radius: 6px;
+      -webkit-border-bottom-left-radius: 6px;
+      -moz-border-radius-bottomright: 6px;
+      -moz-border-radius-bottomleft: 6px;
+      border-bottom-right-radius: 6px;
+      border-bottom-left-radius: 6px;*/
+      -webkit-transition:color .2s ease-in;
+      -moz-transition:color .2s ease-in;
+      transition:color .2s ease-in;
+  }
+
+  a.mobile-trigger1:hover {
+      text-decoration: none; /* Removes link text underline on button */
+      color: {{ aColorHoverMobile }};
+  }
+
+  a.mobile-trigger1 span{
+      display: inline;
+  }
+
+  a.mobile-trigger1 span:before{
+      position: absolute;
+      content: 'menu'; /* Change the text on the closed toggle button */
+      color: #2d3033;
+      font-size: 13px;
+      font-weight: bold;
+      text-align: center;
+      font-family: "Raleway",sans-serif;
+      text-transform: uppercase;
+      display: block;
+      top: 13px;
+      left: 40px;
+
+  }
+
+  a.mobile-trigger1 span:after{
+      position: relative;
+      right: 2px;
+      content: ''; /* Change the text on the open toggle button */
+      background-color: {{ menuColorMobile }};
+      opacity: 0;
+      transition: opacity .4s ease-in-out;
+      -moz-transition: opacity .4s ease-in-out;
+      -webkit-transition: opacity .4s ease-in-out;
+      color:#fff;
+  }
+
+  /* Change button when menu is open */
+  .mobile-open1 a.mobile-trigger1{
+      -webkit-transition:background-color 0.2s linear; /* Button color transition effect */
+      -moz-transition:background-color 0.2s linear; /* Button color transition effect */
+      transition:background-color 0.2s linear; /* Button color transition effect */
+      background: transparent; /* Changes button background to be slightly darker than open menu color */
+      top: 5px;
+      right:-35px;
+      border:none;
+  }
+
+  .mobile-open1 a.mobile-trigger1 span:after{
+     opacity: 1;
+  }
+
+
+  /* Toggle Button Icon & Animations
+     ========================================================================== */
+
+  a.mobile-trigger1 i {
+      display: inline;
+      position: relative;
+      top: -5px;
+      margin-left: 5px;
+      -webkit-transition-duration: 0s;
+      -webkit-transition-delay: .2s;
+      -moz-transition-duration: 0s;
+      -moz-transition-delay: .2s;
+      transition-duration: 0s;
+      transition-delay: .2s;
+  }
+  a.mobile-trigger1  i:before, a.mobile-trigger1 i:after {
+      position: absolute;
+      content: '';
+  }
+  a.mobile-trigger1  i, a.mobile-trigger1  i:before, a.mobile-trigger1  i:after {
+      width:15px; /* Icon line width */
+      height:2px; /* Icon line height */
+      background-color:#2d3033; /* Icon color */
+     display:block;
+
+  }
+  a.mobile-trigger1  i:before {
+      margin-top: -5px; /* Position top line */
+      -webkit-transition-property: margin, -webkit-transform;
+      -webkit-transition-duration: .2s;
+      -webkit-transition-delay: .2s, 0;
+  }
+  a.mobile-trigger1  i:after {
+      margin-top: 5px; /* Position bottom line */
+      -webkit-transition-property: margin, -webkit-transform;
+      -webkit-transition-duration: .2s;
+      -webkit-transition-delay: .2s, 0;
+  }
+  .mobile-open1 a.mobile-trigger1 i {
+      background-color: rgba(0,0,0,0.0);
+      -webkit-transition-delay: .2s;
+      -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0);
+      -moz-box-shadow:    0px 1px 1px rgba(0, 0, 0, 0);
+      box-shadow:         0px 1px 1px rgba(0, 0, 0, 0);
+  }
+  .mobile-open1 a.mobile-trigger1 i:before {
+      margin-top: 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      -webkit-transition-delay: 0, .2s;
+      -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0);
+      -moz-box-shadow:    0px 1px 1px rgba(0, 0, 0, 0);
+      box-shadow:         0px 1px 1px rgba(0, 0, 0, 0);
+      background-color: #fff;
+      height: 3px;
+      width: 20px;
+  }
+  .mobile-open1 a.mobile-trigger1 i:after {
+      margin-top: 0;
+      -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      -webkit-transition-delay: 0, .2s;
+      -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0);
+      -moz-box-shadow:    0px 1px 1px rgba(0, 0, 0, 0);
+      box-shadow:         0px 1px 1px rgba(0, 0, 0, 0);
+      background-color: #fff;
+      height: 3px;
+      width: 20px;
+
+
+}
+
+  /* Child Toggle Button
+     ========================================================================== */
+
+  a.child-trigger1 {
+      display: block !important; /* Hide button on Desktop */
+      cursor: pointer; /* Mouse pointer type on hover */
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      width: 55px !important; /* Button width */
+      min-width: 55px !important;
+      height: 45px !important; /* Button height */
+      padding: 0 !important;
+
+  }
+  a.child-trigger1:hover {
+      text-decoration: none;
+  }
+
+
+  /* Child Toggle Button Icon & Animations
+     ========================================================================== */
+
+  a.child-trigger1 span {
+      position: relative;
+      top: 50%; /* Centers icon inside button */
+      margin: 0 auto !important;
+      -webkit-transition-duration: .2s;
+      -moz-transition-duration: .2s;
+      transition-duration: .2s;
+  }
+  a.child-trigger1 span:after {
+      position: absolute;
+      content: '';
+  }
+  a.child-trigger1 span, a.child-trigger1 span:after {
+      width: 10px; /* Icon line width */
+      height: 1px; /* Icon line height */
+      background-color: {{ aColorMobile }}; /* Icon color */
+      display: block;
+  }
+  a.child-trigger1 span:after {
+      -webkit-transform: rotate(-90deg);
+       -ms-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+       -webkit-transition-duration: .2s;
+       -moz-transition-duration: .2s;
+      transition-duration: .2s;
+  }
+  a.child-trigger1.child-open1 span:after {
+      -webkit-transform: rotate(-180deg);
+       -ms-transform: rotate(-180deg);
+      transform: rotate(-180deg);
+       -webkit-transition-duration: .2s;
+       -moz-transition-duration: .2s;
+      transition-duration: .2s;
+  }
+  a.child-trigger1.child-open1 span {
+      -webkit-transform: rotate(180deg);
+       -ms-transform: rotate(180deg);
+      transform: rotate(180deg);
+       -webkit-transition-duration: .2s;
+       -moz-transition-duration: .2s;
+      transition-duration: .2s;
+  }
+
+
+  /* Menu Styles on Mobile Devices
+     ========================================================================== */
+
+
+  /* Hide menu on mobile */
+  .custom-menu-primary-new.js-enabled1 .hs-menu-flow-horizontal,
+  .custom-menu-primary-new.js-enabled1 .hs-menu-children-wrapper{
+      display: none;
+  }
+
+  /* Make child lists appear below parent items */
+  .custom-menu-primary-new ul.hs-menu-children-wrapper {
+      visibility: visible !important;
+      opacity: 1 !important;
+      position: static !important;
+      display: none;
+  }
+
+  /* Mobile Menu Styles */
+  .custom-menu-primary-new.js-enabled1 .hs-menu-flow-horizontal{
+      position: absolute; /**************************************************************/
+      top: 0;             /* Positions the menu to drop from the very top of the screen */
+      left: 0px;          /**************************************************************/
+      width: 100%;
+      -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.65);
+      -moz-box-shadow:    0px 5px 5px 0px rgba(0, 0, 0, 0.65);
+      box-shadow:         0px 5px 5px 0px rgba(0, 0, 0, 0.65);
+  }
+  .custom-menu-primary-new .hs-menu-flow-horizontal{
+      padding: 40px 0 0 0; /* Padding to add room for close button */
+      background-color: {{ menuColorMobile }}; /* Menu background color set off global mobile-menuColor variable */
+      width: 100%; /* Full screen width */
+      z-index: 8888;
+  }
+
+   /* Level 1 Menu List Styles */
+  .custom-menu-primary-new .hs-menu-flow-horizontal > ul > li{
+      position: relative;
+   }
+  .custom-menu-primary-new .hs-menu-flow-horizontal > ul > li a{
+      font-size: 22px; /* Font size of top level list items */
+      line-height: 45px;
+      overflow: visible;
+  }
+
+  /* Level 1 and Higher Menu List Styles */
+  .custom-menu-primary-new .hs-menu-flow-horizontal ul li{
+      border-top: 1px solid {{aColorLightestGray}};
+  }
+  .custom-menu-primary-new .hs-menu-flow-horizontal ul li a{
+      padding: 0 10px;
+  }
+  .custom-menu-primary-new .hs-menu-flow-horizontal ul li a:hover{
+      color: {{ aColorHoverMobile }}; /* link hover color set by global mobile-aColorHover variable */
+  }
+
+  /* Level 2 and Higher Menu List Styles */
+  .custom-menu-primary-new .hs-menu-flow-horizontal > ul ul li{
+     background-color: rgba(255, 255, 255, .08);
+  }
+  .custom-menu-primary-new .hs-menu-flow-horizontal > ul ul li a{
+      text-indent: 10px; /* Indent Child lists */
+      font-size: 16px; /* Font size of child lists */
+  }
+
+  /* Level 3 and Higher Menu List Styles */
+  .custom-menu-primary-new .hs-menu-flow-horizontal > ul ul ul li a{
+      text-indent: 30px; /* Indent Child lists */
+  }
+  .custom-menu-primary-new .hs-menu-flow-horizontal > ul ul ul ul li a{
+      text-indent: 50px; /* Indent Child lists */
+  }
+}
+
+
+
+@media (max-width: 383px){
+
+    .tg-logo-top-image img{width: 170px!important;position:relative;top: 10px;}
+
+
+}
+
+  /* This is for the SG50 Blog Post
+     ========================================================================== */
+
+.sg50-blogpost-container-left {
+    width: 300px;
+    float: left;
+}
+
+.sg50-blogpost-container-right {
+    width: 400px;
+    float: right;
+}
+
+@media screen and (max-width: 1000px) {
+    .sg50-blogpost-container-left, .sg50-blogpost-container-right {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+}
+
+
+
+

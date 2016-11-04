@@ -4,7 +4,7 @@
 This folder contains styles for pages designed using the **old** TradeGecko style guide. All CSS files within this folder should be compiled and uploaded in Hubspot as the `Primary CSS File`.
 
 ### styles-new
-This folder contains styles for pages designed using the **2016** TradeGecko style guide. All CSS files within this folder should be compiled and uploaded in Hubspot's Design Manager as `tg-compiled-new.css`
+This folder contains styles for pages designed using the **2016** TradeGecko style guide. All CSS files within this folder should be compiled and uploaded in Hubspot's Design Manager as `../css/tg-compiled-new.css`
 
 ### How to compile:
 

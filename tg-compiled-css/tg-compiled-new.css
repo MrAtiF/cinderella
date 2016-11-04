@@ -1,0 +1,467 @@
+@import url("http://www.tradegecko.com/hubfs/marketing-site-2016/production/styles/main.css");
+
+/**************
+LANDING PAGE - GOOGLE ADWORDS
+**************/
+
+.adwords-masthead {
+    background-color: #1c4561;
+    padding: 90px 0 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.adwords-inventory {
+    background-image: url('http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/adwords-landing-page/adwords-inventory-masthead.png');
+    background-position: center bottom;
+    background-size: initial;
+}
+.adwords-brand-bid {
+    background-image: url('http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/adwords-landing-page/adwords-brand-bid-masthead.png');
+}
+.adwords-b2b {
+    background-image: url('http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/adwords-landing-page/adwords-b2b-masthead.png');
+}
+.adwords-xero {
+    background-image: url('http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/adwords-landing-page/adwords-xero-masthead.png');
+    background-position: center top;
+    background-size: initial;
+}
+.adwords-header {
+    max-width: 1280px;
+    padding: 0 20px !important;
+}
+.adwords-cta-banner {
+    background: linear-gradient(180deg,#1f5d82,#224f6d);
+    padding: 50px 40px;
+    text-align: center;
+}
+.adwords-checklist {
+    display: inline-block;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 2;
+}
+.adwords-checklist .fa-check {
+    color: #70cf32;
+    margin-right: 20px;
+    font-size: 25px;
+}
+.adwords-small-text {
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.adwords-reviews-section {
+    background: #f4f4f5;
+    padding: 30px 0 25px;
+    text-align: center;
+}
+.adwords-reviews {
+    max-width: 1280px;
+}
+.adwords-reviews .full-star {
+    color: #70cf32;
+    font-size: 27px;
+}
+.adwords-reviews .half-star {
+    background: -webkit-linear-gradient(0,#70cf32 50%,#fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 27px;
+}
+.adwords-reviews-logo {
+    width: 116px;
+    display: block;
+    margin: 15px auto 0;
+}
+.adwords-features {
+    max-width: 1280px;
+    text-align: center;
+    padding: 70px 4%;
+    margin: 0 auto;
+}
+.adwords-features-1-img,
+.adwords-features-3-img,
+.adwords-features-4-img{
+    float: right;
+    max-width: 523px;
+}
+.adwords-features-3-img{
+    margin-right: 30px;
+}
+.adwords-features-2-img {
+    float: left;
+    max-width: 523px;
+}
+.adwords-features-1 {
+    top: 45px;
+    text-align: left;
+}
+.adwords-features-2 {
+    top: 70px;
+    text-align: right;
+}
+.adwords-features-3 {
+    top: 80px;
+    text-align: left;
+}
+.adwords-features__title {
+    margin-bottom: 70px;
+}
+.adwords-features__header {
+    font-size: 28px;
+}
+.adwords-features__text {
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 20px;
+}
+.adwords-plans__text {
+    font-size: 18px;
+    margin: 10px 0 40px;
+    color: #60b5f5;
+    font-weight: 400;
+}
+.adwords-video-section {
+    text-align: center;
+    padding: 70px 0;
+    background: #f4f4f5;
+}
+.adwords-video {
+    max-width: 900px;
+    margin: 30px auto 0;
+}
+.adwords-team-photo {
+    margin: 70px 0 25px;
+    text-align: center;
+}
+.adwords-team-photo__text {
+    margin: 30px;
+    font-size: 16px;
+}
+.adwords-fineprint {
+    font-size: 12px;
+    color: #6C7279;
+    display: inline-block;
+    margin-top: 25px;
+}
+.adwords-fineprint a {
+    color: #429BCE;
+}
+/* overwritten from main.css */
+
+.adwords-lp .body-container {
+    padding: 0;
+    overflow: hidden;
+}
+.adwords-lp .main-banner__head-line {
+    font-size:32px;
+}
+.adwords-lp .benefits-panel {
+    max-width: 1280px;
+    padding: 70px 0;
+    text-align: left;
+}
+.adwords-lp .benefits-panel__column{
+    padding-bottom:0;
+}
+.adwords-lp .benefits-panel__subtitle{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #70CF32;
+    font-weight: bold;
+    padding: 0 20px;
+}
+.adwords-lp .benefits-panel__title{
+    font-size: 28px;
+    margin-bottom: 50px;
+    padding: 0 20px;
+    max-width: 50%;
+}
+.adwords-lp .benefits-panel__header {
+    font-size: 24px;
+    margin-top: 30px;
+}
+.adwords-lp .plans-banner-wrapper {
+    max-width: none;
+}
+.adwords-lp .plans-banner__parallax-bottom,
+.adwords-lp .plans-banner__parallax-middle {
+    top: -200%;
+}
+.adwords-lp .main-banner__head-line {
+    margin: 40px 0 25px;
+}
+.adwords-lp .main-banner__strap-line {
+    font-family:"Open Sans", sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+.adwords-lp .customer-testimonials__panel {
+    max-width: 1280px;
+    padding: 0;
+}
+.adwords-lp .customer-testimonials .testimonial {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.adwords-lp .call-to-actions__line{
+    background-color: #E2E6E8;
+}
+.adwords-lp .plans-banner {
+    padding: 60px 45px;
+    background-image: url(http://www.tradegecko.com/hubfs/site/images/landing_pages/adwords-landing-page/parallax-all.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1600px;
+}
+
+/* form style*/
+
+.adwords-form {
+    position: absolute;
+    background: #429bce;
+    padding: 30px 32px 20px 40px;
+    top: 0;
+    left: 58%;
+    z-index: 1;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 460px;
+    min-height: 540px;
+}
+
+.adwords-form-header {
+    text-align: center;
+    font-family: Raleway,sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+    margin: 0 8px 25px 0;
+}
+.adwords-form form .input {
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: inset 0 .0625rem 0 0 #e2e6e8;
+    border-radius: 3px;
+    padding: 0 15px;
+}
+.adwords-form input:-webkit-autofill,
+.adwords-form select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+.adwords-form form input,
+.adwords-form form select {
+    background: none;
+    color: #6c7279;
+    font-family: "Open Sans",sans-serif;
+    height: 50px;
+    border: 0;
+    font-size: 14px;
+    padding: 0 7px;
+    width: 100% !important;
+    font-weight: 300;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+.adwords-form form .select {
+    position:relative;
+}
+.adwords-form form .select:after {
+    content: "\f0d7";
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    color: #429bce;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.adwords-form form .hs-form-required {
+    display: none;
+}
+.adwords-form .hs-error-msgs label{
+    font-size: 13px;
+    display: block;
+    padding-bottom: 15px;
+    color: #fff;
+}
+.adwords-form .hs-error-msgs label:before{
+    content: "^ ";
+    font-weight: 700;
+    color: #70cf32;
+}
+.adwords-form form .actions {
+    margin-right: 8px;
+}
+.adwords-form form input[type="submit"]{
+    font-family: "Raleway",sans-serif;
+    background-color: #70cf32;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    -webkit-appearance: none;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: inset 0 .0625rem 0 0 #a0fb65;
+}
+
+.adwords-form form input[type="submit"]:hover{
+    -webkit-transform: translateY(-.0625rem);
+    transform: translateY(-.0625rem);
+    -webkit-transition-duration: .25s;
+    transition-duration: .25s;
+    -webkit-transition-timing-function: cubic-bezier(.2,-2,.8,3),ease,ease;
+    transition-timing-function: cubic-bezier(.2,-2,.8,3),ease,ease;
+}
+.adwords-form-fineprint {
+    display: block;
+    color: #d2e1ea;
+    text-align: center;
+    margin: 20px auto 0;
+    padding-right: 8px;
+    max-width: 320px;
+}
+.adwords-form-fineprint a {
+    color: #fff;
+}
+
+@media (max-width: 1200px) {
+    .adwords-masthead,
+    .adwords-lp .benefits-panel,
+    .adwords-lp .customer-testimonials {
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    .adwords-form {
+        left: 53%;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .adwords-masthead {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .main-header__logo {
+        font-size: 3em !important;
+        margin: initial !important;
+        padding: initial !important;
+        position: initial !important;
+    }
+    .adwords-lp .main-banner__head-line {
+        font-size: 30px;
+    }
+    .adwords-form {
+        width: 400px;
+        right: 20px;
+        left: initial;
+    }
+    .adwords-lp .benefits-panel{
+        padding-bottom: 10px;
+    }
+    .adwords-lp .benefits-panel__header {
+        display: inherit;
+        line-height: 1.5;
+        font-weight: inherit;
+        margin: 20px 0 10px;
+    }
+    .adwords-lp .benefits-panel__header:after {
+        display: none;
+    }
+    .adwords-lp .benefits-panel__column {
+        padding-bottom: 40px;
+    }
+    .adwords-features {
+        padding-bottom: 0;
+    }
+    .adwords-features-1,
+    .adwords-features-2,
+    .adwords-features-3 {
+        text-align: center;
+        position: initial !important;
+        padding: 20px 0 70px;
+    }
+    .adwords-features-1-img,
+    .adwords-features-2-img,
+    .adwords-features-3-img,
+    .adwords-features-4-img {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+}
+@media (max-width: 767px) {
+    .main-header__logo {
+        justify-content: center;
+    }
+    .adwords-header {
+        text-align: center;
+    }
+    .adwords-lp .p--main-header {
+        padding-top: 0;
+        font-size: 26px;
+    }
+    .adwords-form {
+        position: initial;
+        width: 100%;
+        border-radius: 0;
+        max-width: initial;
+        padding: 30px 22px 20px 30px;
+    }
+    .adwords-form form fieldset {
+        max-width: initial;
+    }
+    .adwords-lp .benefits-panel {
+        text-align: center;
+    }
+    .adwords-lp .benefits-panel__title {
+        max-width: none;
+    }
+    .benefits-panel .svg-icon {
+        margin: 0 auto !important;
+    }
+    .adwords-cta-banner {
+        padding-top: 20px;
+    }
+    .adwords-checklist {
+        text-align: center;
+        line-height: 1.5;
+    }
+    .adwords-checklist .fa-check {
+        display: block;
+        margin: 30px 0 20px;
+    }
+    .call-to-actions__line {
+        display: block !important;
+    }
+    .adwords-lp .customer-testimonials .carousel-inner {
+        min-height:300px;
+    }
+    .adwords-lp .benefits-panel__subtitle,
+    .adwords-features__title {
+        font-size: 14px !important;
+        text-transform: uppercase;
+        font-weight: 700 !important;
+        color: #70cf32;
+        margin-bottom: 40px;
+    }
+    .call-to-actions__photo {
+        background: url(https://www.tradegecko.com/hubfs/marketing-site-2016/production/images/photos/tradegecko-team.jpg) no-repeat bottom !important;
+        height: 17.5rem !important;
+        background-size: 1000px 250px !important;
+    }
+    .adwords-lp .adwords-team-photo .p--main-header{
+        margin: 0 30px;
+    }
+}

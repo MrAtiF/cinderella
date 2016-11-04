@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "version": "0.0.1",
+  "description": "#### [OLD] tg-compiled-legacy.css This folder contains styles for pages that are designed using the **old** TradeGecko style guide. All styles within this folder will be compiled and uploaded in Hubspot as the `Primary CSS File`.",
+  "main": "inedx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrAtiF/tradegecko-website-styles"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrAtiF/tradegecko-website-styles/issues"
+  },
+  "homepage": "https://github.com/MrAtiF/tradegecko-website-styles",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-append": "^0.3.4"
+  }
+}

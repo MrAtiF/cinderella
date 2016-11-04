@@ -1,15 +1,13 @@
 # TradeGecko stylesheets for Marketing Website
 
-#### [OLD] tg-compiled-legacy.css
-This folder contains styles for pages that are designed using the **old** TradeGecko style guide. All styles within this folder will be compiled and uploaded in Hubspot as the `Primary CSS File`.
+#### styles-legacy
+This folder contains styles for pages designed using the **old** TradeGecko style guide. All CSS files within this folder should be compiled and uploaded in Hubspot as the `Primary CSS File`.
 
-#### [NEW] tg-compiled.css
-This folder contains styles for pages that are designed using the **2016** TradeGecko style guide. All styles within this folder will be compiled and uploaded in Hubspot's File Manager as `tg-compiled.css`
+#### styles-new
+This folder contains styles for pages designed using the **2016** TradeGecko style guide. All CSS files within this folder should be compiled and uploaded in Hubspot's Design Manager as `tg-compiled-new.css`
 
 #### How to compile:
 
-Until an automated method is set up, this is how to manually compile.
-
-1. Go to http://www.shrinker.ch/
-2. Upload all files from the folder you are working in and `Shrink!`
-3. Copy shrinked file and paste in `tg-compiled.css` **OR** `tg-compiled-legacy.css`
+1. Add your working CSS in the correct folder.
+2. Run `gulp legacy` or `gulp new` to compile into `tg-compiled-css` folder.
+3. Open the compiled CSS file, copy the code and paste in Hubspot.

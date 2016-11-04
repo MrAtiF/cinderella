@@ -8,7 +8,7 @@ This folder contains styles for pages that are designed using the **2016** Trade
 
 ##### How to compile:
 
-//Until an automated method is set up, this is how to manually compile.//
+Until an automated method is set up, this is how to manually compile.
 
 1. Go to http://www.shrinker.ch/
 2. Upload all files in the working folder and `Shrink!`

@@ -11,5 +11,5 @@ This folder contains styles for pages that are designed using the **2016** Trade
 Until an automated method is set up, this is how to manually compile.
 
 1. Go to http://www.shrinker.ch/
-2. Upload all files in the working folder and `Shrink!`
-3. Copy shrinked file and paste in the respective compiled CSS.
+2. Upload all files from the folder you are working in and `Shrink!`
+3. Copy shrinked file and paste in `tg-compiled.css` **OR** `tg-compiled-legacy.css`

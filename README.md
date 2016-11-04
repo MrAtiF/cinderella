@@ -8,6 +8,6 @@ This folder contains styles for pages designed using the **2016** TradeGecko sty
 
 ### How to compile:
 
-1. Add your working CSS in the correct folder.
+1. Add your working CSS file(s) in the correct folder.
 2. Run `gulp legacy` or `gulp new` to compile into `tg-compiled-css` folder.
 3. Open the compiled CSS file, copy the code and paste in Hubspot.

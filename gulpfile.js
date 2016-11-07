@@ -14,3 +14,6 @@ gulp.task('new', function () {
 });
 
 gulp.task('shinyshoes', ['legacy', 'new']);
+
+
+gulp.task('default', ['legacy', 'new']);

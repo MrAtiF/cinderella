@@ -1,0 +1,56 @@
+/**************
+FEATURES LIST OVERVIEW
+**************/
+
+.fl-overview-container {
+  margin-top:20px;
+}
+
+.fl-overview-container p {
+  margin: 0;
+  line-height: 25px;
+  color: #585d64;
+}
+
+.fl-overview-container ol {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 0 45px 0;
+  padding: 0;
+}
+
+.fl-overview-container ol li img {
+  float: left;
+  width: 30px;
+  margin: 7px 25px 10px 0;
+}
+
+.fl-overview-container ol li:nth-child(2) {
+  float: left;
+  width: 84%;
+}
+
+
+.fl-overview-container h3 {
+  font-size: 16px;
+  font-family: "Raleway",sans-serif;
+  color: #2d3033;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+
+.fl-overview-container .fl-overview-link {
+  margin-top: 10px;
+}
+
+.fl-overview-container .fl-overview-link a {
+  color: #5ab9e1;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.fl-overview-container .fl-overview-link a:hover {
+  color: #3a97be;
+}

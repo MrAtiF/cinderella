@@ -1,0 +1,295 @@
+/**************
+LANDING PAGE - REORDER POINT TEMPLATE
+**************/
+.reorder-point-masthead {
+    background-image: url('http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/reorder-point-landing-page/reorder-point-excel-template.png'), url('http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/reorder-point-landing-page/reorder-point-background.png');
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    background-position-y: 80px;
+    background-position-x: calc(50% - -540px);
+    padding: 110px 0 120px;
+}
+.topic-page-header{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 100;
+    margin: 90px 0 30px;
+}
+.topic-page-subheader{
+    font-size: 18px;
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    margin-bottom: 75px;
+}
+.reorder-point-masthead .hs-richtext,
+.reorder-point-masthead label,
+.resource-lp-download .hs-richtext,
+.resource-lp-download label{
+    display:none;
+}
+.reorder-point-masthead form input,
+.reorder-point-masthead form select,
+.reorder-point-masthead .hs-form .input.select,
+.resource-lp-download form input,
+.resource-lp-download form select,
+.resource-lp-download .hs-form .input.select{
+    height: 45px;
+    background: #fff;
+    border: 0;
+    box-shadow: none;
+    padding: 0 15px;
+    color: #6c7279;
+    font-size: 13px;
+    -webkit-appearance: none;
+}
+.reorder-point-masthead form input[type="submit"],
+.resource-lp-download form input[type="submit"]{
+    width: inherit;
+    margin: 25px auto 15px;
+    border-radius: 3px;
+    display: inherit;
+    height: 45px;
+    border: 0;
+    padding: 0 22px;
+    -webkit-appearance: none;
+}
+.resource-lp-definition img {
+    width: 141px;
+}
+.resource-lp-definition{
+    text-align: center;
+    max-width: 796px;
+    margin: 0 auto;
+}
+.resource-lp-definition h2{
+    font-size: 36px;
+    margin: 50px 0 30px;
+}
+
+.resource-lp-definition p{
+    color: #6C7279;
+    line-height:2;
+    margin: 0;
+}
+.reorder-point-calculator {
+    text-align: center;
+    background: #f4f4f5;
+}
+.reorder-point-calculator h2 {
+    margin: 70px 0 60px;
+}
+/** inline reorder point calculator style **/
+
+/* positioning */
+.reorder-point-calculator .row {position: absolute;}
+.reorder-point-calculator .leadTimeDemand_row { top: 70px; }
+.reorder-point-calculator .safetyStock_row { top: 238px; }
+.reorder-point-calculator .rop_row { top: 380px; }
+.reorder-point-calculator #averageDailyUsage {left: 230px;}
+.reorder-point-calculator #averageLeadTime {left: 364px;}
+.reorder-point-calculator #maxDailyUsage {left: 60px;}
+.reorder-point-calculator #maxLeadTime {left: 197px;}
+.reorder-point-calculator #averageLeadTime2 {left: 526px;}
+.reorder-point-calculator #averageDailyUsage2  {left:391px;}
+.reorder-point-calculator #result {margin-left: 361px;}
+
+/* styling */
+.reorder-point-calculator input {
+  font-family: 'Open Sans', Arial, Sans;
+  background-color: #1c1d1d;
+  border: 1px solid #585d64;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  width: 82px;
+  position: absolute;
+  outline: none;
+}
+
+.reorder-point-calculator input:invalid {
+  border: 1px solid #c61c1c;
+  background-color: #351d1d;
+  color: #dc2828;
+}
+
+.reorder-point-calculator .calculator {
+    background-image: url('http://i63.tinypic.com/2zi1s8x.png');
+    width: 700px;
+    height: 469px;
+    position: relative;
+    display: inline-block;
+}
+.reorder-point-calculator .rop_row {
+  font-size: 24px;
+  font-family: 'Open Sans';
+  color: #FFFFFF;
+}
+
+.reorder-point-calculator #rop {
+  border: 1px solid #70cf32;
+  padding: 3px 10px;
+  border-radius: 3px;
+}
+
+.reorder-point-calculator .operator { color: #70cf32; font-weight: 700; padding: 0px 20px; display: inline-block;}
+
+.reorder-point-calculator label,
+.reorder-point-calculator h1{
+  display: none;
+}
+
+/* tablet and below */
+@media (max-width: 700px) {
+  .reorder-point-calculator .calculator {
+    width: auto;
+    height: auto;
+    background-image: none;
+    background-color: #242629;
+    color: #FFFFFF;
+    font-family: 'Open Sans', Arial, Sans;
+    font-size: 14px;
+    padding: 20px;
+  }
+  .reorder-point-calculator label,
+  .reorder-point-calculator h1 {
+    display: block;
+    padding-bottom: 10px;
+    clear: both;
+  }
+  .reorder-point-calculator input {
+    position: static;
+    width: 90%;
+    font-size: 14px;
+  }
+  .reorder-point-calculator h1 {color: #70cf32; font-size: 14px;}
+  .reorder-point-calculator .row {position: static;}
+  .reorder-point-calculator #result {margin-left: 0; display: block;}
+  .reorder-point-calculator .rop_row { font-size: 14px;}
+}
+/** ends **/
+
+.reorder-point-try {
+    text-align: left;
+    padding-top: 40px;
+}
+.reorder-point-try small{
+    font-family: "Raleway",sans-serif;
+    font-size: 14px;
+    color: #429BCE;
+    line-height: 14px;
+    font-weight: bold;
+    position: relative;
+    left: 15px;
+    top: -5px;
+    text-transform: uppercase;
+}
+.reorder-point-try h3 {
+    font-size: 14px;
+    color: #6C7279;
+    font-weight: bold;
+    margin-top: 60px;
+    position: relative;
+}
+.reorder-point-try h3 span{
+    color: #1C4561;
+}
+.reorder-point-try h3:after{
+    content: "";
+    height: 1px;
+    width: 15px;
+    background-color: #c4ced1;
+    position: absolute;
+    left: -29px;
+    top: 10px;
+}
+.reorder-point-try p {
+    font-size: 14px;
+    color: #6C7279;
+    margin-bottom: 50px;
+}
+.resource-lp-tradegecko,
+.resource-lp-download {
+    background: #1c4561 url(//cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/reorder-point-landing-page/globe-background.png) no-repeat center bottom;
+    background-attachment: fixed;
+}
+.resource-lp-download {
+    text-align: center;
+}
+.resource-lp-download h2{
+    color: #fff;
+    margin: 0;
+}
+.resource-lp-download p{
+    color: #7BC7F3;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 0 40px;
+}
+.resource-lp-readings {
+    text-align:center;
+}
+.resource-lp-readings img {
+    border-radius: 5px;
+}
+.resource-lp-readings h2 {
+    margin: 0 0 60px;
+}
+.resource-lp-readings p{
+    font-size: 14px;
+    margin: 20px 0 0;
+}
+.resource-lp-readings p span{
+    color: #6C7279;
+}
+.resource-lp-tradegecko {
+    color: #fff;
+}
+.resource-lp-tradegecko h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #70cf32;
+    font-size: 14px;
+    margin: 0;
+}
+.resource-lp-tradegecko h1{
+    margin: 30px 0 20px;
+}
+.resource-lp-tradegecko p {
+    color: #7BC7F3;
+    font-weight: 300;
+    margin: 0;
+}
+.resource-lp-tradegecko img {
+    position: absolute;
+    width: 474px;
+}
+a.resource-lp-tools,
+a.resource-lp-top{
+    padding: 25px 0;
+}
+a.resource-lp-tools:after {
+    content:"";
+}
+a.resource-lp-tools:before {
+    content: "\f104";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 15px;
+    margin: 0 5px 0 0;
+}
+a.resource-lp-top {
+    float:right;
+}
+a.resource-lp-top:after {
+    content: "\f106";
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .reorder-point-masthead {
+        background-image: url('http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/reorder-point-landing-page/reorder-point-excel-template2x.png'), url('http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/reorder-point-landing-page/reorder-point-background2x.png');
+        background-size: 1251px, 26px;
+    }
+}

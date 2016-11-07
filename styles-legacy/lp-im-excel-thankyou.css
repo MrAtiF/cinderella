@@ -1,0 +1,160 @@
+/**************
+EXCEL DOWNLOAD PAGE
+**************/
+.excel-download .top-header.full-width{
+    padding:0;
+}
+.excel-download-steps {
+    background-color:#1C4561;
+    border-radius:10px;
+    margin: 0 auto 40px;
+    max-width: 900px;
+    text-align: left;
+    color:#fff;
+}
+.excel-download-steps ul{
+    padding: 0;
+    margin: -25px 0 0;
+}
+.excel-download-steps li{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.excel-download-steps li .tg-button{
+    margin-left: 0;
+}
+.excel-download-steps li:nth-child(2),
+.excel-download-steps li:last-child{
+    background-color: #204F6E;
+}
+.excel-download-steps li:last-child {
+    border-radius: 0px 0px 10px 10px;
+}
+.excel-download-steps li:nth-child(-n+3):after {
+    content: "";
+    border-color: transparent #1c4561;
+    border-width: 10px 10px 10px 0;
+    border-style: solid;
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 5px);
+    margin-bottom: -15px;
+    z-index: 1;
+}
+.excel-download-steps li:nth-child(2):after {
+    border-color: transparent #204F6E;
+}
+.excel-download-steps li p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.5;
+}
+.excel-download-title{
+    text-align:center;
+}
+.excel-download-title:after{
+    content: "";
+    border-color: transparent #429bce;
+    border-width: 10px 10px 10px 0;
+    border-style: solid;
+    transform: rotate(-90deg);
+    display: block;
+    width: 0;
+    margin: 0 auto;
+}
+.excel-download-title p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 35px 0 -5px;
+    padding: 10px 25px;
+    border-radius:5px;
+    background-color: #429BCE;
+    display: inline-block;
+    color: #fff;
+}
+.excel-download h4{
+    font-size:21px;
+    font-weight: 300;
+    margin: 0;
+    text-align: left;
+}
+.excel-download-step-1,
+.excel-download-step-2,
+.excel-download-step-3,
+.excel-download-step-4{
+    background-size: cover;
+    border-radius:77px;
+    min-width: 154px;
+    height: 154px;
+    margin-right: 50px;
+}
+.excel-download-step-1{
+    background-image: url("http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/general-files/excel-step-1.png");
+}
+.excel-download-step-2{
+    background-image: url("http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/general-files/excel-step-2.png");
+    cursor: pointer;
+}
+.excel-download-step-3{
+    background-image: url("http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/general-files/excel-step-4.png");
+    cursor: pointer;
+}
+.excel-download-step-4{
+    background-image: url("http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/general-files/excel-step-3.png");
+    cursor: pointer;
+}
+.download-step-green:after,
+.download-step-blue:after,
+.download-step-lblue:after {
+    font-family: FontAwesome;
+    content: "\f00c";
+    float: right;
+    margin: 2px;
+    border-radius: 22px;
+    width: 36px;
+    height: 36px;
+    text-align:center;
+    line-height:2.4;
+    border: 3px solid #1C4561;
+    background-color: #3A7094;
+    color: #1C4561;
+}
+.download-step-blue.green:after,
+.download-step-lblue.green:after,
+.download-step-green:after {
+    background-color: #70cf32;
+    color: #fff;
+}
+.download-step-lblue:after {
+    border: 3px solid #204f6e;
+}
+@media screen and (max-width: 767px) {
+    .excel-download-title p {
+        display:block;
+        border-radius: 5px 5px 0 0;
+    }
+    .excel-download-steps{
+        text-align:center;
+        border-radius: 0 0 5px 5px;
+    }
+    .excel-download-steps ul{
+        margin: -15px 0 0;
+    }
+    .excel-download h4{
+        text-align:center;
+    }
+    .excel-download-steps li{
+        display: block;
+    }
+    .excel-download-step-1,
+    .excel-download-step-2,
+    .excel-download-step-3,
+    .excel-download-step-4 {
+        width: 154px;
+        margin: 0 auto 30px;
+    }
+}

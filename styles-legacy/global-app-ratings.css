@@ -1,0 +1,28 @@
+/**************************
+GLOBAL GROUP - APP RATINGS
+**************************/
+
+.app-ratings {
+    background: #EFF2F4;
+    text-align: center;
+    padding: 20px 0 13px;
+}
+.app-ratings p {
+    font-size: 12px;
+    color: #B8C1C5;
+    font-style: italic;
+    margin: 0 0 13px;
+}
+.fa-star {
+    font-size: 25px;
+}
+.full-star {
+    background: -webkit-linear-gradient(0deg, #70CF32 100%, #fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.half-star {
+    background: -webkit-linear-gradient(0deg, #70CF32 50%, #fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

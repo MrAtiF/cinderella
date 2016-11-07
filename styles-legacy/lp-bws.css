@@ -1,0 +1,594 @@
+/**********************
+BWS LP
+***********************/
+
+.masthead-bws {
+    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/bws-landing-page/masthead_bws.png) no-repeat center 20px;
+    min-height: 370px;
+}
+.masthead-wineries {
+    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/bws-landing-page/masthead_wineries.png) no-repeat center 20px;
+    min-height: 370px;
+}
+.masthead-bws .header-text {
+    min-height: 210px;
+}
+.masthead-wineries .header-text {
+    min-height: 240px;
+}
+.bws-value-prop {
+    padding-bottom: 110px !important;
+    background: #f4f4f5;
+}
+.bws-order-management {
+    height: 414px;
+}
+.bws-order-management img {
+    position: relative;
+    max-width: 790px;
+    top: -105px;
+}
+.bws-order-management .proposition-text {
+    padding-top: 35px;
+}
+.bws-multilocation-control {
+    height: 480px;
+    background: #f4f4f5;
+}
+.bws-multilocation-control img {
+    position: relative;
+    max-width: 308px;
+    top: 25px;
+    left: calc(50% - 180px);
+}
+.bws-multilocation-control .proposition-text {
+    padding-top: 70px;
+}
+.bws-complex-taxes {
+    height: 414px;
+}
+.bws-complex-taxes img {
+    position: relative;
+    max-width: 790px;
+    top: -105px;
+}
+.bws-complex-taxes .proposition-text {
+    padding-top: 35px;
+}
+.bws-cataloging {
+    height: 626px;
+    background: #f4f4f5;
+}
+.bws-cataloging img {
+    position: relative;
+    max-width: 790px;
+    top: 0;
+    left: calc(50% - 610px);
+    box-shadow: 0 0 20px #EFEFEF;
+}
+.bws-cataloging .proposition-text {
+    padding-top: 115px;
+}
+.bws-b2b-ecommerce {
+    height: 390px;
+}
+.bws-b2b-ecommerce img {
+    position: relative;
+    max-width: 839px;
+    top: -115px;
+    left: -40px;
+}
+.bws-b2b-ecommerce .proposition-text {
+    padding-top: 15px;
+}
+.bws-mobile-app {
+    height: 545px;
+    background: #f4f4f5;
+}
+.bws-mobile-app img {
+    position: relative;
+    max-width: 754px;
+    left: calc(50% - 530px);
+}
+.bws-mobile-app .proposition-text {
+    padding-top: 110px;
+}
+.bws-add-ons ul {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 850px;
+}
+.bws-add-ons li {
+    display: inline-block;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #f4f4f5;
+    width: 258px;
+    height: 160px;
+    margin: 20px 10px 0;
+}
+.bws-add-ons img {
+    position: relative;
+    top: 42px;
+}
+.bws-nav {
+    text-align: center;
+    padding: 0;
+}
+.bws-nav ul {
+    width: 100%;
+}
+.bws-nav li {
+    width: 33%;
+    border-left: 1px solid #e8ecee;
+}
+.bws-nav li.active {
+    background: #F4F4F5;
+}
+.bws-nav li:last-child {
+    border-right: 1px solid #e8ecee;
+}
+.bws-nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6C7279;
+    font-size: 13px;
+    padding: 14px 20px !important;
+    display: block !important;
+    margin: 0 auto;
+}
+.bws-nav ul li a:hover {
+    background: none;
+    color: #70cf32;
+}
+.bws-nav .hs-menu-wrapper {
+    display: flex;
+}
+/* popup form */
+
+#form-bws {
+    background: #fff;
+    border-radius: 3px!important;
+    margin: auto !important;
+    left: 0 !important;
+    right: 0;
+    top: 0 !important;
+    bottom: 0;
+    height: 90%;
+    max-height: 45em;
+    width: 90%;
+    max-width: 900px;
+    float: none;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+#form-bws h2 {
+    margin: 25px;
+    font-size: 19px;
+    color: #2d3033;
+    border: 0;
+    padding-bottom: 0;
+}
+#form-bws textarea,
+#form-bws .input.select,
+#form-bws input[type="text"],
+#form-bws input[type="email"] {
+    display: block;
+    background: #ededed;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.075);
+    border: none;
+}
+#form-bws .input,
+#form-bws .input.select {
+    padding: 0;
+    width: 100%;
+}
+#form-bws .title_modal {
+    padding: 18px 20px;
+    background: #f4f4f5;
+}
+#form-bws .title_modal h4 {
+    color: #4c4c4c;
+    font-weight: 700 !important;
+    font-size: inherit;
+}
+#form-bws textarea {
+    min-height: 110px;
+}
+#form-bws .hs-button {
+    color: #70cf32;
+    background: #2d3033;
+    max-width: 148px;
+    float: right;
+    margin-right: 0px;
+    border-radius: 3px;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    border-top: none;
+    -webkit-appearance: none;
+}
+#form-bws .feedback_form label {
+    min-width: 115px;
+}
+#form-bws ul label {
+    margin-top: 3px;
+    line-height: 1.5;
+    display: inline-block;
+    text-align: left;
+    min-width: 142px !important;
+    padding-right: 0 !important;
+    vertical-align: middle;
+}
+.bws-summit-details {
+    text-align: center;
+    background: #f4f4f5;
+}
+.bws-summit-details p {
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 300;
+}
+.bws-design-jam img {
+    position: absolute;
+    max-width: 550px;
+    right: calc(50% - -70px);
+    z-index: -1;
+    top: initial;
+    left: initial;
+}
+/* BWS v2 CSS */
+.masthead-brewery {
+    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/bws-landing-page/breweries_masthead.png) no-repeat center top fixed;
+    background-size: 100%;
+    background-color:#FBB207;
+}
+.masthead-brewery h1 {
+    color:#FFF5DC;
+}
+.masthead-wineries-v2 {
+    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/bws-landing-page/wineries_masthead.png) no-repeat center top fixed;
+    background-size: 100%;
+    background-color:#F6574D;
+}
+.masthead-wineries-v2 h1 {
+    color:#FFD9D7;
+}
+.masthead-wholesaler {
+    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/bws-landing-page/wholesaler_masthead.png) no-repeat center top fixed;
+    background-size: 100%;
+    background-color:#429BCE;
+}
+.masthead-wholesaler h1 {
+    color:#BCE7FF;
+}
+.masthead-bws-v2 {
+    padding-bottom: 60px;
+    text-align: center;
+}
+.masthead-bws-v2 h1 {
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+}
+.masthead-bws-v2 h2 {
+    color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.masthead-bws-v2 img {
+    width: 230px;
+    padding:80px 0;
+}
+.bws-nav-v2 {
+    text-align: center;
+    padding: 0;
+}
+.bws-nav-v2 ul {
+    width: 100%;
+}
+.bws-nav-v2 li {
+    width: 220px;
+    display: inline-block;
+    float: none !important;
+    margin: 0 10px;
+    background: #f4f4f5;
+    border-radius: 0 0 3px 3px;
+}
+.bws-nav-v2 li:first-child a:hover {
+    color:#429BCE;
+}
+.bws-nav-v2 li:nth-child(2) a:hover {
+    color:#FBB207;
+}
+.bws-nav-v2 li:last-child a:hover {
+    color:#F6574D;
+}
+.bws-nav-v2 li.active {
+    background-size:100%;
+    background-attachment: fixed;
+    background-position: top center;
+}
+.bws-nav-v2 li.active a {
+    color:#fff;
+}
+.bws-nav-v2 li.active a:hover {
+    color:#fff;
+}
+.bws-nav-v2 li.active:first-child {
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/bws-landing-page/wholesaler_masthead.png);
+    background-color:#429BCE;
+}
+.bws-nav-v2 li.active:nth-child(2) {
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/bws-landing-page/breweries_masthead.png);
+    background-color:#FBB207;
+}
+.bws-nav-v2 li.active:last-child {
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/bws-landing-page/wineries_masthead.png);
+    background-color:#F6574D;
+}
+.bws-nav-v2 ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6C7279;
+    font-size: 13px;
+    padding: 14px 20px !important;
+    display: block !important;
+    margin: 0 auto;
+}
+.bws-nav-v2 ul li a:hover {
+    background: none;
+    color: #70cf32;
+}
+.bws-nav-v2 .hs-menu-wrapper {
+    display: flex;
+}
+.brewery-vp {
+    padding: 50px 0 70px;
+}
+.brewery-vp .feature-grid-item img {
+    width: 200px;
+    margin: 0px auto 20px;
+}
+.bws-testimonial {
+    text-align: center;
+    padding:50px 0 30px;
+}
+.bws-testimonial h3,
+.bws-testimonial h4{
+    display: inline-block;
+    margin: 0 !important;
+    font-size: 12px;
+}
+.bws-testimonial img {
+    padding-right: 30px;
+    vertical-align: middle;
+}
+.bws-testimonial .quote-bubble {
+    max-width: 650px;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    position: relative;
+}
+.bws-testimonial .quote-bubble.left:after {
+    top: calc(50% - 5px);
+}
+.bws-integrations{
+    text-align: center;
+    padding: 70px 50px 60px;
+}
+.bws-integrations-logos {
+    margin: 50px 0 30px;
+}
+.bws-integrations li {
+    display: inline-block;
+    background: white;
+    border-right: 1px solid #f4f4f5;
+    border-bottom: 1px solid #f4f4f5;
+}
+.bws-integrations img {
+    width: 140px;
+    padding : 30px;
+}
+.bws-customer {
+    text-align: center;
+}
+.bws-customer ul {
+    margin:0;
+}
+.bws-customer li {
+    display: inline-block;
+}
+.bws-customer li img {
+    height: 90px;
+    margin: 40px 30px 0;
+    opacity: 0.8;
+}
+.bws-customer img:hover {
+    opacity: 1;
+}
+.bws-demo {
+    padding: 70px 50px 30px;
+    text-align:center;
+}
+.bws-demo .bws-team {
+    border-bottom: 1px solid #f4f4f5;
+    margin: 60px 0 30px;
+}
+.bws-demo .bws-team img{
+    width: 800px;
+}
+.bws-resources-img {
+    margin: 30px 0 5px;
+    border-radius: 3px;
+    background-size:cover;
+    background-position: center top;
+    width:100%;
+    padding-top:66.66%;
+}
+.bws-resources p {
+    text-align: center;
+    font-size:14px;
+    color: #6c7279;
+}
+/* BWS v2 CSS ends */
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .masthead-bws {
+        background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/bws-landing-page/masthead_bws2x.png) no-repeat center 20px;
+        background-size: auto 530px;
+        min-height: 370px;
+        padding-top: 190px !important;
+    }
+    .masthead-wineries {
+        background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/bws-landing-page/masthead_wineries2x.png) no-repeat center 20px;
+        background-size: auto 530px;
+        min-height: 370px;
+        padding-top: 160px !important;
+    }
+}
+@media screen and (max-width: 980px) {
+    .bws-order-management .proposition-text,
+    .bws-b2b-ecommerce .proposition-text {
+        padding-top: 0;
+    }
+    .bws-order-management img {
+        left: 30px;
+    }
+    .bws-multilocation-control .proposition-text,
+    .bws-complex-taxes .proposition-text {
+        padding-top: 30px;
+    }
+    .bws-cataloging .proposition-text {
+        padding-top: 90px;
+    }
+    .bws-cataloging img {
+        left: calc(50% - 675px);
+    }
+    .bws-mobile-app .proposition-text {
+        padding-top: 70px;
+    }
+    .bws-mobile-app img {
+        left: calc(50% - 615px);
+    }
+    /* BWS v2 CSS */
+    .masthead-brewery,
+    .masthead-wineries-v2,
+    .masthead-wholesaler,
+    .bws-nav-v2 li.active {
+        background-size: 1200px auto;
+    }
+    .bws-nav-v2 li {
+        width: 200px;
+    }
+    .bws-testimonial .quote-bubble {
+        width: 430px;
+    }
+    .bws-customer ul {
+        display: inline-block;
+    }
+    .brewery-vp {
+        padding: 50px;
+    }
+    /* BWS v2 CSS ends */
+}
+@media screen and (max-width: 767px) {
+    .masthead-bws,
+    .masthead-wineries {
+        background: none;
+        padding-top: 10px !important;
+        text-align: center;
+    }
+    .masthead-bws .header-text,
+    .masthead-wineries .header-text {
+        min-height: initial;
+    }
+    .bws-value-prop {
+        border-top: 1px solid #e8ecee;
+        padding-bottom: 50px;
+    }
+    .bws-order-management,
+    .bws-multilocation-control,
+    .bws-complex-taxes,
+    .bws-cataloging,
+    .bws-b2b-ecommerce,
+    .bws-mobile-app {
+        height: auto;
+        padding-bottom: 34px !important;
+    }
+    .bws-multilocation-control {
+        text-align: center;
+    }
+    .bws-order-management img,
+    .bws-complex-taxes img,
+    .bws-cataloging img,
+    .bws-b2b-ecommerce img,
+    .bws-mobile-app img {
+        position: initial;
+        max-width: 100%;
+    }
+    .bws-multilocation-control img {
+        position: initial;
+        max-width: 70%;
+    }
+    .bws-order-management .proposition-text,
+    .bws-multilocation-control .proposition-text,
+    .bws-complex-taxes .proposition-text,
+    .bws-b2b-ecommerce .proposition-text,
+    .bws-cataloging .proposition-text,
+    .bws-mobile-app .proposition-text {
+        padding-top: 50px;
+    }
+    .bws-b2b-ecommerce .proposition-text {
+        padding-top: 20px;
+    }
+    .bws-design-jam img {
+        max-width: 100%;
+    }
+    /* BWS v2 CSS */
+    .bws-nav-v2 li {
+        width: 27%;
+        margin: 0 2%;
+    }
+    .bws-integrations-logos ul {
+        display: inline-block;
+    }
+    .brewery-vp {
+        padding: 50px 30px;
+    }
+    .bws-integrations,
+    .bws-demo {
+        padding: 70px 30px 60px;
+    }
+    /* BWS v2 CSS ends */
+}
+@media (max-width: 568px) {
+    .bws-nav li {
+        width: 100%;
+        border-bottom: 1px solid #e8ecee;
+        border-right: 1px solid #e8ecee;
+    }
+    .bws-nav li:last-child {
+        border-right: 1px solid #e8ecee;
+        border-bottom: 0;
+    }
+    /* BWS v2 CSS */
+    .masthead-bws-v2 {
+        padding-bottom: 40px;
+    }
+    .masthead-bws-v2 img {
+        padding:60px 0;
+    }
+    .bws-nav-v2 li {
+        width: 29%;
+        margin: 0 1%;
+    }
+    .bws-nav-v2 ul li a {
+        font-size: 11px;
+        padding: 10px 14px !important;
+    }
+    /* BWS v2 CSS ends */
+}

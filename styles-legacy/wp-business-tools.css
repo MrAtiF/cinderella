@@ -1,0 +1,222 @@
+/**************
+TOOLS PAGE
+**************/
+
+/* Tools Subscription Email Form */
+
+.tools-form-wrapper {
+  position:relative;
+  width:60%;
+  margin: auto;
+}
+
+.tools-subscription-form {
+  margin: auto;
+}
+
+.tools-subscription-form .hbspt-form{
+  display:inline;
+  margin: auto;
+}
+
+.tools-subscription-form .hbspt-form label{
+  /*display:none;*/
+}
+
+.tools-subscription-form .hbspt-form ul.hs-error-msgs li label {
+  color:#f6574d;
+  font-weight:bold;
+  float:left;
+  padding-top:10px;
+}
+
+.tools-subscription-form .hbspt-form .hs-input{
+  display:inline-block;
+  width:78% !important;
+  float:left;
+  padding: 14px 15px 14px 40px;
+  margin: auto;
+  background-color: #f4f4f5;
+  background-image: url(https://resources.tradegecko.com/hubfs/site/images/page_home/icon_sprite_demo.png?t=1461037859188);
+  color: #2d3033;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  background-position: 0 -54px;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  border-color:#f4f4f5;
+}
+
+.tools-subscription-form .hbspt-form input.hs-button{
+  display:inline-block;
+  /*float: right;*/
+  box-sizing: border-box;
+  width: 20%;
+  padding: 8px 0px;
+  margin: auto;
+  border-radius: 3px;
+}
+
+
+/* Tools Content Area */
+
+.tools-content-wrapper {
+  position:relative;
+  margin: auto;
+}
+
+.tools-content-box {
+    position: relative;
+    text-align: center;
+    width: 30%;
+    margin: 1.5%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tools-content-box:last-child {
+    margin-bottom: 100px;
+}
+
+.tools-content-box h3{
+  text-transform:uppercase;
+  font-family:"Raleway",sans-serif;
+  color:#2d3033;
+  font-weight:bold;
+  margin-bottom:5px;
+  margin-top:30px;
+}
+
+.tools-content-box p{
+  color:#6c7279;
+  margin-top:0px;
+  margin-bottom:35px;
+  font-size:15px;
+}
+
+
+.tools-content-box img{
+    width:100%;
+}
+
+
+.tools-tag {
+  position:absolute;
+  width:74px;
+  height:74px;
+  left:-3px;
+  top:-4px;
+  background-repeat:no-repeat;
+  z-index:1;
+}
+
+.tools-tag-popular {
+  background-image:url("http://resources.tradegecko.com/hs-fs/hub/407937/file-2141578531-png/tradegecko_images/tag_popular.png");
+}
+
+@media (max-width: 1024px) {
+    .tools-content {
+        text-align: justify;
+    }
+    .tools-content-box {
+        width: 46%;
+    }
+}
+
+@media (max-width: 767px) {
+  .tools-form-wrapper {
+      position:relative;
+      width:80% !important;
+      margin: auto;
+  }
+  .tools-subscription-form .hbspt-form input.hs-input {
+      width:100% !important;
+      clear:both;
+      margin:10px auto;
+  }
+  .tools-subscription-form .hbspt-form input.hs-button{
+      width:100% !important;
+      clear:both;
+  }
+
+  .tools-content-wrapper {
+    width:90%;
+  }
+
+  .tools-content {
+    text-align: center;
+  }
+
+  .tools-content-box {
+    width:90%;
+  }
+
+.tools-content-box:last-child {
+    margin-bottom: 20px;
+}
+
+  .tools-tag {
+  left:-2px;
+  }
+}
+
+
+/* Tools Feedback Form */
+
+.tools-fbform-wrapper {
+}
+
+.tools-fbform-wrapper .hs-form .hs-input {
+  background-color: #ffffff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  border-color:#ececec;
+}
+
+.tools-fbform-wrapper form.hs-form {
+  margin:auto;
+}
+
+.tools-fbform-wrapper form.hs-form .hs-form-field {
+  margin-top:20px;
+}
+
+.tools-fbform-wrapper form.hs-form .input.select {
+  margin-bottom: 20px;
+  height:40px;
+  background-color: #f4f4f5;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  border-color:#ececec;
+  width:100%;
+
+}
+
+.tools-fbform-wrapper form.hs-form .hs-form-checkbox {
+  width:33%;
+  text-indent:15px;
+}
+
+.tools-fbform-wrapper form.hs-form ul.hs-error-msgs li label {
+  color:#f6574d;
+  font-weight:bold;
+}
+
+.tools-fbform-wrapper .hs-form input[type="submit"]{
+  border: 0;
+  border-radius: 3px;
+}
+
+@media (max-width: 988px) {
+  .tools-fbform-wrapper form.hs-form .hs-form-checkbox {
+    width:50%;
+  }
+}
+@media (max-width: 320px) {
+  .tools-fbform-wrapper form.hs-form .hs-form-checkbox {
+    width:100%;
+  }
+}
+
+.blog-modal-form-css.hs-form {
+    background:#fff !important;
+}

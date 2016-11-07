@@ -1,0 +1,51 @@
+/***************************
+GLOBAL GROUP - TESTIMONIALS
+***************************/
+
+.lp-testimonial {
+    text-align: center;
+    padding: 80px 50px;
+}
+.lp-testimonial a {
+    color: #2d3033;
+}
+.lp-testimonial a:hover {
+    color: #70CF32;
+}
+.testimonial-only {
+    padding-top: 10px;
+}
+.lp-testimonial h2 {
+    text-align: center;
+    margin-top: 0;
+}
+.lp-testimonial img {
+    width: 130px;
+    margin: 50px auto 20px;
+}
+.lp-testimonial h3 {
+    font-size: 22px !important;
+    line-height: initial;
+    margin: 22px 0 !important;
+    font-weight: 400 !important;
+}
+.lp-testimonial h3 span {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #9eadb7;
+}
+.lp-testimonial p::before {
+    content: "\201C";
+}
+.lp-testimonial p {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 17px;
+    padding: 0 10px;
+    margin: 0;
+    color: #6c7279;
+}
+.lp-testimonial p::after {
+    content: "\201D";
+}

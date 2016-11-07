@@ -1,0 +1,57 @@
+/**********************
+TG BUTTON
+***********************/
+.tg-button {
+    display: inline-block;
+    font-family: 'Raleway', 'Arial Black', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all ease .1s;
+    margin: 10px;
+}
+.tg-button.solid-white {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #70cf32;
+}
+.tg-button.solid-white:hover {
+    opacity: 0.8;
+}
+.tg-button.stroke-white {
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+}
+.tg-button.stroke-white:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.tg-button.solid-green {
+    border: 1px solid #70cf32;
+    background: #70cf32;
+    color: #fff;
+}
+.tg-button.solid-green:hover {
+    border: 1px solid #2d3033;
+    background: #2d3033;
+    color: #70cf32;
+}
+.tg-button.stroke-green {
+    border: 1px solid #70cf32;
+    color: #2d3033;
+}
+.tg-button.stroke-green:hover {
+    border: 1px solid #70cf32;
+    background: #70cf32;
+    color: #fff;
+}
+.tg-button.large {
+    padding: 15px 35px;
+}
+.tg-button.medium {
+    padding: 11px 25px;
+}
+.tg-button.small {
+    padding: 8px 16px;
+}

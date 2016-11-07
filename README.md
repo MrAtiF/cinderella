@@ -10,6 +10,7 @@ This folder contains styles for pages designed using the **old** TradeGecko styl
 4. Run `gulp` to compile into `tg-compiled-css` folder.
 5. Open `tg-compiled-legacy.css`, copy the code and paste into `Primary CSS File` in Hubspot.
 
+--
 
 ### styles-new
 This folder contains styles for pages designed using the **2016** TradeGecko style guide. All CSS files within this folder should be compiled and uploaded in Hubspot's Design Manager as `..custom/page/css/tg-compiled-new.css`

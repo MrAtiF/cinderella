@@ -1,0 +1,367 @@
+/**************
+LANDING PAGE - EXCEL TEMPLATE
+**************/
+.excel-lp .header-container {
+    border-top:0;
+}
+.excel-masthead {
+    background: #204F6E;
+    padding: 100px 50px 130px;
+}
+.excel-masthead h1{
+    font-weight: 300;
+    color:#fff;
+    font-size: 32px;
+    padding: 90px 0 30px;
+}
+.excel-masthead h2{
+    color:#fff;
+    font-size: 21px;
+}
+
+/* modal form styles*/
+#form-modal {
+    display: none;
+}
+#form-modal .hbspt-form {
+    background: #203033;
+    padding: 40px;
+    border-radius: 10px;
+    color: #ffffff;
+    max-width: 370px;
+}
+#form-modal .hs-richtext {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+    font-family: "Raleway",sans-serif;
+}
+#form-modal .hs-richtext:before {
+    content: "";
+    float: left;
+    margin: 7px 20px 0 0;
+    background-image: url(//cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/general-files/excel-download-icon2x.png?t=1469071085832);
+    background-size: contain;
+    width: 33px;
+    height: 46px;
+}
+#form-modal label {
+    color: #ffffff;
+    padding: 15px 0 5px;
+    display: block;
+}
+#form-modal form legend {
+    color: #fff;
+    padding: 0;
+    font-family: "Raleway",sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+#form-modal.excel-template-modal form select,
+#form-modal.excel-template-modal .hs-form .input.select,
+#form-modal .hs-input {
+    height: 45px;
+    background: #fff;
+    border: 0;
+    box-shadow: none;
+    padding: 0 15px;
+    color: #6c7279;
+    font-size: 13px;
+    -webkit-appearance: none;
+}
+#form-modal li:before {
+    display: none;
+}
+#form-modal .hs-error-msgs label {
+    text-transform: initial;
+    padding-top: 5px;
+}
+#form-modal .hs-error-msgs label:before {
+    content: "^ ";
+    font-weight: 700;
+    color: #b2e60c;
+}
+#form-modal .hs_submit {
+    text-align: center;
+}
+#form-modal input[type="submit"]{
+    border-radius: 3px;
+    padding: 0 22px;
+    -webkit-appearance: none;
+    background: #70cd32;
+    height: 45px;
+    width: inherit;
+    color: #fff;
+    border: 0 !important;
+}
+/* modal form styles end */
+
+#form-modal.excel-template-modal {
+    position: initial;
+    min-height:initial !important;
+    padding:15px 32px 20px 40px;
+    border-radius: 10px;
+}
+#form-modal.excel-template-modal .hbspt-form,
+#form-modal.sku-gen-modal .hbspt-form {
+    background: #429bce;
+    padding-right: 32px;
+    max-width: 420px;
+}
+#form-modal.excel-template-modal .hs-form,
+#form-modal.sku-gen-modal .hs-form,
+#form-modal.eoq-calculator-modal .hs-form,
+#form-modal.shopify-plan-calculator-modal .hs-form {
+    background: none !important;
+    padding-top: 0;
+    margin:0;
+}
+#form-modal.eoq-calculator-modal .hbspt-form {
+    background: #F6574D;
+}
+#form-modal.shopify-plan-calculator-modal .hbspt-form {
+    background: #1c4561;
+}
+#form-modal.excel-template-modal .hs-richtext {
+    margin-right: 8px;
+}
+#form-modal.excel-template-modal .hs-error-msgs{
+    padding:0;
+}
+
+/* excel landing page form style*/
+.excel-form .hs-error-msgs label{
+    text-transform: initial;
+}
+.excel-form .hs-error-msgs label:before{
+    content: "^ ";
+    font-weight: 700;
+    color: #B2E60C;
+}
+.excel-form {
+    position: absolute;
+    background: #429bce;
+    padding: 40px 32px 20px 40px;
+    max-width: 480px;
+    top: 0;
+    left: 51%;
+    z-index: 1;
+    min-height: 645px !important;
+}
+.excel-form .hs-richtext {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+    font-family: "Raleway",sans-serif;
+    color: #fff;
+}
+.excel-form .hs-richtext:before {
+    content: "";
+    float: left;
+    margin: 7px 20px 0 0;
+    background-image: url(//cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/general-files/excel-download-icon2x.png?t=1469071085832);
+    background-size: contain;
+    width: 33px;
+    height: 46px;
+}
+.excel-form hr{
+    height: 1px;
+    border: 0;
+    background: #fff;
+    width: 400px;
+    float: left;
+    margin:0;
+}
+.excel-form li{
+    line-height: 1.5;
+}
+.excel-form:before {
+content: '';
+    position: absolute;
+    margin-bottom: -20px;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 50%;
+    background: #429bce;
+    -webkit-transform: skew(0deg, -6deg);
+    -moz-transform: skew(0deg, -6deg);
+    -ms-transform: skew(0deg, -6deg);
+    -o-transform: skew(0deg, -6deg);
+    transform: skew(0deg, -6deg);
+    z-index: -1;
+}
+.excel-form:after {
+    content: '';
+    position: absolute;
+    margin-bottom: -20px;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    width: 50%;
+    background: #429bce;
+    -webkit-transform: skew(0deg, 6deg);
+    -moz-transform: skew(0deg, 6deg);
+    -ms-transform: skew(0deg, 6deg);
+    -o-transform: skew(0deg, 6deg);
+    transform: skew(0deg, 6deg);
+    z-index: -1;
+}
+.excel-form form label{
+    color: #fff;
+    display: block;
+    padding: 14px 0 5px;
+}
+.excel-form form legend{
+    color: #fff;
+    padding: 0;
+    font-family: "Raleway",sans-serif;
+    font-size:12px;
+    margin: 0;
+}
+.excel-form .hs-input {
+    width: 100% !important;
+}
+.excel-form form input,
+.excel-form form select,
+.excel-form .hs-form .input.select{
+    height:45px;
+    background: #fff;
+    border: 0;
+    box-shadow:none;
+    padding: 0 15px;
+    color: #6c7279;
+    font-size: 13px;
+    -webkit-appearance:none;
+}
+.excel-form form input[type="submit"]{
+    width: inherit;
+    margin: 25px auto 15px;
+    border-radius: 3px;
+    display: inherit;
+    height: 45px;
+    border: 0;
+    padding: 0 22px;
+    -webkit-appearance:none;
+}
+/* form styles ends*/
+
+.excel-preview {
+    background: #f4f4f5;
+    padding:0 50px;
+}
+.excel-preview h3{
+    font-weight: 700;
+    color: #1C4561;
+    font-size: 14px;
+}
+.excel-preview p{
+    color: #6C7279;
+    font-size: 14px;
+}
+.excel-preview ul{
+    width:100%;
+    margin:0;
+}
+.excel-preview li{
+    width:26%;
+    display:inline-block;
+    margin-top: 100px;
+}
+.excel-preview li:first-child{
+    margin-bottom: -20px;
+}
+.excel-preview li:nth-child(2){
+    position: relative;
+    left: 10%;
+    bottom: 20px;
+}
+.excel-preview li:last-child{
+    float: right;
+}
+.excel-tg {
+    text-align: center;
+}
+.excel-tg img{
+    width: 281px;
+    padding: 50px 0 40px;
+}
+.excel-tg p{
+    color: #6C7279;
+    line-height: 2;
+    width: 90%;
+    margin:0 auto 40px;
+}
+.excel-tg h4 {
+    color: #889096;
+    font-size: 14px;
+    font-family: inherit;
+    margin: 10px 0 40px;
+}
+.lp-copyright{
+    background: #f4f4f5;
+    text-align: center;
+    padding: 9px;
+}
+.lp-copyright p{
+    font-size: 12px;
+    color: #A4AEB3;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .excel-masthead {
+        padding: 90px 50px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .excel-masthead {
+        background: linear-gradient(#204f6e 70%,#fff 70%);
+        padding: 50px 20px 0;
+    }
+    .excel-masthead img{
+        width:200px;
+    }
+    .excel-masthead h1{
+        font-size: 24px;
+        padding-top:40px;
+    }
+    .excel-masthead h2{
+        font-size: 18px;
+    }
+    .excel-form {
+        position: relative;
+        max-width: none;
+        left: 0;
+        padding: 0 22px 10px 30px;
+        border-radius: 5px;
+        margin-top: 60px;
+        min-height: 520px !important;
+    }
+    .excel-form .hs-form fieldset {
+        max-width:none;
+    }
+    .excel-form:before {
+        border-bottom-left-radius:5px;
+    }
+    .excel-form:after {
+        border-bottom-right-radius: 5px;
+    }
+    .excel-tg img {
+        padding: 70px 0 40px;
+    }
+    .excel-form .hs-richtext {
+        padding-top:10px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .excel-form .hs-richtext:before {
+        margin-top: 20px;
+    }
+}

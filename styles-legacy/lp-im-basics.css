@@ -1,0 +1,69 @@
+/**************
+LANDING PAGE - SEO KEYWORD
+**************/
+
+.seo-lp .seo-article-group {
+    padding-right: 80px;
+    padding-top: 100px;
+}
+.seo-lp .seo-article-group h1 {
+    font-size: 30px;
+    font-weight: 300;
+}
+.seo-lp .seo-article-group h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 35px 0;
+}
+.seo-lp .seo-article-group h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 35px 0;
+}
+.seo-lp .seo-article-group p {
+    margin: 35px 0;
+}
+.seo-lp .seo-article-group li {
+    list-style: none;
+}
+.seo-lp .seo-article-group li:before {
+    content: "·";
+    font-size: 26px;
+    vertical-align: sub;
+    line-height: 16px;
+    padding-right: 10px;
+}
+.seo-lp .opening-para p {
+    font-size: 20px;
+    font-weight: 300;
+}
+/* .seo-lp .seo-article::after {
+    content: "--";
+} */
+
+.seo-lp .seo-sources ul {
+    font-size: 12px;
+}
+.seo-lp .seo-related {
+    padding-bottom: 60px;
+}
+.seo-lp .hs_features_nav {
+    padding-top: 110px;
+}
+.seo-lp .hs-menu-wrapper.hs-menu-flow-vertical li a {
+    white-space: normal;
+}
+.seo-lp .hs_features_nav .hs-menu-wrapper.hs-menu-flow-vertical>ul li:first-child a {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    .seo-lp .seo-article-group {
+        padding-right: 0;
+    }
+    .seo-lp .seo-related {
+        padding-bottom: 30px;
+    }
+    .seo-lp .hs_features_nav {
+        padding-top: 0;
+    }
+}

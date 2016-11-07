@@ -1,0 +1,399 @@
+/*********************
+LANDING PAGE GENERAL
+*********************/
+
+.lp .section-padding {
+    padding: 80px 50px;
+}
+.lp sup {
+    font-size: xx-small;
+}
+@media screen and (max-width: 767px) {
+    .lp .section-padding {
+        padding: 50px 30px;
+    }
+}
+/********************************
+LANDING PAGE - PRODUCT LAUNCHES
+********************************/
+
+.launch-lp h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.launch-lp h4 {
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    font-weight: 200;
+}
+.launch-lp .feature-grid-item {
+    padding: 40px 0 0;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+.launch-lp .feature-grid-item h5 {
+    padding: 10px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    color: #2d3033;
+}
+.launch-lp .feature-grid-item p {
+    padding: 10px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 100;
+    color: #6c7279;
+}
+.launch-lp .hp-fourcol-form {
+    margin-bottom: 80px;
+}
+.launch-lp .hp-fourcol-form .form-input {
+    display: inline-block;
+    width: 50%;
+}
+.launch-lp .hp-fourcol-form .form-input .customers {
+    width: 100%;
+}
+.launch-lp .hp-fourcol-form p {
+    margin: 10px 0 0;
+    color: #b6c4d5;
+    font-size: 13px;
+    font-weight: 300;
+}
+.launch-lp .hp-fourcol-form p a {
+    color: #fff;
+}
+.launch-lp .proposition-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+.launch-lp .proposition-text h1 {
+    text-align: left;
+    font-size: 33px;
+    font-weight: 300;
+}
+.launch-lp .proposition-text h2 {
+    text-align: left;
+    font-size: 24px;
+}
+.launch-lp .proposition-text p {
+    text-align: left;
+    line-height: 2;
+    font-weight: 300;
+    color: #6C7279;
+}
+.launch-lp .visuals-customer {
+    background: url("http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/b2b-landing-page/b2b-landing-wholesaler.png") no-repeat center;
+    display: table;
+    height: 455px;
+    margin-top: -46px;
+}
+.launch-lp .visuals-customer .row-fluid-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+.launch-lp .visuals-merchant {
+    background: url("http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/b2b-landing-page/b2b-landing-retailer.png") no-repeat center;
+    display: table;
+    height: 411px;
+}
+.launch-lp .visuals-merchant .row-fluid-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+.launch-lp .visuals-iosapp-screen-catalog {
+    background: url("http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-screenshot-catalog-full.png") no-repeat center;
+    display: table;
+    height: 533px;
+    margin-top: -65px;
+}
+.launch-lp .visuals-iosapp-screen-catalog .row-fluid-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+.launch-lp .visuals-iosapp-screen-orders {
+    background: url("http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-screenshot-orders-full-v2.png") no-repeat center;
+    display: table;
+    height: 533px;
+    margin: 40px 0 40px 0;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .visuals-iosapp-screen-catalog {
+        background-image: url("https://resources.tradegecko.com/hubfs/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-screenshot-catalog-full2x.png");
+        background-size: 980px 533px;
+    }
+}
+.launch-lp .visuals-iosapp-screen-orders .row-fluid-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+.launch-lp .visuals-iosapp-screen-customers {
+    background: url("http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-screenshot-customers-full.png") no-repeat center;
+    display: table;
+    height: 533px;
+    margin-top: -65px;
+}
+.launch-lp .visuals-iosapp-screen-customers .row-fluid-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+.launch-lp .visuals-iosapp-screen-sync {
+    background: url("http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-screenshot-sync-full-v2.png") no-repeat center;
+    display: table;
+    height: 533px;
+    margin-top: -65px;
+}
+.launch-lp .visuals-iosapp-screen-sync .row-fluid-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+.launch-lp .visuals-iosapp-screen-barcode {
+    background: url("http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-screenshot-barcode-full.png") no-repeat center;
+    display: table;
+    height: 533px;
+    margin: 40px 0 40px 0;
+}
+.launch-lp .visuals-iosapp-screen-barcode .row-fluid-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+.launch-lp .visuals-iosapp-screen-pickpack {
+    background: url("http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/pick-pack-shopify-screenshots.png") no-repeat center;
+    display: table;
+    height: 533px;
+    margin-top: -65px;
+}
+.launch-lp .visuals-iosapp-screen-pickpack .row-fluid-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+.launch-lp .lp-video {
+    background: #1c4562;
+}
+.launch-lp .b2b-video {
+    padding-top: 80px;
+}
+.launch-lp .video-div {
+    max-width: 945px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.launch-lp .hp-testimonial {
+    text-align: center;
+}
+.launch-lp .hp-testimonial p {
+    font-size: 16px;
+    text-align: left;
+    padding: 5px 10px 0;
+    margin: 0;
+}
+.launch-lp .hp-testimonial h3 {
+    font-size: 24px;
+}
+.launch-lp .hp-testimonial h3 span {
+    font-weight: 300;
+}
+.launch-lp .hp-testimonial img {
+    width: 200px;
+    margin: 60px auto 20px;
+}
+.launch-lp .hp-testimonial p::before {
+    left: -6px;
+    top: -4px;
+}
+.launch-lp .body-container-wrapper .masthead-fixed h1 {
+    font-size: 32px;
+    text-align: left;
+    margin: 0 0 30px;
+    padding: 0 !important;
+    font-weight: 300;
+}
+.launch-lp .body-container-wrapper .masthead-fixed h3 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0 0 30px;
+    color: #6c7279;
+    font-weight: 300;
+}
+.launch-lp .body-container-wrapper .masthead-fixed h4 {
+    font-size: 15px;
+    text-align: left;
+    margin: -30px 0 20px 0;
+    padding-right: 80px;
+    color: #a4aeb3;
+    font-weight: 400;
+    font-style: italic;
+}
+.launch-lp .masthead-generic {
+    background: none;
+}
+.launch-lp .masthead-fixed {
+    padding: 185px 0 40px;
+}
+.launch-lp .landing-masthead-fixed {
+    padding-top: 170px;
+    height: 400px;
+}
+.b2b-masthead-image {
+    position: absolute;
+    right: 50%;
+    margin-right: -30px;
+    top: 150px;
+    width: auto;
+    background: url(http://resources.tradegecko.com/hubfs/site/images/landing_pages/b2b-landing-page/b2b-landing-header-screens.png) no-repeat bottom right;
+    height: 609px;
+}
+@media screen and (max-width: 980px) {
+    .b2b-masthead-image {
+        top: 180px;
+    }
+}
+.iosapp-masthead-image {
+    position: absolute;
+    right: 50%;
+    margin-right: 20px;
+    top: 160px;
+    width: auto;
+    background: url(http://resources.tradegecko.com/hubfs/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-masthead-iphone-ipad-v3.png) no-repeat bottom right;
+    height: 495px;
+}
+@media screen and (max-width: 1200px) {
+    .iosapp-masthead-image {
+        top: 160px;
+    }
+}
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .iosapp-masthead-image {
+        background-image: url(https://resources.tradegecko.com/hubfs/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-masthead-iphone-ipad-v32x.png);
+        background-size: 805px 495px;
+    }
+    .launch-lp .visuals-iosapp-screen-catalog {
+        background-image: url("https://resources.tradegecko.com/hubfs/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-screenshot-catalog-full2x.png");
+        background-size: 980px 533px;
+    }
+    .launch-lp .visuals-iosapp-screen-orders {
+        background-image: url("https://resources.tradegecko.com/hubfs/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-screenshot-orders-full-v22x.png");
+        background-size: 980px 533px;
+    }
+    .launch-lp .visuals-iosapp-screen-customers {
+        background-image: url("http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-screenshot-customers-full2x.png");
+        background-size: 980px 533px;
+    }
+    .launch-lp .visuals-iosapp-screen-sync {
+        background-image: url("http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-screenshot-sync-full-v22x.png");
+        background-size: 980px 533px;
+    }
+    .launch-lp .visuals-iosapp-screen-barcode {
+        background-image: url("http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-screenshot-barcode-full2x.png");
+        background-size: 980px 533px;
+    }
+    .launch-lp .visuals-iosapp-screen-pickpack {
+        background-image: url("http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/pick-pack-shopify-screenshots2x.png");
+        background-size: 980px 533px;
+    }
+}
+@media only screen and (max-width: 979px) {
+    .launch-lp .body-container-wrapper .masthead-fixed h1 {
+        font-size: 26px;
+    }
+    .launch-lp .body-container-wrapper .masthead-fixed h3 {
+        font-size: 16px;
+    }
+    .launch-lp .body-container-wrapper .masthead-fixed h3 {
+        margin: 0 0 35px;
+    }
+    .launch-lp .hp-fourcol-form .form-input {
+        width: 100%;
+        padding: 5px;
+    }
+    .launch-lp .visuals-customer,
+    .b2b-lp .visuals-merchant .visuals-iosapp-screen-catalog .visuals-iosapp-screen-orders .visuals-iosapp-screen-customers .visuals-iosapp-screen-sync .visuals-iosapp-screen-pickpack {
+        height: 375px;
+        background-size: auto 375px;
+        padding: 0;
+    }
+    .launch-lp .visuals-customer .visuals-iosapp-screen-catalog .visuals-iosapp-screen-customers {
+        margin-top: -38px;
+    }
+    .launch-lp .feature-grid-item {
+        width: 50%;
+    }
+    .launch-lp .proposition-text h1 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .launch-lp .body-container-wrapper .landing-masthead-fixed h1 {
+        text-align: center;
+    }
+    .launch-lp .body-container-wrapper .masthead-fixed h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .launch-lp .body-container-wrapper .masthead-fixed h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .launch-lp .body-container-wrapper .masthead-fixed h3 {
+        margin: 0 0 30px;
+    }
+    .launch-lp .hp-fourcol-form {
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .b2b-masthead-image {
+        position: inherit;
+        margin-right: 0;
+        top: 210px;
+        width: auto;
+        background: url(//resources.tradegecko.com/hubfs/site/images/landing_pages/b2b-landing-page/b2b-landing-header-screens.png) no-repeat top center;
+        height: 160px;
+        background-size: contain;
+        margin-top: 90px;
+    }
+    .iosapp-masthead-image {
+        position: inherit;
+        margin-right: 0;
+        top: 200px;
+        width: auto;
+        background: url(http://resources.tradegecko.com/hubfs/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-masthead-iphone-ipad-v3.png) no-repeat top center;
+        height: 180px;
+        background-size: contain;
+        margin-top: 90px;
+        margin-bottom: 20px;
+    }
+    .launch-lp .masthead-fixed {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .launch-lp .proposition-mobile {
+        padding: 10px 30px 40px;
+        text-align: center;
+    }
+    .launch-lp .proposition-mobile h2 {
+        padding-top: 40px;
+    }
+    .launch-lp .proposition-mobile p {
+        font-weight: 300;
+        line-height: 2;
+    }
+    .launch-lp .mobile-video-padding {
+        padding: 50px 0;
+    }
+    .launch-lp .b2b-video {
+        padding-top: 50px;
+    }
+    .launch-lp .feature-grid-item {
+        width: 100%;
+    }
+    .launch-lp .video-div {
+        padding-bottom: 50px;
+    }
+}

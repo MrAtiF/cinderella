@@ -8904,6 +8904,171 @@ MISC
 }
 
 
+/* Blog Subscription Modal */
+
+.blog-subscribe-container form#hsForm_dc0d7872-37ca-4b31-a5e1-2ec27ddfdba5.hs-form.stacked {
+  background-color:#fff !important;
+  margin:0;
+  padding:0;
+}
+
+.blog-subscribe-container #form-modal-subscribe.blog-subs-modal .hbspt-form {
+  background-color:#fff;
+  padding:0;
+  margin:0;
+  width:100%;
+  max-width:none;
+}
+
+.blog-subscribe-container #form-modal-subscribe {
+  color: #000;
+  margin: auto !important;
+  top: 90px;
+  position: fixed;
+  z-index: 100000;
+  left: 0;
+  right: 0;
+  max-width: 600px;
+  padding: 15px;
+  display: none;
+}
+
+.blog-subscribe-container #form-modal-subscribe.blog-subs-modal .hbspt-form .hs-input{
+  display: block;
+  margin: 0 auto;
+  width: 100% !important;
+  border: 2px #6fd5d9 solid;
+  background: #fff;
+}
+
+
+.blog-subscribe-container #form-modal-subscribe.blog-subs-modal .hbspt-form input[type="submit"] {
+    display: block;
+    margin: 15px auto;
+    width: 30%;
+    background: #70cf32;
+    color: #fff;
+    border-radius: 3px;
+    border-top: 0 !important;
+}
+
+.blog-subscribe-container #form-modal-subscribe ul {
+  padding:0;
+}
+
+.blog-subscribe-container #form-modal-subscribe label {
+  color:#f6574d;
+  font-weight:bold;
+  text-align:center;
+}
+
+.blog-subscribe-container #form-modal-subscribe .hs-error-msgs label::before {
+  content: "* ";
+  color:#f6574d;
+  font-weight:bold;
+}
+
+.blog-subscribe-container .submitted-message {
+  color: #70cf32;
+  display: block;
+  border: 1px #70cf32 dotted;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Raleway','Arial Black',Arial,sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.blog-subscribe-modal {
+  display: flex;
+  background: #fff;
+  box-shadow: 0 0 60px #555;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-top: 50px #6fd5d9 solid;
+}
+
+.blog-subscribe-modal img {
+  margin:0 !important;
+  padding:0;
+}
+
+.blog-subscribe-modal .text-container{
+  padding:40px;
+  margin:auto;
+  height: auto;
+  text-align: center;
+}
+
+i.fa.fa-envelope-o.fa-4x {
+  color: #6fd5d9;
+  font-size: 3em;
+}
+.blog-subscribe-modal h1{
+  color: #000;
+  text-align: center;
+  font-size: 34px;
+  line-height: 39px;
+  font-family: 'Raleway','Arial Black',Arial,sans-serif;
+  font-weight: 100;
+  margin: 15px 0 12px 0;
+}
+
+.blog-subscribe-modal .sub-text {
+  text-align: center;
+  font-family: 'Raleway','Arial Black',Arial,sans-serif;
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #a4aeb3;
+  letter-spacing:1px;
+}
+
+
+.blog-modal-close-btn {
+  text-align:center;
+  position:relative;
+  margin-top:30px;
+}
+
+span#closeButton {
+  font-family: 'Raleway','Arial Black',Arial,sans-serif;
+  color: #a4aeb3;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  cursor:pointer;
+}
+
+span#closeButton:hover {
+  color:#c4ced1;
+}
+
+@media (max-width: 1296px) {
+  .blog-subscribe-modal .text-container{
+    padding: 40px;
+    height: auto;
+    text-align: center;
+  }
+  .blog-subscribe-container #form-modal-subscribe.blog-subs-modal .hbspt-form input[type="submit"] {
+    width:55%;
+  }
+}
+
+@media (max-width: 636px) {
+  .blog-subscribe-modal h1{
+    font-size:28px;
+    line-height:35.2px;
+    font-family: 'Raleway', 'Arial Black', Arial, sans-serif;
+    font-weight:100;
+  }
+}
+
 /**************************
 GLOBAL GROUP - APP RATINGS
 **************************/

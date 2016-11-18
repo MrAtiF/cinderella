@@ -1,0 +1,10 @@
+.ryan-jesus-sandals-img {
+    max-width: 150px;
+    margin: 0 30px 10px 0 !important;
+    float: left;
+}
+@media (max-width: 500px) {
+    .ryan-jesus-sandals-img {
+        float: none;
+    }
+}

@@ -2047,7 +2047,6 @@ BLOG COMMENTS
     background: #2d3033;
     color: #70cf32;
     border: 0 !important;
-    border-top: 1px solid #000 !important;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     transition: all ease 0.1s;
@@ -2056,7 +2055,6 @@ BLOG COMMENTS
 .blog-comments .tg-blog-left-sidebar .hs-form .hs-button.primary:hover {
     background: #70CF32;
     color: #FFF;
-    border-top: 1px solid #65ba2d !important;
 }
 .blog-comments .tg-blog-left-sidebar form input,
 .blog-comments .tg-blog-left-sidebar .hs-form input,

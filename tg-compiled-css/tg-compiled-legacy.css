@@ -728,15 +728,18 @@ padding-bottom: 10px;}
   #hubspot-topic_data{font-size:12px!important;}
 
 
-  .cta_center{text-align:center;}
+  .cta_center {text-align:center;}
 
-  .white-bg-form{border-bottom:1px solid #ccc;}
-
-  .pdf-form{padding-bottom:20px;padding-left: 20px;padding-right: 20px;}
+  .white-bg-form {border-bottom:1px solid #ccc;}
 
   .form_field form input, .form_field .hs-form input{max-width:100%!important;}
 
-  .form_field .actions{max-width:135px;float:right;margin-left:0px;margin-right:0px;}
+  .form_field .actions {
+    /*max-width:135px;
+    float:right;
+    margin-left:0px;
+    margin-right:0px;*/
+}
 
   .try_blog_cta,.more-consig_cta{text-align:center;margin-bottom:20px;}
 
@@ -1872,12 +1875,11 @@ form.hs-form select,
 form.hs-form textarea,
 form.hs-form .email-correction,
 form.hs-form .email-validation {
-    min-height: 40px !important;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    min-height: 40px;
 }
 form.hs-form select {
     height: 40px;
-    background: none;
+    background-color:#ffffff;
     border: 0;
 }
 
@@ -1891,12 +1893,13 @@ form.hs-form .inputs-list {
     padding-top: 15px;
 }
 
-.pdf-form {
+/*.pdf-form {
     padding: 0px 30px 30px 20px;
 }
 .pdf-form .hs-form-field {
     padding-top: 15px;
-}
+}*/
+
 .hs_download_form .hs-form-field {
     width: 80%;
     margin: 0 auto;
@@ -1908,6 +1911,18 @@ form.hs-form .inputs-list {
 .hs-form .input.select {
 
 }
+
+/* error messages on forms */
+
+ul.hs-error-msgs.inputs-list li label {
+  color:#f6574d;
+}
+
+ul.hs-error-msgs.inputs-list li {
+  line-height: 1.0;
+  font-weight: bold;
+}
+
 form label, .hs-form label {
     color: #2d3033;
     text-transform: uppercase;
@@ -1918,9 +1933,9 @@ form input,
 .hs-form input,
 .hs-form textarea,
 .hs-form .input.select {
-    background: #d4d4d4;
+    background: #ffffff;
     border-radius: 3px;
-    border: 1px solid #c6c6c6;
+    border: 1px solid #e2e6e8;
     color:#2d3033;
     margin: 5px 0;
 }
@@ -2133,6 +2148,24 @@ h1 { font-size: 2.3em; }
 }
 .line-height-fix li { line-height: 1.5;margin-top: 0px; padding-top:1px;}
 .line-height-fix li:first-child { padding-top:2px;}
+
+
+/* forms on the resources page - .global-resources-form */
+.span12.widget-span.widget-type-cell .global-resources-form .hs-button {
+  color: #fff;
+  background-color:#70cf32;
+  display: block;
+  margin: 20px auto;
+  float: none;
+}
+
+.global-resources-form {
+  padding: 37px 30px 0px 15px;
+}
+
+.global-resources-form .hs-form-field {
+    margin-top: 15px;
+  }
 
 /* @import url('https://example.com/example_style.css'); */
 /***********************************************/
@@ -3276,11 +3309,10 @@ ul.fix-margin-top {
 .fork_image {
     margin-bottom: -75px;
     position: relative;
-    margin-left: -4px!important;
+    margin-left: -4px !important;
 }
 .fork_image img {
-    float: left;
-    width: 79px!important;
+    width: 79px !important;
 }
 .form_field form input[type="submit"],
 .form_field .hs-form input[type="submit"] {
@@ -3302,7 +3334,6 @@ ul.fix-margin-top {
 }
 .form_field {
     border-radius: 3px;
-    padding: 0 30px 0 0;
     background: #f4f4f5;
 }
 .white-bg-form {
@@ -3321,13 +3352,10 @@ ul.fix-margin-top {
 }
 .social-share ul {
     list-style: none;
-    max-width: 195px;
     margin: 0 auto;
-    display: block;
+    display: table;
     position: relative;
     top: 59px;
-    float: none;
-    padding-left: 40px;
 }
 .hs-landing-page .social-share ul {} .social-share ul li {
     float: left;
@@ -4060,7 +4088,7 @@ p.description {
     line-height: 22px;
 }
 .hs_download_form .hs-form input {
-    background: #d3d5d5;
+    background: #ffffff;
 }
 .hs_download_form form {
     border-radius: 5px;

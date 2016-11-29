@@ -1140,11 +1140,10 @@ ul.fix-margin-top {
 .fork_image {
     margin-bottom: -75px;
     position: relative;
-    margin-left: -4px!important;
+    margin-left: -4px !important;
 }
 .fork_image img {
-    float: left;
-    width: 79px!important;
+    width: 79px !important;
 }
 .form_field form input[type="submit"],
 .form_field .hs-form input[type="submit"] {
@@ -1166,7 +1165,6 @@ ul.fix-margin-top {
 }
 .form_field {
     border-radius: 3px;
-    padding: 0 30px 0 0;
     background: #f4f4f5;
 }
 .white-bg-form {
@@ -1185,13 +1183,10 @@ ul.fix-margin-top {
 }
 .social-share ul {
     list-style: none;
-    max-width: 195px;
     margin: 0 auto;
-    display: block;
+    display: table;
     position: relative;
     top: 59px;
-    float: none;
-    padding-left: 40px;
 }
 .hs-landing-page .social-share ul {} .social-share ul li {
     float: left;
@@ -1924,7 +1919,7 @@ p.description {
     line-height: 22px;
 }
 .hs_download_form .hs-form input {
-    background: #d3d5d5;
+    background: #ffffff;
 }
 .hs_download_form form {
     border-radius: 5px;

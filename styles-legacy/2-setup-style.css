@@ -640,7 +640,8 @@ h1 { font-size: 2.3em; }
 
 
 /* forms on the resources page - .global-resources-form */
-.span12.widget-span.widget-type-cell .global-resources-form .hs-button {
+
+.widget-span .widget-type-cell .global-resources-form .hs-button {
   color: #fff;
   background-color:#70cf32;
   display: block;

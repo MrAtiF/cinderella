@@ -1323,10 +1323,8 @@ span.footer-message {
     font-size: 13px!important;
     text-transform: uppercase!important;
     color: #2d3033;
-    text-align: center;
-    text-transform: uppercase;
     font-weight: bold!important;
-    padding: 16px 0!important;
+    padding: 0 0 20px 15px;
     margin: 0!important;
 }
 .contact_table table tr.is--bottom-bordered:first-child {

@@ -1298,9 +1298,7 @@ input[type="checkbox"]:checked + label::after {
 .tg_blockquote {
     font-size: 26px;
 }
-.tg_contact {
-    border-bottom: 1px solid #cacdce;
-}
+
 .contact_table table td {
     text-align: right;
 }
@@ -1717,9 +1715,8 @@ p.description {
     max-width: 471px;
 }
 .tg_contact {
-    background-color: #e5e6e6;
-    border-top: 1px solid #e1e5e6e6;
-    border-radius: 3px 3px 0px 0px;
+    background-color: #f4f4f5;
+    border-radius: 3px;
 }
 /*Web_Apps*/
 
@@ -2565,10 +2562,8 @@ h4.tg_legal_info_text {
     .contact-page .form_field textarea {
         width: 88%;
         max-width: 100%;
-        margin-right: 6%;
         margin-top: 0px;
         float: none;
-        margin-left: 6%;
     }
     .contact-page .form_field form input[type="submit"],
     .contact-page .form_field .hs-form input[type="submit"] {

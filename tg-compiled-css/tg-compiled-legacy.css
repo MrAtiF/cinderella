@@ -11908,7 +11908,7 @@ PRODUCT PAGE - NEW
 .product-page .anchor {
     display: block;
     position: relative;
-    top: -43px;
+    top: 28px;
     visibility: hidden;
 }
 .product-submenu-div {
@@ -12067,19 +12067,12 @@ PRODUCT PAGE - NEW
 }
 .tg-main-proposition3 {
     min-height: 600px !important;
-    position: relative;
-    text-align: center;
-}
-.tg-main-proposition3 img {
-    position: absolute;
-    right: calc(50% - 662px);
-    min-width: 1324px;
-    width: 1324px;
-    bottom: -319px;
+    background: url('http://cdn2.hubspot.net/hubfs/407937/site/images/page_product/product_integrations_161004_2x.png') center no-repeat;
+    background-size: contain;
 }
 .tg-main-proposition4 {
     position: relative;
-    padding: 52px 50px;
+    padding-top: 52px;
 }
 .tg-main-proposition4 img {
     position: absolute;
@@ -12087,12 +12080,9 @@ PRODUCT PAGE - NEW
     top: 40%;
     min-width: 1076px;
 }
-.tg-main-proposition4 h2 {
-    padding-top: 290px;
-}
 .tg-main-proposition4 .quote-bubble {
     width: 320px;
-    top: 295px;
+    top: -23px;
     right: calc(50% - 465px);
 }
 .tg-main-proposition5 {
@@ -12100,7 +12090,7 @@ PRODUCT PAGE - NEW
     position: relative;
     overflow: hidden;
     text-align: center;
-    border-top: 1px solid #e8ecee;
+    padding-top: 52px;
 }
 .tg-main-proposition5 img {
     position: absolute;
@@ -12215,6 +12205,11 @@ PRODUCT PAGE - NEW
     margin: 0;
     line-height: 1;
 }
+@media screen and (max-width: 1240px) {
+    .tg-main-proposition3 {
+        background-size: cover;
+    }
+}
 @media screen and (max-width: 1125px) {
     .fixed-product-submenu .hs-menu-flow-horizontal>ul>li:nth-of-type(7) {
         display: none;
@@ -12296,15 +12291,7 @@ PRODUCT PAGE - NEW
         padding-top: 50px;
     }
     .tg-main-proposition3 {
-        min-height: 500px !important;
-    }
-    .tg-main-proposition3 img {
-        right: calc(50% - 375px);
-        min-width: 750px;
-        bottom: -182px;
-    }
-    .tg-main-proposition4 h2 {
-        padding-top: 155px;
+        min-height: 400px !important;
     }
     .tg-main-proposition5.section-padding {
         padding-bottom: 0;

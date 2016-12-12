@@ -6448,74 +6448,74 @@ HOME PAGE
     font-size: 22px;
     font-weight: 300;
     margin: 0 0 20px;
-}*/
+    }*/
 
-.hs_cos_wrapper_type_rich_text p.lead {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 100;
-}
-.page-home .body-container-wrapper .industries-title h4 {
-    text-transform: none;
-    font-weight: 200;
-    font-size: 20px;
-    color: #6C7279;
-}
-.home-panel-padding {
-    padding: 100px 0 80px;
-}
-.home-panel-padding.opening-titles {
-    padding: 50px 0 40px;
-}
-/* TOP HEADER TITLES */
+    .hs_cos_wrapper_type_rich_text p.lead {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 100;
+    }
+    .page-home .body-container-wrapper .industries-title h4 {
+        text-transform: none;
+        font-weight: 200;
+        font-size: 20px;
+        color: #6C7279;
+    }
+    .home-panel-padding {
+        padding: 100px 0 80px;
+    }
+    .home-panel-padding.opening-titles {
+        padding: 50px 0 40px;
+    }
+    /* TOP HEADER TITLES */
 
-.top-header.full-width {
-    text-align: center;
-    padding: 60px 0 100px;
-}
-.top-header-standalone.top-header.full-width {
-    text-align: center;
-    padding: 95px 0 100px;
-}
-.top-header.full-width h1 {
-    max-width: 800px;
-    margin: 0 auto;
-}
-.top-header.full-width h2 {
-    max-width: 850px;
-    margin: 0 auto;
-}
-.top-header-standalone.top-header.full-width.top-header-thanks {
-    padding: 160px 0;
-}
-.full-width-intro h3 {
-    font-weight: bold;
-    font-size: 15px;
-    color: #2d3033;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0 0 30px;
-}
-.top-header h1 {
-    font-size: 15px;
-    font-family: "Raleway", sans-serif;
-    color: #70CF32;
-    text-transform: uppercase;
-    font-weight: 700;
-    padding: 20px 0 10px;
-    margin: 0;
-}
-.top-header h2 {
-    font-size: 28px;
-    font-family: "Raleway", sans-serif;
-    color: #2D3033;
-    font-weight: 300;
-    padding: 0;
-    margin: 0 0 40px;
-}
-.page-legal .top-header {
-    padding-top: 90px;
-}
+    .top-header.full-width {
+        text-align: center;
+        padding: 60px 0 100px;
+    }
+    .top-header-standalone.top-header.full-width {
+        text-align: center;
+        padding: 95px 0 100px;
+    }
+    .top-header.full-width h1 {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .top-header.full-width h2 {
+        max-width: 850px;
+        margin: 0 auto;
+    }
+    .top-header-standalone.top-header.full-width.top-header-thanks {
+        padding: 160px 0;
+    }
+    .full-width-intro h3 {
+        font-weight: bold;
+        font-size: 15px;
+        color: #2d3033;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0 0 30px;
+    }
+    .top-header h1 {
+        font-size: 15px;
+        font-family: "Raleway", sans-serif;
+        color: #70CF32;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 20px 0 10px;
+        margin: 0;
+    }
+    .top-header h2 {
+        font-size: 28px;
+        font-family: "Raleway", sans-serif;
+        color: #2D3033;
+        font-weight: 300;
+        padding: 0;
+        margin: 0 0 40px;
+    }
+    .page-legal .top-header {
+        padding-top: 90px;
+    }
 /**************
 BLOG POST
 **************/
@@ -6557,15 +6557,15 @@ BLOG POST
 /*.hs-blog-listing .hs-author-avatar {
     top: 284px;
     margin-left: -166px;
-}*/
+    }*/
 
-.hs-author-profile .hs-author-label {
-    font-family: "Raleway", sans-serif;
-    font-size: 13px;
-}
-.tg-left-staff-wdget_blog img {
-    border-radius: 50%;
-}
+    .hs-author-profile .hs-author-label {
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+    }
+    .tg-left-staff-wdget_blog img {
+        border-radius: 50%;
+    }
 /**************
 SIDECOL SUBMENU
 **************/
@@ -6916,7 +6916,7 @@ STELLAR
 }
 .stellar-panel .bg--light-gray {
     background: none !important;
-}*/
+    }*/
 /**************
 INDUSTRIES
 **************/
@@ -8142,7 +8142,9 @@ HEADER - FIXED
     background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/page_home/home_masthead_people_warehouse_test.jpg) no-repeat top center;
 }
 .landing-masthead-fixed {
-    padding-top: 200px;
+    background-position: center -100px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
     height: 400px;
 }
 .page-home .body-container-wrapper .landing-masthead-fixed h1 {
@@ -8909,20 +8911,20 @@ MISC
     width:80%;
     margin-bottom:10px;
     margin-right:0px;
-  }
+}
 
-  .webinar-sub-block {
+.webinar-sub-block {
     padding: 20px 30px;
-  }
+}
 }
 
 @media (max-width: 375px) {
   .webinar-block h3.webinar-h3 {
     font-size: 20px !important;
-  }
-  .webinar-details {
-      font-size: 14px;
-    }
+}
+.webinar-details {
+  font-size: 14px;
+}
 
 }
 
@@ -9111,6 +9113,163 @@ span#closeButton:hover {
     font-family: 'Raleway', 'Arial Black', Arial, sans-serif;
     font-weight:100;
   }
+}
+
+/**************************
+GLOBAL GROUP - APP RATINGS
+**************************/
+
+.app-ratings {
+    background: #EFF2F4;
+    text-align: center;
+    padding: 20px 0 13px;
+}
+.app-ratings p {
+    font-size: 12px;
+    color: #B8C1C5;
+    font-style: italic;
+    margin: 0 0 13px;
+}
+.fa-star {
+    font-size: 25px;
+}
+.full-star {
+    background: -webkit-linear-gradient(0deg, #70CF32 100%, #fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.half-star {
+    background: -webkit-linear-gradient(0deg, #70CF32 50%, #fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/**********************
+TG BUTTON
+***********************/
+.tg-button {
+    display: inline-block;
+    font-family: 'Raleway', 'Arial Black', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all ease .1s;
+    margin: 10px;
+}
+.tg-button.solid-white {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #70cf32;
+}
+.tg-button.solid-white:hover {
+    opacity: 0.8;
+}
+.tg-button.stroke-white {
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+}
+.tg-button.stroke-white:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.tg-button.solid-green {
+    border: 1px solid #70cf32;
+    background: #70cf32;
+    color: #fff;
+}
+.tg-button.solid-green:hover {
+    border: 1px solid #2d3033;
+    background: #2d3033;
+    color: #70cf32;
+}
+.tg-button.stroke-green {
+    border: 1px solid #70cf32;
+    color: #2d3033;
+}
+.tg-button.stroke-green:hover {
+    border: 1px solid #70cf32;
+    background: #70cf32;
+    color: #fff;
+}
+.tg-button.large {
+    padding: 15px 35px;
+}
+.tg-button.medium {
+    padding: 11px 25px;
+}
+.tg-button.small {
+    padding: 8px 16px;
+}
+
+/***************************
+GLOBAL GROUP - TESTIMONIALS
+***************************/
+
+.lp-testimonial {
+    text-align: center;
+    padding: 80px 50px;
+}
+.lp-testimonial a {
+    color: #2d3033;
+}
+.lp-testimonial a:hover {
+    color: #70CF32;
+}
+.testimonial-only {
+    padding-top: 10px;
+}
+.lp-testimonial h2 {
+    text-align: center;
+    margin-top: 0;
+}
+.lp-testimonial img {
+    width: 130px;
+    margin: 50px auto 20px;
+}
+.lp-testimonial h3 {
+    font-size: 22px !important;
+    line-height: initial;
+    margin: 22px 0 !important;
+    font-weight: 400 !important;
+}
+.lp-testimonial h3 span {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #9eadb7;
+}
+.lp-testimonial p::before {
+    content: "\201C";
+}
+.lp-testimonial p {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 17px;
+    padding: 0 10px;
+    margin: 0;
+    color: #6c7279;
+}
+.lp-testimonial p::after {
+    content: "\201D";
+}
+
+/********************************
+GLOBAL GROUP - WHAT IS TRADEGECKO
+********************************/
+
+.tg-banner h2 {
+    padding: 15px 0 20px;
+    margin: 0;
+}
+.tg-banner img {
+    width: 100% !important;
+    max-width: 340px;
+}
+@media screen and (max-width: 767px) {
+    .tg-banner {
+        text-align: center;
+    }
 }
 
 /*********************
@@ -9349,7 +9508,7 @@ LANDING PAGE - PRODUCT LAUNCHES
     background: none;
 }
 .launch-lp .masthead-fixed {
-    padding: 185px 0 40px;
+    padding: 55px 0 40px;
 }
 .launch-lp .landing-masthead-fixed {
     padding-top: 170px;
@@ -9364,11 +9523,13 @@ LANDING PAGE - PRODUCT LAUNCHES
     background: url(http://resources.tradegecko.com/hubfs/site/images/landing_pages/b2b-landing-page/b2b-landing-header-screens.png) no-repeat bottom right;
     height: 609px;
 }
-@media screen and (max-width: 980px) {
-    .b2b-masthead-image {
-        top: 180px;
+
+@media screen and (max-width: 991px) {
+    .launch-lp .masthead-fixed {
+        padding-top: 170px;
     }
 }
+
 .iosapp-masthead-image {
     position: absolute;
     right: 50%;
@@ -9581,7 +9742,7 @@ LANDING PAGE - SHOPIFY ADDON
 **************/
 
 .landing-masthead-shopify {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/shopify-landing-page/lp-header-shopify.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/shopify-landing-page/lp-header-shopify.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-shopify {
@@ -9594,7 +9755,7 @@ LANDING PAGE - XERO ADDON
 **************/
 
 .landing-masthead-xero {
-    background: url(http://resources.tradegecko.com/hubfs/site/images/landing_pages/addons-landing-page/lp-header-xero.jpg) no-repeat top center;
+    background-image: url(http://resources.tradegecko.com/hubfs/site/images/landing_pages/addons-landing-page/lp-header-xero.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-xero {
@@ -9607,7 +9768,7 @@ LANDING PAGE - QUICKBOOKS ADDON
 **************/
 
 .landing-masthead-quickbooks {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-quickbooks.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-quickbooks.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-quickbooks {
@@ -9620,7 +9781,7 @@ LANDING PAGE - WOOCOMMERCE ADDON
 **************/
 
 .landing-masthead-woocommerce {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-woocommerce.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-woocommerce.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-woocommerce {
@@ -9633,7 +9794,7 @@ LANDING PAGE - AMAZON ADDON
 **************/
 
 .landing-masthead-amazon {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-amazon.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-amazon.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-amazon {
@@ -9646,7 +9807,7 @@ LANDING PAGE - BIGCOMMERCE ADDON
 **************/
 
 .landing-masthead-bigcommerce {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-bigcommerce.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-bigcommerce.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-bigcommerce {
@@ -9659,7 +9820,7 @@ LANDING PAGE - MAGENTO ADDON
 **************/
 
 .landing-masthead-magento {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-magento.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-magento.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-magento {
@@ -9672,7 +9833,7 @@ LANDING PAGE - DRUPAL ADDON
 **************/
 
 .landing-masthead-drupal {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-drupal.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-drupal.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-drupal {
@@ -9685,7 +9846,7 @@ LANDING PAGE - 3PL ADDON
 **************/
 
 .landing-masthead-3pl {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-3pl.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-3pl.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-3pl {
@@ -9698,7 +9859,7 @@ LANDING PAGE - LOKAD ADDON
 **************/
 
 .landing-masthead-salescast {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-lokad.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-lokad.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-salescast {
@@ -9711,7 +9872,7 @@ LANDING PAGE - SHIPSTATION ADDON
 **************/
 
 .landing-masthead-shipstation {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-shipstation.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-shipstation.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-shipstation {
@@ -9724,7 +9885,7 @@ LANDING PAGE - STARSHIPIT ADDON
 **************/
 
 .landing-masthead-starshipit {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-star-ship-it-161004.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-star-ship-it-161004.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-starshipit {
@@ -9737,7 +9898,7 @@ LANDING PAGE - CROSSFIRE ADDON
 **************/
 
 .landing-masthead-crossfire {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-crossfire.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-crossfire.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-crossfire {
@@ -9750,7 +9911,7 @@ LANDING PAGE - EFULFILLMENT ADDON
 **************/
 
 .landing-masthead-efulfillment {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-efulfillment.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-efulfillment.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-efulfillment {
@@ -9763,7 +9924,7 @@ LANDING PAGE - SALESFORCE ADDON
 **************/
 
 .landing-masthead-salesforce {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-salesforce.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-salesforce.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-salesforce {
@@ -9776,7 +9937,7 @@ LANDING PAGE - INVENTORY PLANNER ADDON
 **************/
 
 .landing-masthead-inventory-planner {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-inventory-planner.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-inventory-planner.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-inventory-planner {
@@ -10386,7 +10547,6 @@ LANDING PAGE - SEO KEYWORD
 
 .seo-lp .seo-article-group {
     padding-right: 80px;
-    padding-top: 100px;
 }
 .seo-lp .seo-article-group h1 {
     font-size: 30px;
@@ -10428,9 +10588,6 @@ LANDING PAGE - SEO KEYWORD
 }
 .seo-lp .seo-related {
     padding-bottom: 60px;
-}
-.seo-lp .hs_features_nav {
-    padding-top: 110px;
 }
 .seo-lp .hs-menu-wrapper.hs-menu-flow-vertical li a {
     white-space: normal;
@@ -11272,163 +11429,6 @@ a.resource-lp-top:after {
     .reorder-point-masthead {
         background-image: url('http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/reorder-point-landing-page/reorder-point-excel-template2x.png'), url('http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/reorder-point-landing-page/reorder-point-background2x.png');
         background-size: 1251px, 26px;
-    }
-}
-
-/**************************
-GLOBAL GROUP - APP RATINGS
-**************************/
-
-.app-ratings {
-    background: #EFF2F4;
-    text-align: center;
-    padding: 20px 0 13px;
-}
-.app-ratings p {
-    font-size: 12px;
-    color: #B8C1C5;
-    font-style: italic;
-    margin: 0 0 13px;
-}
-.fa-star {
-    font-size: 25px;
-}
-.full-star {
-    background: -webkit-linear-gradient(0deg, #70CF32 100%, #fff 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.half-star {
-    background: -webkit-linear-gradient(0deg, #70CF32 50%, #fff 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-/**********************
-TG BUTTON
-***********************/
-.tg-button {
-    display: inline-block;
-    font-family: 'Raleway', 'Arial Black', Arial, sans-serif;
-    font-size: 13px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 3px;
-    transition: all ease .1s;
-    margin: 10px;
-}
-.tg-button.solid-white {
-    border: 1px solid #fff;
-    background: #fff;
-    color: #70cf32;
-}
-.tg-button.solid-white:hover {
-    opacity: 0.8;
-}
-.tg-button.stroke-white {
-    border: 1px solid #fff;
-    background: rgba(255, 255, 255, 0.05);
-    color: #fff;
-}
-.tg-button.stroke-white:hover {
-    background: rgba(255, 255, 255, 0.2);
-}
-.tg-button.solid-green {
-    border: 1px solid #70cf32;
-    background: #70cf32;
-    color: #fff;
-}
-.tg-button.solid-green:hover {
-    border: 1px solid #2d3033;
-    background: #2d3033;
-    color: #70cf32;
-}
-.tg-button.stroke-green {
-    border: 1px solid #70cf32;
-    color: #2d3033;
-}
-.tg-button.stroke-green:hover {
-    border: 1px solid #70cf32;
-    background: #70cf32;
-    color: #fff;
-}
-.tg-button.large {
-    padding: 15px 35px;
-}
-.tg-button.medium {
-    padding: 11px 25px;
-}
-.tg-button.small {
-    padding: 8px 16px;
-}
-
-/***************************
-GLOBAL GROUP - TESTIMONIALS
-***************************/
-
-.lp-testimonial {
-    text-align: center;
-    padding: 80px 50px;
-}
-.lp-testimonial a {
-    color: #2d3033;
-}
-.lp-testimonial a:hover {
-    color: #70CF32;
-}
-.testimonial-only {
-    padding-top: 10px;
-}
-.lp-testimonial h2 {
-    text-align: center;
-    margin-top: 0;
-}
-.lp-testimonial img {
-    width: 130px;
-    margin: 50px auto 20px;
-}
-.lp-testimonial h3 {
-    font-size: 22px !important;
-    line-height: initial;
-    margin: 22px 0 !important;
-    font-weight: 400 !important;
-}
-.lp-testimonial h3 span {
-    font-size: 13px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #9eadb7;
-}
-.lp-testimonial p::before {
-    content: "\201C";
-}
-.lp-testimonial p {
-    font-weight: 300;
-    font-style: italic;
-    font-size: 17px;
-    padding: 0 10px;
-    margin: 0;
-    color: #6c7279;
-}
-.lp-testimonial p::after {
-    content: "\201D";
-}
-
-/********************************
-GLOBAL GROUP - WHAT IS TRADEGECKO
-********************************/
-
-.tg-banner h2 {
-    padding: 15px 0 20px;
-    margin: 0;
-}
-.tg-banner img {
-    width: 100% !important;
-    max-width: 340px;
-}
-@media screen and (max-width: 767px) {
-    .tg-banner {
-        text-align: center;
     }
 }
 

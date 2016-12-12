@@ -694,74 +694,74 @@ HOME PAGE
     font-size: 22px;
     font-weight: 300;
     margin: 0 0 20px;
-}*/
+    }*/
 
-.hs_cos_wrapper_type_rich_text p.lead {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 100;
-}
-.page-home .body-container-wrapper .industries-title h4 {
-    text-transform: none;
-    font-weight: 200;
-    font-size: 20px;
-    color: #6C7279;
-}
-.home-panel-padding {
-    padding: 100px 0 80px;
-}
-.home-panel-padding.opening-titles {
-    padding: 50px 0 40px;
-}
-/* TOP HEADER TITLES */
+    .hs_cos_wrapper_type_rich_text p.lead {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 100;
+    }
+    .page-home .body-container-wrapper .industries-title h4 {
+        text-transform: none;
+        font-weight: 200;
+        font-size: 20px;
+        color: #6C7279;
+    }
+    .home-panel-padding {
+        padding: 100px 0 80px;
+    }
+    .home-panel-padding.opening-titles {
+        padding: 50px 0 40px;
+    }
+    /* TOP HEADER TITLES */
 
-.top-header.full-width {
-    text-align: center;
-    padding: 60px 0 100px;
-}
-.top-header-standalone.top-header.full-width {
-    text-align: center;
-    padding: 95px 0 100px;
-}
-.top-header.full-width h1 {
-    max-width: 800px;
-    margin: 0 auto;
-}
-.top-header.full-width h2 {
-    max-width: 850px;
-    margin: 0 auto;
-}
-.top-header-standalone.top-header.full-width.top-header-thanks {
-    padding: 160px 0;
-}
-.full-width-intro h3 {
-    font-weight: bold;
-    font-size: 15px;
-    color: #2d3033;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0 0 30px;
-}
-.top-header h1 {
-    font-size: 15px;
-    font-family: "Raleway", sans-serif;
-    color: #70CF32;
-    text-transform: uppercase;
-    font-weight: 700;
-    padding: 20px 0 10px;
-    margin: 0;
-}
-.top-header h2 {
-    font-size: 28px;
-    font-family: "Raleway", sans-serif;
-    color: #2D3033;
-    font-weight: 300;
-    padding: 0;
-    margin: 0 0 40px;
-}
-.page-legal .top-header {
-    padding-top: 90px;
-}
+    .top-header.full-width {
+        text-align: center;
+        padding: 60px 0 100px;
+    }
+    .top-header-standalone.top-header.full-width {
+        text-align: center;
+        padding: 95px 0 100px;
+    }
+    .top-header.full-width h1 {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .top-header.full-width h2 {
+        max-width: 850px;
+        margin: 0 auto;
+    }
+    .top-header-standalone.top-header.full-width.top-header-thanks {
+        padding: 160px 0;
+    }
+    .full-width-intro h3 {
+        font-weight: bold;
+        font-size: 15px;
+        color: #2d3033;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0 0 30px;
+    }
+    .top-header h1 {
+        font-size: 15px;
+        font-family: "Raleway", sans-serif;
+        color: #70CF32;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 20px 0 10px;
+        margin: 0;
+    }
+    .top-header h2 {
+        font-size: 28px;
+        font-family: "Raleway", sans-serif;
+        color: #2D3033;
+        font-weight: 300;
+        padding: 0;
+        margin: 0 0 40px;
+    }
+    .page-legal .top-header {
+        padding-top: 90px;
+    }
 /**************
 BLOG POST
 **************/
@@ -803,15 +803,15 @@ BLOG POST
 /*.hs-blog-listing .hs-author-avatar {
     top: 284px;
     margin-left: -166px;
-}*/
+    }*/
 
-.hs-author-profile .hs-author-label {
-    font-family: "Raleway", sans-serif;
-    font-size: 13px;
-}
-.tg-left-staff-wdget_blog img {
-    border-radius: 50%;
-}
+    .hs-author-profile .hs-author-label {
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+    }
+    .tg-left-staff-wdget_blog img {
+        border-radius: 50%;
+    }
 /**************
 SIDECOL SUBMENU
 **************/
@@ -1162,7 +1162,7 @@ STELLAR
 }
 .stellar-panel .bg--light-gray {
     background: none !important;
-}*/
+    }*/
 /**************
 INDUSTRIES
 **************/
@@ -2388,7 +2388,9 @@ HEADER - FIXED
     background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/page_home/home_masthead_people_warehouse_test.jpg) no-repeat top center;
 }
 .landing-masthead-fixed {
-    padding-top: 200px;
+    background-position: center -100px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
     height: 400px;
 }
 .page-home .body-container-wrapper .landing-masthead-fixed h1 {
@@ -3155,20 +3157,20 @@ MISC
     width:80%;
     margin-bottom:10px;
     margin-right:0px;
-  }
+}
 
-  .webinar-sub-block {
+.webinar-sub-block {
     padding: 20px 30px;
-  }
+}
 }
 
 @media (max-width: 375px) {
   .webinar-block h3.webinar-h3 {
     font-size: 20px !important;
-  }
-  .webinar-details {
-      font-size: 14px;
-    }
+}
+.webinar-details {
+  font-size: 14px;
+}
 
 }
 

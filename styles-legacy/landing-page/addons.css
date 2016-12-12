@@ -66,7 +66,7 @@ LANDING PAGE - SHOPIFY ADDON
 **************/
 
 .landing-masthead-shopify {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/shopify-landing-page/lp-header-shopify.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/shopify-landing-page/lp-header-shopify.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-shopify {
@@ -79,7 +79,7 @@ LANDING PAGE - XERO ADDON
 **************/
 
 .landing-masthead-xero {
-    background: url(http://resources.tradegecko.com/hubfs/site/images/landing_pages/addons-landing-page/lp-header-xero.jpg) no-repeat top center;
+    background-image: url(http://resources.tradegecko.com/hubfs/site/images/landing_pages/addons-landing-page/lp-header-xero.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-xero {
@@ -92,7 +92,7 @@ LANDING PAGE - QUICKBOOKS ADDON
 **************/
 
 .landing-masthead-quickbooks {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-quickbooks.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-quickbooks.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-quickbooks {
@@ -105,7 +105,7 @@ LANDING PAGE - WOOCOMMERCE ADDON
 **************/
 
 .landing-masthead-woocommerce {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-woocommerce.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-woocommerce.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-woocommerce {
@@ -118,7 +118,7 @@ LANDING PAGE - AMAZON ADDON
 **************/
 
 .landing-masthead-amazon {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-amazon.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-amazon.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-amazon {
@@ -131,7 +131,7 @@ LANDING PAGE - BIGCOMMERCE ADDON
 **************/
 
 .landing-masthead-bigcommerce {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-bigcommerce.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-bigcommerce.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-bigcommerce {
@@ -144,7 +144,7 @@ LANDING PAGE - MAGENTO ADDON
 **************/
 
 .landing-masthead-magento {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-magento.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-magento.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-magento {
@@ -157,7 +157,7 @@ LANDING PAGE - DRUPAL ADDON
 **************/
 
 .landing-masthead-drupal {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-drupal.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-drupal.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-drupal {
@@ -170,7 +170,7 @@ LANDING PAGE - 3PL ADDON
 **************/
 
 .landing-masthead-3pl {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-3pl.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-3pl.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-3pl {
@@ -183,7 +183,7 @@ LANDING PAGE - LOKAD ADDON
 **************/
 
 .landing-masthead-salescast {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-lokad.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-lokad.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-salescast {
@@ -196,7 +196,7 @@ LANDING PAGE - SHIPSTATION ADDON
 **************/
 
 .landing-masthead-shipstation {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-shipstation.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-shipstation.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-shipstation {
@@ -209,7 +209,7 @@ LANDING PAGE - STARSHIPIT ADDON
 **************/
 
 .landing-masthead-starshipit {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-star-ship-it-161004.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-star-ship-it-161004.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-starshipit {
@@ -222,7 +222,7 @@ LANDING PAGE - CROSSFIRE ADDON
 **************/
 
 .landing-masthead-crossfire {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-crossfire.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-crossfire.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-crossfire {
@@ -235,7 +235,7 @@ LANDING PAGE - EFULFILLMENT ADDON
 **************/
 
 .landing-masthead-efulfillment {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-efulfillment.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-efulfillment.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-efulfillment {
@@ -248,7 +248,7 @@ LANDING PAGE - SALESFORCE ADDON
 **************/
 
 .landing-masthead-salesforce {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-salesforce.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-salesforce.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-salesforce {
@@ -261,7 +261,7 @@ LANDING PAGE - INVENTORY PLANNER ADDON
 **************/
 
 .landing-masthead-inventory-planner {
-    background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-inventory-planner.jpg) no-repeat top center;
+    background-image: url(http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/addons-landing-page/lp-header-inventory-planner.jpg);
 }
 @media screen and (max-width: 767px) {
     .landing-masthead-inventory-planner {

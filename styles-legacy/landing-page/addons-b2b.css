@@ -234,7 +234,7 @@ LANDING PAGE - PRODUCT LAUNCHES
     background: none;
 }
 .launch-lp .masthead-fixed {
-    padding: 185px 0 40px;
+    padding: 55px 0 40px;
 }
 .launch-lp .landing-masthead-fixed {
     padding-top: 170px;
@@ -249,11 +249,13 @@ LANDING PAGE - PRODUCT LAUNCHES
     background: url(http://resources.tradegecko.com/hubfs/site/images/landing_pages/b2b-landing-page/b2b-landing-header-screens.png) no-repeat bottom right;
     height: 609px;
 }
-@media screen and (max-width: 980px) {
-    .b2b-masthead-image {
-        top: 180px;
+
+@media screen and (max-width: 991px) {
+    .launch-lp .masthead-fixed {
+        padding-top: 170px;
     }
 }
+
 .iosapp-masthead-image {
     position: absolute;
     right: 50%;

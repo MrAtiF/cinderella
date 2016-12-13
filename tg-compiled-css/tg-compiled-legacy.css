@@ -175,7 +175,7 @@ padding: 14px 20px 14px 55px;}
 
 .tg_blog_vertical_menu ul{padding:0px;list-style:none;margin:0px;}
 
-.categories h3{padding:10px 20px;border-left:1px solid #f3f3f3;border-bottom:1px solid #f3f3f3;}
+.categories h3{padding:10px;border-left:1px solid #f3f3f3;border-bottom:1px solid #f3f3f3;}
 
 .blog_image{margin-bottom:20px;}
 
@@ -2264,15 +2264,13 @@ h1 { font-size: 2.3em; }
 .tg_legal_info_nav .hs-menu-wrapper.hs-menu-flow-vertical>ul li.hs-menu-depth-1>a,
 .hs_features_nav .hs-menu-wrapper.hs-menu-flow-vertical>ul li.hs-menu-depth-1>a {
     background: #fff;
-    color: #6c7279;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-family: "Raleway", sans-serif;
+    color: #429bce;
+    font-size: 13px;
     border-left: 1px solid #f4f4f5;
     border-right: 1px solid #f4f4f5;
     border-top: 1px solid #f4f4f5;
-    font-weight: 700;
     border-bottom: none;
+    padding: 10px;
 }
 /*.hs_features_nav .hs-menu-wrapper.hs-menu-flow-vertical>ul li a{padding:15px 20px;}*/
 
@@ -2388,10 +2386,10 @@ h1 { font-size: 2.3em; }
  border-right:1px solid #f4f4f5;
  border-bottom:1px solid #f4f4f5;
  border-top:none!important;padding:7px 17px!important;} */
-/*.hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:nth-of-type(6) a{background:#fff!important;border-radius:0px;border:none;padding:7px 20px; border-left:1px solid #f4f4f5; border-right:1px solid #f4f4f5;} */
-/*.hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:nth-of-type(6) a:hover{background:#70cf32!important;color: #fff!important;} */
+ /*.hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:nth-of-type(6) a{background:#fff!important;border-radius:0px;border:none;padding:7px 20px; border-left:1px solid #f4f4f5; border-right:1px solid #f4f4f5;} */
+ /*.hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:nth-of-type(6) a:hover{background:#70cf32!important;color: #fff!important;} */
 
-.hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li a {
+ .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li a {
     max-width: 224px!important;
 }
 /*Breadcrumb for some pages*/
@@ -2441,12 +2439,14 @@ h1 { font-size: 2.3em; }
 .hs_features_nav .hs-menu-wrapper.hs-menu-flow-vertical>ul li:first-child a:hover {
     background-color: rgba(112, 207, 50, 0.9);
     border-radius: 3px 3px 0 0;
-    padding: 12px 20px;
+    text-transform: uppercase;
+    padding: 12px 10px;
     color: white;
     font-weight: bold;
     font-size: 12px;
     box-shadow: 0 -1px 0 #a3e54d;
     margin: 0;
+    font-family: "Raleway",sans-serif;
 }
 /*Left-Side Bar Styling End*/
 /*Inner Spacing Style Declaration use any where for padding*/
@@ -4326,7 +4326,7 @@ p.bottom-text {
 h4.tg_legal_info_text {
     border-left: 1px solid #f4f4f5;
     margin: 0px;
-    padding: 10px 20px;
+    padding: 10px;
 }
 .hs_sidebar_margin_top {
     margin-top: -38px;
@@ -4710,7 +4710,7 @@ h4.tg_legal_info_text {
    .hs-menu-wrapper.hs-menu-flow-horizontal>ul li:nth-of-type(4) a{padding-right:0px;}
 
    .hs-menu-wrapper.hs-menu-flow-horizontal>ul li:nth-of-type(5){position: relative;top:0px;right:-162px;display:none!important;}/*Remove Display:None To Show Login*/
-    /* .hs-menu-wrapper.hs-menu-flow-horizontal>ul li:nth-of-type(6){float:right!important;position: relative;right: 17px;display:none!important;}/*Remove Display: None To Show Try Tradegecko Free*/
+   /* .hs-menu-wrapper.hs-menu-flow-horizontal>ul li:nth-of-type(6){float:right!important;position: relative;right: 17px;display:none!important;}/*Remove Display: None To Show Try Tradegecko Free*/
     /*.hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:nth-of-type(5){position:static;}
 
 
@@ -4722,67 +4722,67 @@ h4.tg_legal_info_text {
    .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children:hover>ul.hs-menu-children-wrapper{margin-top: -15px;margin-left: 18px;}
    */
 
-    .features-page .social-share ul li a {
-        padding: 5px 7px;
-    }
-    .contact-page .label-to-right label,
-    .features-page .label-to-right label {
-        text-align: left;
-        margin-left: 6%;
-    }
-    .contact-page .form_field form input,
-    .contact-page .form_field .hs-form input,
-    .features-page .form_field form input,
-    .features-page .form_field .hs-form input {
-        float: none;
-        max-width: 100%;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .features-page .form_field form input[type="submit"],
-    .features-page .form_field .hs-form input[type="submit"] {
-        max-width: 145px;
-        float: right;
-        margin-right: 6%!important;
-    }
-    .contact-page .form_field textarea {
-        width: 88%;
-        max-width: 100%;
-        margin-top: 0px;
-        float: none;
-    }
-    .contact-page .form_field form input[type="submit"],
-    .contact-page .form_field .hs-form input[type="submit"] {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        max-width: 145px;
-        float: right;
-        margin-right: 6%!important;
-    }
-    .tg_tour_width h2 {
-        padding-bottom: 0px;
-    }
-    .pad-t-75,
-    .pad-t-86 {
-        padding-top: 50px;
-    }
-    .group-circle-img h3 {
-        font-size: 18px;
-    }
-    .boxes {
-        padding: 0px 10px;
-        max-width: 620px;
-    }
-    .boxes ul li {
-        margin-bottom: 1px;
-        padding: 0;
-    }
-    .has-ipad:before {
-        width: 45%;
-    }
-    .tg-blog-left-sidebar {
-        padding: 80px 20px 80px 0;
-    }
+   .features-page .social-share ul li a {
+    padding: 5px 7px;
+}
+.contact-page .label-to-right label,
+.features-page .label-to-right label {
+    text-align: left;
+    margin-left: 6%;
+}
+.contact-page .form_field form input,
+.contact-page .form_field .hs-form input,
+.features-page .form_field form input,
+.features-page .form_field .hs-form input {
+    float: none;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.features-page .form_field form input[type="submit"],
+.features-page .form_field .hs-form input[type="submit"] {
+    max-width: 145px;
+    float: right;
+    margin-right: 6%!important;
+}
+.contact-page .form_field textarea {
+    width: 88%;
+    max-width: 100%;
+    margin-top: 0px;
+    float: none;
+}
+.contact-page .form_field form input[type="submit"],
+.contact-page .form_field .hs-form input[type="submit"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 145px;
+    float: right;
+    margin-right: 6%!important;
+}
+.tg_tour_width h2 {
+    padding-bottom: 0px;
+}
+.pad-t-75,
+.pad-t-86 {
+    padding-top: 50px;
+}
+.group-circle-img h3 {
+    font-size: 18px;
+}
+.boxes {
+    padding: 0px 10px;
+    max-width: 620px;
+}
+.boxes ul li {
+    margin-bottom: 1px;
+    padding: 0;
+}
+.has-ipad:before {
+    width: 45%;
+}
+.tg-blog-left-sidebar {
+    padding: 80px 20px 80px 0;
+}
 }
 @media(max-width:1024px) {
     .features-page .social-share ul {
@@ -5010,7 +5010,6 @@ h4.tg_legal_info_text {
         font-size: 10px!important;
     }
     .hs_features_nav .hs-menu-wrapper.hs-menu-flow-vertical>ul li:first-child a {
-        padding: 12px 20px;
         font-size: 12px;
     }
     .form_field form label,
@@ -5254,10 +5253,10 @@ h4.tg_legal_info_text {
      margin: 0 auto;
      float: none!important;
      margin-left: 115px;}
-    */
-    /*home*/
+     */
+     /*home*/
 
-    .hs_home_top_nav .hs-menu-wrapper.hs-menu-flow-horizontal>ul li:nth-of-type(5) {
+     .hs_home_top_nav .hs-menu-wrapper.hs-menu-flow-horizontal>ul li:nth-of-type(5) {
         margin-left: 0px;
     }
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper {
@@ -5634,9 +5633,9 @@ h4.tg_legal_info_text {
         color: rgb(108, 114, 121);
     }
     /*.date-big-circle{top: 215px!important;
-    right: 20px!important;*/
-}
-@media(min-width:384px) and(max-width:400px) {
+        right: 20px!important;*/
+    }
+    @media(min-width:384px) and(max-width:400px) {
     /* .form_field form label, .form_field .hs-form label{margin-left:45px;}
 
     .form_field form input, .form_field .hs-form input{display: block;
@@ -5655,9 +5654,9 @@ float: none!important;
 margin-left: 159px;}
 */
 
-    .pad-0 {
-        padding: 0px;
-    }
+.pad-0 {
+    padding: 0px;
+}
 }
 @media (max-width: 540px) {
     .feedback_form.feedback_form.feedback_form .hs-form-field {
@@ -9115,163 +9114,6 @@ span#closeButton:hover {
   }
 }
 
-/**************************
-GLOBAL GROUP - APP RATINGS
-**************************/
-
-.app-ratings {
-    background: #EFF2F4;
-    text-align: center;
-    padding: 20px 0 13px;
-}
-.app-ratings p {
-    font-size: 12px;
-    color: #B8C1C5;
-    font-style: italic;
-    margin: 0 0 13px;
-}
-.fa-star {
-    font-size: 25px;
-}
-.full-star {
-    background: -webkit-linear-gradient(0deg, #70CF32 100%, #fff 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.half-star {
-    background: -webkit-linear-gradient(0deg, #70CF32 50%, #fff 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-/**********************
-TG BUTTON
-***********************/
-.tg-button {
-    display: inline-block;
-    font-family: 'Raleway', 'Arial Black', Arial, sans-serif;
-    font-size: 13px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 3px;
-    transition: all ease .1s;
-    margin: 10px;
-}
-.tg-button.solid-white {
-    border: 1px solid #fff;
-    background: #fff;
-    color: #70cf32;
-}
-.tg-button.solid-white:hover {
-    opacity: 0.8;
-}
-.tg-button.stroke-white {
-    border: 1px solid #fff;
-    background: rgba(255, 255, 255, 0.05);
-    color: #fff;
-}
-.tg-button.stroke-white:hover {
-    background: rgba(255, 255, 255, 0.2);
-}
-.tg-button.solid-green {
-    border: 1px solid #70cf32;
-    background: #70cf32;
-    color: #fff;
-}
-.tg-button.solid-green:hover {
-    border: 1px solid #2d3033;
-    background: #2d3033;
-    color: #70cf32;
-}
-.tg-button.stroke-green {
-    border: 1px solid #70cf32;
-    color: #2d3033;
-}
-.tg-button.stroke-green:hover {
-    border: 1px solid #70cf32;
-    background: #70cf32;
-    color: #fff;
-}
-.tg-button.large {
-    padding: 15px 35px;
-}
-.tg-button.medium {
-    padding: 11px 25px;
-}
-.tg-button.small {
-    padding: 8px 16px;
-}
-
-/***************************
-GLOBAL GROUP - TESTIMONIALS
-***************************/
-
-.lp-testimonial {
-    text-align: center;
-    padding: 80px 50px;
-}
-.lp-testimonial a {
-    color: #2d3033;
-}
-.lp-testimonial a:hover {
-    color: #70CF32;
-}
-.testimonial-only {
-    padding-top: 10px;
-}
-.lp-testimonial h2 {
-    text-align: center;
-    margin-top: 0;
-}
-.lp-testimonial img {
-    width: 130px;
-    margin: 50px auto 20px;
-}
-.lp-testimonial h3 {
-    font-size: 22px !important;
-    line-height: initial;
-    margin: 22px 0 !important;
-    font-weight: 400 !important;
-}
-.lp-testimonial h3 span {
-    font-size: 13px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #9eadb7;
-}
-.lp-testimonial p::before {
-    content: "\201C";
-}
-.lp-testimonial p {
-    font-weight: 300;
-    font-style: italic;
-    font-size: 17px;
-    padding: 0 10px;
-    margin: 0;
-    color: #6c7279;
-}
-.lp-testimonial p::after {
-    content: "\201D";
-}
-
-/********************************
-GLOBAL GROUP - WHAT IS TRADEGECKO
-********************************/
-
-.tg-banner h2 {
-    padding: 15px 0 20px;
-    margin: 0;
-}
-.tg-banner img {
-    width: 100% !important;
-    max-width: 340px;
-}
-@media screen and (max-width: 767px) {
-    .tg-banner {
-        text-align: center;
-    }
-}
-
 /*********************
 LANDING PAGE GENERAL
 *********************/
@@ -11429,6 +11271,163 @@ a.resource-lp-top:after {
     .reorder-point-masthead {
         background-image: url('http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/reorder-point-landing-page/reorder-point-excel-template2x.png'), url('http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/reorder-point-landing-page/reorder-point-background2x.png');
         background-size: 1251px, 26px;
+    }
+}
+
+/**************************
+GLOBAL GROUP - APP RATINGS
+**************************/
+
+.app-ratings {
+    background: #EFF2F4;
+    text-align: center;
+    padding: 20px 0 13px;
+}
+.app-ratings p {
+    font-size: 12px;
+    color: #B8C1C5;
+    font-style: italic;
+    margin: 0 0 13px;
+}
+.fa-star {
+    font-size: 25px;
+}
+.full-star {
+    background: -webkit-linear-gradient(0deg, #70CF32 100%, #fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.half-star {
+    background: -webkit-linear-gradient(0deg, #70CF32 50%, #fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/**********************
+TG BUTTON
+***********************/
+.tg-button {
+    display: inline-block;
+    font-family: 'Raleway', 'Arial Black', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all ease .1s;
+    margin: 10px;
+}
+.tg-button.solid-white {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #70cf32;
+}
+.tg-button.solid-white:hover {
+    opacity: 0.8;
+}
+.tg-button.stroke-white {
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+}
+.tg-button.stroke-white:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.tg-button.solid-green {
+    border: 1px solid #70cf32;
+    background: #70cf32;
+    color: #fff;
+}
+.tg-button.solid-green:hover {
+    border: 1px solid #2d3033;
+    background: #2d3033;
+    color: #70cf32;
+}
+.tg-button.stroke-green {
+    border: 1px solid #70cf32;
+    color: #2d3033;
+}
+.tg-button.stroke-green:hover {
+    border: 1px solid #70cf32;
+    background: #70cf32;
+    color: #fff;
+}
+.tg-button.large {
+    padding: 15px 35px;
+}
+.tg-button.medium {
+    padding: 11px 25px;
+}
+.tg-button.small {
+    padding: 8px 16px;
+}
+
+/***************************
+GLOBAL GROUP - TESTIMONIALS
+***************************/
+
+.lp-testimonial {
+    text-align: center;
+    padding: 80px 50px;
+}
+.lp-testimonial a {
+    color: #2d3033;
+}
+.lp-testimonial a:hover {
+    color: #70CF32;
+}
+.testimonial-only {
+    padding-top: 10px;
+}
+.lp-testimonial h2 {
+    text-align: center;
+    margin-top: 0;
+}
+.lp-testimonial img {
+    width: 130px;
+    margin: 50px auto 20px;
+}
+.lp-testimonial h3 {
+    font-size: 22px !important;
+    line-height: initial;
+    margin: 22px 0 !important;
+    font-weight: 400 !important;
+}
+.lp-testimonial h3 span {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #9eadb7;
+}
+.lp-testimonial p::before {
+    content: "\201C";
+}
+.lp-testimonial p {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 17px;
+    padding: 0 10px;
+    margin: 0;
+    color: #6c7279;
+}
+.lp-testimonial p::after {
+    content: "\201D";
+}
+
+/********************************
+GLOBAL GROUP - WHAT IS TRADEGECKO
+********************************/
+
+.tg-banner h2 {
+    padding: 15px 0 20px;
+    margin: 0;
+}
+.tg-banner img {
+    width: 100% !important;
+    max-width: 340px;
+}
+@media screen and (max-width: 767px) {
+    .tg-banner {
+        text-align: center;
     }
 }
 

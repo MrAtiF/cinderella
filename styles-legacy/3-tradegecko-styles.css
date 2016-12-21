@@ -79,12 +79,12 @@
 .hs_features_nav .hs-menu-wrapper.hs-menu-flow-vertical>ul li.hs-menu-depth-1>a {
     background: #fff;
     color: #429bce;
-    font-size: 13px;
+    font-size: 14px;
     border-left: 1px solid #f4f4f5;
     border-right: 1px solid #f4f4f5;
     border-top: 1px solid #f4f4f5;
     border-bottom: none;
-    padding: 10px;
+    padding: 10px 15px;
 }
 /*.hs_features_nav .hs-menu-wrapper.hs-menu-flow-vertical>ul li a{padding:15px 20px;}*/
 

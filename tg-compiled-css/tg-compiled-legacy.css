@@ -2439,6 +2439,7 @@ h1 { font-size: 2.3em; }
 .hs_features_nav .hs-menu-wrapper.hs-menu-flow-vertical>ul li:first-child a:hover {
     background-color: rgba(112, 207, 50, 0.9);
     border-radius: 3px 3px 0 0;
+    text-transform: uppercase;
     padding: 12px 20px;
     color: white;
     font-weight: bold;

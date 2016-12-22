@@ -6827,7 +6827,7 @@ FILTER DROP DOWN
     border-bottom: 0;
 }
 .guana-tradegecko-app-box-filter-menu .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-menu-depth-1 {
-    border: 0 !important;
+    /*border: 0 !important;*/
 }
 .guana-tradegecko-app-box-filter-menu .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children ul.hs-menu-children-wrapper {
     border: 0 !important;
@@ -6838,6 +6838,7 @@ FILTER DROP DOWN
 .guana-tradegecko-app-box-filter-menu .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children {
     border-top-right-radius: 0;
     border-top-left-radius: 0;
+    border:0 !important;
 }
 .guana-tradegecko-app-box-filter-menu .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children ul.hs-menu-children-wrapper li a {
     border: 1px solid #E5E5E5 !important;
@@ -7675,14 +7676,10 @@ CUSTOM MOBILE NAVIGATION
 
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper,
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper:hover {
-        background: transparent !important;
         border: 0 !important;
         border-radius: 0 !important;
-        margin: 0 !important;
-        padding: 0 !important;
     }
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li {
-        border-top: 1px solid #2d3033 !important;
         border-bottom: 0 !important;
     }
     /* DROP DOWN LINKS */
@@ -7692,13 +7689,14 @@ CUSTOM MOBILE NAVIGATION
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:nth-of-type(6) > a,
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:first-child a,
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:last-child a {
-        border: 0 !important;
-        border-radius: 0 !important;
-        color: #F4F4F5 !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        background: #585d63 !important;
-        text-indent: 30px !important;
+        width: auto !important;
+        font-weight: 700;
+        color: #6c7279 !important;
+        background: #FFF;
+        min-width: 200px;
+        line-height: 24px;
+        cursor: pointer;
+
     }
     /* DROP DOWN LINKS HOVER */
 
@@ -7707,13 +7705,9 @@ CUSTOM MOBILE NAVIGATION
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:nth-of-type(6) > a:hover,
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:first-child a:hover,
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:last-child a:hover {
-        border: 0 !important;
         border-radius: 0 !important;
-        color: #FFF !important;
         margin: 0 !important;
         padding: 0 !important;
-        background: #484d53 !important;
-        text-indent: 25px !important;
     }
     /* PLUS MINUS ICONS */
 
@@ -8655,6 +8649,14 @@ HEADER FIXED RESPONSIVE
         width: 100%;
         margin: 0 0 5px;
     }
+
+    .guana-tradegecko-app-box-filter-menu .hs-menu-wrapper.hs-menu-flow-horizontal > ul li a {
+    border: 0;
+    }
+
+    .guana-tradegecko-app-box-filter-menu .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-menu-depth-1, .guana-tradegecko-app-box-filter-menu .hs-menu-wrapper.hs-menu-flow-horizontal > ul li a.selected-filter {
+        border: 1px solid #e5e5e5;
+    }
 }
 @media screen and (max-width: 1100px) {
     .header-fixed.header-fixed-top .mobile-open1 a.mobile-trigger1 {
@@ -9112,163 +9114,6 @@ span#closeButton:hover {
     font-family: 'Raleway', 'Arial Black', Arial, sans-serif;
     font-weight:100;
   }
-}
-
-/**************************
-GLOBAL GROUP - APP RATINGS
-**************************/
-
-.app-ratings {
-    background: #EFF2F4;
-    text-align: center;
-    padding: 20px 0 13px;
-}
-.app-ratings p {
-    font-size: 12px;
-    color: #B8C1C5;
-    font-style: italic;
-    margin: 0 0 13px;
-}
-.fa-star {
-    font-size: 25px;
-}
-.full-star {
-    background: -webkit-linear-gradient(0deg, #70CF32 100%, #fff 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.half-star {
-    background: -webkit-linear-gradient(0deg, #70CF32 50%, #fff 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-/**********************
-TG BUTTON
-***********************/
-.tg-button {
-    display: inline-block;
-    font-family: 'Raleway', 'Arial Black', Arial, sans-serif;
-    font-size: 13px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 3px;
-    transition: all ease .1s;
-    margin: 10px;
-}
-.tg-button.solid-white {
-    border: 1px solid #fff;
-    background: #fff;
-    color: #70cf32;
-}
-.tg-button.solid-white:hover {
-    opacity: 0.8;
-}
-.tg-button.stroke-white {
-    border: 1px solid #fff;
-    background: rgba(255, 255, 255, 0.05);
-    color: #fff;
-}
-.tg-button.stroke-white:hover {
-    background: rgba(255, 255, 255, 0.2);
-}
-.tg-button.solid-green {
-    border: 1px solid #70cf32;
-    background: #70cf32;
-    color: #fff;
-}
-.tg-button.solid-green:hover {
-    border: 1px solid #2d3033;
-    background: #2d3033;
-    color: #70cf32;
-}
-.tg-button.stroke-green {
-    border: 1px solid #70cf32;
-    color: #2d3033;
-}
-.tg-button.stroke-green:hover {
-    border: 1px solid #70cf32;
-    background: #70cf32;
-    color: #fff;
-}
-.tg-button.large {
-    padding: 15px 35px;
-}
-.tg-button.medium {
-    padding: 11px 25px;
-}
-.tg-button.small {
-    padding: 8px 16px;
-}
-
-/***************************
-GLOBAL GROUP - TESTIMONIALS
-***************************/
-
-.lp-testimonial {
-    text-align: center;
-    padding: 80px 50px;
-}
-.lp-testimonial a {
-    color: #2d3033;
-}
-.lp-testimonial a:hover {
-    color: #70CF32;
-}
-.testimonial-only {
-    padding-top: 10px;
-}
-.lp-testimonial h2 {
-    text-align: center;
-    margin-top: 0;
-}
-.lp-testimonial img {
-    width: 130px;
-    margin: 50px auto 20px;
-}
-.lp-testimonial h3 {
-    font-size: 22px !important;
-    line-height: initial;
-    margin: 22px 0 !important;
-    font-weight: 400 !important;
-}
-.lp-testimonial h3 span {
-    font-size: 13px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #9eadb7;
-}
-.lp-testimonial p::before {
-    content: "\201C";
-}
-.lp-testimonial p {
-    font-weight: 300;
-    font-style: italic;
-    font-size: 17px;
-    padding: 0 10px;
-    margin: 0;
-    color: #6c7279;
-}
-.lp-testimonial p::after {
-    content: "\201D";
-}
-
-/********************************
-GLOBAL GROUP - WHAT IS TRADEGECKO
-********************************/
-
-.tg-banner h2 {
-    padding: 15px 0 20px;
-    margin: 0;
-}
-.tg-banner img {
-    width: 100% !important;
-    max-width: 340px;
-}
-@media screen and (max-width: 767px) {
-    .tg-banner {
-        text-align: center;
-    }
 }
 
 /*********************
@@ -11428,6 +11273,163 @@ a.resource-lp-top:after {
     .reorder-point-masthead {
         background-image: url('http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/reorder-point-landing-page/reorder-point-excel-template2x.png'), url('http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/reorder-point-landing-page/reorder-point-background2x.png');
         background-size: 1251px, 26px;
+    }
+}
+
+/**************************
+GLOBAL GROUP - APP RATINGS
+**************************/
+
+.app-ratings {
+    background: #EFF2F4;
+    text-align: center;
+    padding: 20px 0 13px;
+}
+.app-ratings p {
+    font-size: 12px;
+    color: #B8C1C5;
+    font-style: italic;
+    margin: 0 0 13px;
+}
+.fa-star {
+    font-size: 25px;
+}
+.full-star {
+    background: -webkit-linear-gradient(0deg, #70CF32 100%, #fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.half-star {
+    background: -webkit-linear-gradient(0deg, #70CF32 50%, #fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/**********************
+TG BUTTON
+***********************/
+.tg-button {
+    display: inline-block;
+    font-family: 'Raleway', 'Arial Black', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all ease .1s;
+    margin: 10px;
+}
+.tg-button.solid-white {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #70cf32;
+}
+.tg-button.solid-white:hover {
+    opacity: 0.8;
+}
+.tg-button.stroke-white {
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+}
+.tg-button.stroke-white:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.tg-button.solid-green {
+    border: 1px solid #70cf32;
+    background: #70cf32;
+    color: #fff;
+}
+.tg-button.solid-green:hover {
+    border: 1px solid #2d3033;
+    background: #2d3033;
+    color: #70cf32;
+}
+.tg-button.stroke-green {
+    border: 1px solid #70cf32;
+    color: #2d3033;
+}
+.tg-button.stroke-green:hover {
+    border: 1px solid #70cf32;
+    background: #70cf32;
+    color: #fff;
+}
+.tg-button.large {
+    padding: 15px 35px;
+}
+.tg-button.medium {
+    padding: 11px 25px;
+}
+.tg-button.small {
+    padding: 8px 16px;
+}
+
+/***************************
+GLOBAL GROUP - TESTIMONIALS
+***************************/
+
+.lp-testimonial {
+    text-align: center;
+    padding: 80px 50px;
+}
+.lp-testimonial a {
+    color: #2d3033;
+}
+.lp-testimonial a:hover {
+    color: #70CF32;
+}
+.testimonial-only {
+    padding-top: 10px;
+}
+.lp-testimonial h2 {
+    text-align: center;
+    margin-top: 0;
+}
+.lp-testimonial img {
+    width: 130px;
+    margin: 50px auto 20px;
+}
+.lp-testimonial h3 {
+    font-size: 22px !important;
+    line-height: initial;
+    margin: 22px 0 !important;
+    font-weight: 400 !important;
+}
+.lp-testimonial h3 span {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #9eadb7;
+}
+.lp-testimonial p::before {
+    content: "\201C";
+}
+.lp-testimonial p {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 17px;
+    padding: 0 10px;
+    margin: 0;
+    color: #6c7279;
+}
+.lp-testimonial p::after {
+    content: "\201D";
+}
+
+/********************************
+GLOBAL GROUP - WHAT IS TRADEGECKO
+********************************/
+
+.tg-banner h2 {
+    padding: 15px 0 20px;
+    margin: 0;
+}
+.tg-banner img {
+    width: 100% !important;
+    max-width: 340px;
+}
+@media screen and (max-width: 767px) {
+    .tg-banner {
+        text-align: center;
     }
 }
 

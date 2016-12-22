@@ -1074,7 +1074,7 @@ FILTER DROP DOWN
     border-bottom: 0;
 }
 .guana-tradegecko-app-box-filter-menu .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-menu-depth-1 {
-    border: 0 !important;
+    /*border: 0 !important;*/
 }
 .guana-tradegecko-app-box-filter-menu .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children ul.hs-menu-children-wrapper {
     border: 0 !important;
@@ -1085,6 +1085,7 @@ FILTER DROP DOWN
 .guana-tradegecko-app-box-filter-menu .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children {
     border-top-right-radius: 0;
     border-top-left-radius: 0;
+    border:0 !important;
 }
 .guana-tradegecko-app-box-filter-menu .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children ul.hs-menu-children-wrapper li a {
     border: 1px solid #E5E5E5 !important;
@@ -1922,14 +1923,10 @@ CUSTOM MOBILE NAVIGATION
 
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper,
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper:hover {
-        background: transparent !important;
         border: 0 !important;
         border-radius: 0 !important;
-        margin: 0 !important;
-        padding: 0 !important;
     }
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li {
-        border-top: 1px solid #2d3033 !important;
         border-bottom: 0 !important;
     }
     /* DROP DOWN LINKS */
@@ -1939,13 +1936,14 @@ CUSTOM MOBILE NAVIGATION
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:nth-of-type(6) > a,
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:first-child a,
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:last-child a {
-        border: 0 !important;
-        border-radius: 0 !important;
-        color: #F4F4F5 !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        background: #585d63 !important;
-        text-indent: 30px !important;
+        width: auto !important;
+        font-weight: 700;
+        color: #6c7279 !important;
+        background: #FFF;
+        min-width: 200px;
+        line-height: 24px;
+        cursor: pointer;
+
     }
     /* DROP DOWN LINKS HOVER */
 
@@ -1954,13 +1952,9 @@ CUSTOM MOBILE NAVIGATION
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:nth-of-type(6) > a:hover,
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:first-child a:hover,
     .hs-menu-wrapper.hs-menu-flow-horizontal>ul li.hs-item-has-children ul.hs-menu-children-wrapper li:last-child a:hover {
-        border: 0 !important;
         border-radius: 0 !important;
-        color: #FFF !important;
         margin: 0 !important;
         padding: 0 !important;
-        background: #484d53 !important;
-        text-indent: 25px !important;
     }
     /* PLUS MINUS ICONS */
 
@@ -2901,6 +2895,14 @@ HEADER FIXED RESPONSIVE
     .hp-fourcol-form .hs_submit {
         width: 100%;
         margin: 0 0 5px;
+    }
+
+    .guana-tradegecko-app-box-filter-menu .hs-menu-wrapper.hs-menu-flow-horizontal > ul li a {
+    border: 0;
+    }
+
+    .guana-tradegecko-app-box-filter-menu .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-menu-depth-1, .guana-tradegecko-app-box-filter-menu .hs-menu-wrapper.hs-menu-flow-horizontal > ul li a.selected-filter {
+        border: 1px solid #e5e5e5;
     }
 }
 @media screen and (max-width: 1100px) {

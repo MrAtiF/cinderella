@@ -6,7 +6,7 @@
   padding:0;
 }
 
-.blog-subscribe-container #form-modal-subscribe.blog-subs-modal .hbspt-form {
+.blog-subscribe-container #form-modal-subscribe.blog-subs-modal .blog-subscribe-modal-form {
   background-color:#fff;
   padding:0;
   margin:0;
@@ -27,7 +27,7 @@
   display: none;
 }
 
-.blog-subscribe-container #form-modal-subscribe.blog-subs-modal .hbspt-form .hs-input{
+.blog-subscribe-container #form-modal-subscribe.blog-subs-modal .blog-subscribe-modal-form .hs-input{
   display: block;
   margin: 0 auto;
   width: 100% !important;
@@ -36,7 +36,7 @@
 }
 
 
-.blog-subscribe-container #form-modal-subscribe.blog-subs-modal .hbspt-form input[type="submit"] {
+.blog-subscribe-container #form-modal-subscribe.blog-subs-modal .blog-subscribe-modal-form input[type="submit"] {
     display: block;
     margin: 15px auto;
     width: 30%;
@@ -149,7 +149,7 @@ span#closeButton:hover {
     height: auto;
     text-align: center;
   }
-  .blog-subscribe-container #form-modal-subscribe.blog-subs-modal .hbspt-form input[type="submit"] {
+  .blog-subscribe-container #form-modal-subscribe.blog-subs-modal .blog-subscribe-modal-form input[type="submit"] {
     width:55%;
   }
 }

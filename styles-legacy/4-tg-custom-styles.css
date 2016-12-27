@@ -1429,7 +1429,6 @@ a.tour-more {
     font-family: "Raleway", "Arial Black", Arial, sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    color: #70CF32;
 }
 a.tour-more:after {
     content: "\f105";

@@ -2027,7 +2027,7 @@ BLOG COMMENTS
 **************/
 
 .blog-comments .tg-blog-left-sidebar .hs-form {
-    background: #edf0f0 !important;
+    background: #f4f4f5;
     border: 0 !important;
     border-radius: 3px;
     padding-top: 10px;
@@ -2052,8 +2052,8 @@ BLOG COMMENTS
 .blog-comments .tg-blog-left-sidebar .hs-form input,
 .blog-comments .tg-blog-left-sidebar .hs-form textarea,
 .blog-comments .tg-blog-left-sidebar .hs-form .input.select {
-    background: #E5E6E6;
-    border: 1px solid #DDD;
+    background: #fff;
+    border: 1px solid #e2e6e8;
     color: #2d3033;
 }
 .blog-comments .tg-blog-left-sidebar .hs-form-booleancheckbox label {

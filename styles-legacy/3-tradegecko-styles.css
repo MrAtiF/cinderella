@@ -1351,7 +1351,7 @@ input[type="checkbox"]:checked + label::after {
 .hs_sidebar_margin_faq ul li.active a,
 #sidecol-link a.current-page {
     background: #f4f4f5;
-    color: #6c7279;
+    color:##6c7279;
 }
 .tg_feature_sidebar h3 {
     color: #70cf32;

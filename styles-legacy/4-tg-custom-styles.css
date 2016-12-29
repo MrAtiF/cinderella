@@ -3095,29 +3095,31 @@ MISC
     padding-bottom: 30px;
 }
 .webinar-details {
-    font-size: 16px;
-    color: #70cf32;
-    font-weight: 500;
-    padding: 11px;
-    text-align: center;
-    margin-top: 25px;
-    border-bottom: 1px #70cf32 dashed;
+  font-size: 16px;
+  color: #70cf32;
+  font-weight: 500;
+  padding: 11px;
+  text-align: center;
+  margin-top: 25px;
+  border-bottom: 1px #f4f4f5 solid;
+  font-weight: bold;
 }
 
 .webinar-block {
-    background-color: #1c4561;
-    padding: 50px;
-    margin-bottom: 50px;
-    color: #f4f4f5;
-    border-top: 25px #6fd5d9 solid;
-    border-radius:10px;
+  background-color: #fff;
+  padding: 50px;
+  margin-bottom: 50px;
+  color: #6c7279;
+  border-radius: 5px;
+  border: 1px #e2e6e8 solid;
 }
 
 .webinar-sub-block {
-    padding: 20px 50px;
-    color: #6fd5d9;
-    margin-top: 30px;
-    background-color: #12334a;
+  padding: 20px 50px;
+  color: #889096;
+  margin-top: 30px;
+  background-color: #f4f4f5;
+  border-radius: 3px;
 }
 
 .webinar-sub-block ol{
@@ -3126,9 +3128,9 @@ MISC
 }
 
 .webinar-sub-block strong{
-    font-size:15px;
-    text-transform:uppercase;
-    color:#b7eef0;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #585d64;
 }
 
 .webinar-sub-block .title {
@@ -3138,7 +3140,6 @@ MISC
 
 .webinar-block h3.webinar-h3 {
     text-align: center;
-    color: #fff !important;
     margin: -5px;
     padding-top: 0 !important;
     font-size: 26px !important;

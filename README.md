@@ -1,6 +1,9 @@
-# TradeGecko stylesheets for Marketing Website
+# Cinderella
+This repo aims to provide a more efficient, clean and collaborative way of writing and editing CSS for **TradeGecko's Marketing Website**.
 
-### styles-legacy
+## Using the repo:
+
+###  styles-legacy
 This folder contains styles for pages designed using the **old** TradeGecko style guide.
 
 #### How to compile:
@@ -12,7 +15,7 @@ This folder contains styles for pages designed using the **old** TradeGecko styl
 
 --
 
-### styles-new
+###  styles-new
 This folder contains styles for pages designed using the **2016** TradeGecko style guide.
 
 #### How to compile:
@@ -23,4 +26,4 @@ This folder contains styles for pages designed using the **2016** TradeGecko sty
 4. Save and run `gulp` in iTerm to compile into `tg-compiled-css` folder.
 3. Open `tg-compiled-new.css`, copy the code and paste into `..custom/page/css/tg-compiled-new.css` in Hubspot.
 
-_Note: Make sure to link the template/page to the latest `main.css`._
+_Note: Remember to link the template/page to the latest `main.css` and disable the `Primary CSS File`._

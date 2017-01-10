@@ -262,7 +262,7 @@ LANDING PAGE - PRODUCT LAUNCHES
     margin-right: 20px;
     top: 160px;
     width: auto;
-    background: url(http://resources.tradegecko.com/hubfs/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-masthead-iphone-ipad-v3.png) no-repeat bottom right;
+    background: url(http://resources.tradegecko.com/hubfs/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-masthead-iphone-ipad.png) no-repeat bottom right;
     height: 495px;
 }
 @media screen and (max-width: 1200px) {
@@ -273,7 +273,7 @@ LANDING PAGE - PRODUCT LAUNCHES
 @media (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
     .iosapp-masthead-image {
-        background-image: url(https://resources.tradegecko.com/hubfs/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-masthead-iphone-ipad-v32x.png);
+        background-image: url(https://resources.tradegecko.com/hubfs/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-masthead-iphone-ipad2x.png);
         background-size: 805px 495px;
     }
     .launch-lp .visuals-iosapp-screen-catalog {
@@ -365,7 +365,7 @@ LANDING PAGE - PRODUCT LAUNCHES
         margin-right: 0;
         top: 200px;
         width: auto;
-        background: url(http://resources.tradegecko.com/hubfs/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-masthead-iphone-ipad-v3.png) no-repeat top center;
+        background: url(http://resources.tradegecko.com/hubfs/site/images/landing_pages/tradegecko-for-sales-landing-page/iosapp-masthead-iphone-ipad.png) no-repeat top center;
         height: 180px;
         background-size: contain;
         margin-top: 90px;

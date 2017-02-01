@@ -235,11 +235,21 @@ LANDING PAGE - GOOGLE ADWORDS
 .adwords-form-header {
     text-align: center;
     font-family: Raleway,sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     line-height: 1.5;
-    margin: 0 8px 25px 0;
+    margin: 0 8px 15px 0;
 }
+
+.adwords-form-header-div {
+    margin-bottom: 8px;
+}
+
+.adwords-form-instructions {
+    font-size: 14px;
+    color: #d2e1ea;
+}
+
 .adwords-form form .input {
     margin-bottom: 10px;
     background-color: #fff;

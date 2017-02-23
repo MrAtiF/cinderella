@@ -85,14 +85,13 @@ LANDING PAGE - GOOGLE ADWORDS
 .adwords-features-3-img,
 .adwords-features-4-img{
     float: right;
-    max-width: 523px;
-}
-.adwords-features-3-img{
-    margin-right: 30px;
+    max-width: 600px;
+    margin-right: 10px;
 }
 .adwords-features-2-img {
     float: left;
-    max-width: 523px;
+    max-width: 600px;
+    margin-left: 10px;
 }
 .adwords-features-1 {
     top: 45px;
@@ -107,15 +106,17 @@ LANDING PAGE - GOOGLE ADWORDS
     text-align: left;
 }
 .adwords-features__title {
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 .adwords-features__header {
     font-size: 28px;
+    padding: 0 20px;
 }
 .adwords-features__text {
     font-size: 16px;
     line-height: 2;
     margin-top: 20px;
+    padding: 0 20px;
 }
 .adwords-plans__text {
     font-size: 18px;

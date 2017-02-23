@@ -4,7 +4,7 @@ LANDING PAGE - GOOGLE ADWORDS
 
 .adwords-masthead {
     background-color: #1c4561;
-    padding: 90px 0 100px;
+    padding: 80px 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@ LANDING PAGE - GOOGLE ADWORDS
 }
 .adwords-reviews-section {
     background: #f4f4f5;
-    padding: 30px 0 25px;
+    padding: 50px 0;
     text-align: center;
 }
 .adwords-reviews {
@@ -62,23 +62,23 @@ LANDING PAGE - GOOGLE ADWORDS
 }
 .adwords-reviews .full-star {
     color: #70cf32;
-    font-size: 27px;
+    font-size: 33px;
 }
 .adwords-reviews .half-star {
-    background: -webkit-linear-gradient(0,#70cf32 50%,#fff 50%);
+    background: -webkit-linear-gradient(0,#70cf32 50%,#f4f4f5 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 27px;
+    font-size: 33px;
 }
 .adwords-reviews-logo {
-    width: 116px;
+    width: 126px;
     display: block;
     margin: 15px auto 0;
 }
 .adwords-features {
     max-width: 1280px;
     text-align: center;
-    padding: 70px 4%;
+    padding: 100px 4%;
     margin: 0 auto;
 }
 .adwords-features-1-img,
@@ -133,7 +133,7 @@ LANDING PAGE - GOOGLE ADWORDS
     margin: 30px auto 0;
 }
 .adwords-team-photo {
-    margin: 70px 0 25px;
+    margin: 140px 0 40px;
     text-align: center;
 }
 .adwords-team-photo__text {
@@ -160,7 +160,7 @@ LANDING PAGE - GOOGLE ADWORDS
 }
 .adwords-lp .benefits-panel {
     max-width: 1280px;
-    padding: 42px 0;
+    padding: 100px 0;
     text-align: left;
 }
 .adwords-lp .benefits-panel__column{

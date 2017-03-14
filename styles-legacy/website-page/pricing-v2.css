@@ -233,6 +233,19 @@ PRICING V2
     background-color: #70cf32;
     cursor: pointer;
 }
+
+.pricing-wrapper .column ul li.cell-cta-business { /* for the popular plan CTA btn */
+    background-color: #5ab9e1;
+}
+
+.pricing-wrapper .column ul li.cell-cta-business:hover { /* hover state for the popular plan CTA btn */
+    background-color: #429bce;
+}
+
+.pricing-wrapper .column ul li.cell-cta-business a.signup-button-business { /* for the popular plan CTA btn */
+  color: #fff !important;
+}
+
 .pricing-wrapper .cell-cta i {
     margin-left: 5px;
     font-size: 14px;

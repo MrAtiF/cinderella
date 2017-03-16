@@ -132,6 +132,30 @@ LANDING PAGE - EXCEL TEMPLATE
     padding:0;
 }
 
+/* Pop up on the blog posts - styling for hubspot - target:'' forms */
+
+.hubspot-modal--style { /* this is added to the same line as #form-modal */
+  padding-right: 32px;
+  max-width: 420px;
+  padding: 40px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+/* Background colours for the pop up modals */
+
+.bg--ocean-blue {
+    background: #429bce;
+}
+
+.bg--vhs-blue {
+    background: #1c4561;
+}
+
+.bg--watermelon-red {
+    background: #f6574d;
+}
+
 /* excel landing page form style*/
 .excel-form .hs-error-msgs label{
     text-transform: initial;

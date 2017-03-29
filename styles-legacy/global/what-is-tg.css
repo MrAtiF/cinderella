@@ -8,7 +8,7 @@ GLOBAL GROUP - WHAT IS TRADEGECKO
 }
 .tg-banner img {
     width: 100% !important;
-    max-width: 340px;
+    max-width: 555px;
 }
 @media screen and (max-width: 767px) {
     .tg-banner {

@@ -1,0 +1,148 @@
+/* single webinar page */
+
+.webinar__masthead {
+  background-position: center top;
+  background-size: initial;
+  background-color: #1c4561;
+  padding: 80px 0;
+  background-repeat: no-repeat;
+}
+
+.webinar__block {
+  padding: 50px 40px;
+  text-align: center;
+}
+
+.webinar__block--footer {
+  padding: 30px 40px;
+}
+
+.webinar__theme--light {
+  -webkit-font-smoothing: antialiased;
+  color: #2d3033;
+}
+
+.webinar__bg-grey1 {
+  background-color: #f4f4f5;
+}
+
+.webinar__bg-white {
+  background-color: #fff;
+}
+
+.webinar__bg-gradient {
+  background: linear-gradient(180deg,#1f5d82,#224f6d);
+}
+
+.webinar__info--icon {
+  font-size: 30px !important;
+  margin-bottom: 30px;
+  color: #429bce;
+}
+
+.webinar__h2 {
+  font-weight: 400;
+  font-size: 1.625rem;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+}
+
+.webinar__subheader {
+  padding: 0 20px;
+  font-size: 18px;
+  margin-top: -5px;
+  margin-bottom: 25px;
+  color: #6c7279;
+  -webkit-font-smoothing: initial;
+}
+
+.webinar__checklist {
+  display: inline-block;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  line-height: 2;
+  color: #2d3033;
+}
+
+.webinar__checklist p {
+  color: #393c40;
+}
+
+.webinar__checklist .fa-check {
+  margin-right: 20px;
+  font-size: 25px;
+  color: #429bce;
+}
+
+
+p.webinar__header--timing {
+  font-weight: 700;
+  color: #429bce;
+}
+
+p.webinar__header--timing .fa-clock-o {
+  margin-right: 10px;
+}
+
+.webinar__speaker {
+  text-align: left;
+}
+
+.webinar__speaker p {
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.webinar__speaker-name {
+  margin-top: 15px;
+}
+
+.webinar__speaker-name strong {
+  font-weight:700;
+  color:#429bce;
+}
+
+.webinar__footer {
+  max-width: 1280px;
+  padding: 0 20px !important;
+}
+
+.webinar__footer--text {
+  display: flex;
+  align-items: center;
+  text-align:left;
+}
+
+.webinar__footer--text p {
+  font-size: 17px;
+}
+
+.webinar__form--registration {
+  min-height: inherit;
+  border-radius: 10px;
+  position: initial;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 400px;
+  -webkit-font-smoothing: auto;
+}
+
+@media (max-width:991px) {
+  .webinar__timing {
+    text-align: center;
+  }
+
+  .webinar__speaker {
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width:767px) {
+  .webinar__footer--text {
+    text-align: center;
+    margin-top: 20px;
+  }
+}

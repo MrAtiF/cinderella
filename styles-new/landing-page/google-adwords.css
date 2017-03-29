@@ -9,6 +9,18 @@ LANDING PAGE - GOOGLE ADWORDS
     background-repeat: no-repeat;
     background-size: cover;
 }
+.adwords-be-fnb {
+    background-position: center top;
+    background-size: initial;
+    background-image:
+    url('https://www.tradegecko.com/hubfs/site/images/landing_pages/adwords-landing-page/adwords-be-masthead-1.png');
+}
+.adwords-be-medical {
+    background-position: center top;
+    background-size: initial;
+    background-image:
+    url('https://www.tradegecko.com/hubfs/site/images/landing_pages/adwords-landing-page/adwords-be-masthead-2.png');
+}
 .adwords-inventory {
     background-image: url('http://cdn2.hubspot.net/hubfs/407937/site/images/landing_pages/adwords-landing-page/adwords-inventory-masthead.png');
     background-position: center bottom;

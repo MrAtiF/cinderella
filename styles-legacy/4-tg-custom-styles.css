@@ -771,24 +771,33 @@ BLOG POST
     font-weight: 300;
     margin-bottom: 30px;
 }
+
+.post-body h1 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
 .post-body h2 {
-    font-size: 28px;
-    font-weight: 200;
-    padding: 20px 0 0;
-    margin: 0 0 20px;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 40px 0 -5px 0;
+    padding: 0;
 }
 .post-body h3 {
-    font-size: 24px;
-    font-weight: 200;
-    padding: 20px 0 0;
-    margin: 0 0 20px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 40px 0 -5px 0;
+    padding: 0;
 }
 .post-body h4 {
-    font-size: 20px;
-    font-weight: 200;
-    padding: 10px 0 0;
-    margin: 0 0 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #70cf32;
+    margin: 40px 0 -5px 0;
+    padding: 0;
 }
+
 .post-body h3+h4 {
     padding: 0;
     margin-top: -16px;
@@ -3185,4 +3194,3 @@ MISC
 .hs-responsive-embed iframe {
     position: absolute;
 }
-

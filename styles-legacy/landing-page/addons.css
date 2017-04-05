@@ -8,7 +8,7 @@ LANDING PAGE - ADDONS
 }
 .addons-lp .play-button {
     position: absolute;
-    top: 316px;
+    top: 380px;
     left: calc(50% - 257px);
 }
 .addons-lp .play-button a {
@@ -39,6 +39,11 @@ LANDING PAGE - ADDONS
 .addons-lp .feature-grid-item img {
     width: 100px;
     padding-bottom: 20px;
+}
+@media only screen and (max-width: 991px) {
+    .addons-lp .play-button {
+      top: 280px;
+    }
 }
 @media only screen and (max-width: 979px) {
     .addons-lp .lp-header h1 {

@@ -2390,10 +2390,10 @@ HEADER - FIXED
     background: url(http://cdn2.hubspot.net/hubfs/407937/site/images/page_home/home_masthead_people_warehouse_test.jpg) no-repeat top center;
 }
 .landing-masthead-fixed {
-    background-position: center -100px;
+    background-position: center -50px;
     background-repeat: no-repeat;
-    padding-top: 100px;
-    height: 400px;
+    padding-top: 120px;
+    height: 500px;
 }
 .page-home .body-container-wrapper .landing-masthead-fixed h1 {
     font-size: 32px;

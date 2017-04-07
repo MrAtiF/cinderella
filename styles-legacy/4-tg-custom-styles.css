@@ -772,6 +772,10 @@ BLOG POST
     margin-bottom: 30px;
 }
 
+.post-body img {
+  height: auto !important;
+}
+
 .post-body h1 {
     font-size: 26px;
     font-weight: 700;

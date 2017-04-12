@@ -1,0 +1,93 @@
+/* For the ads/blocks of copy in between/bottom of the blog posts */
+
+.blogpost-ad-header-copy, .blogpost-ad-copy {
+    background-color: rgba(111, 213, 217, 0.15);
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 3px;
+    margin: 30px 0;
+}
+
+.blogpost-ad-header-copy h3 {
+    margin: 0 !important; /* important because the landing page stylesheets overwrite this */
+    padding: 0;
+    font-size: 18px !important;
+}
+
+.blogpost-ad-header-copy p {
+    font-size: 16px;
+    line-height: 26.5px;
+    margin: 5px auto !important;
+}
+
+.blogpost-ad-copy p { /* !important because there's a overwrite on the main stylesheet for p:first-child -.- */
+    font-size: 16px !important;
+    line-height: 26.5px;
+    margin: 5px auto !important;
+    font-weight: normal !important;
+}
+
+p.blogpost-ad-header-copy--cta {
+    margin: 8px auto;
+}
+
+p.blogpost-ad-header-copy--cta a, p.blogpost-ad-copy--cta a {
+    font-weight: bold;
+    margin-top: 5px;
+    color: #429bce;
+}
+
+p.blogpost-ad-copy--cta {
+    margin: 5px auto;
+}
+
+.blogpost-ad-free-trial {
+    background-color: #1c4561;
+    padding: 20px 20px 10px 20px;
+    margin: 15px 0 30px 0 !important; /* !important because there's a overwrite on the main stylesheet */
+    border-radius: 3px;
+}
+
+.blogpost-ad-free-trial--img {
+    padding: 0;
+}
+
+.blogpost-ad-free-trial--text {
+    padding-top: inherit;
+    padding-left: inherit;
+}
+
+.blogpost-ad-free-trial--text h3 {
+    margin: 0;
+    padding: 0;
+    color: #d4f2f4;
+}
+
+.blogpost-ad-free-trial--text p {
+    font-size: 16px;
+    line-height: 26.5px;
+    color: #6fd5d9;
+}
+
+pre.blogpost-ad-code {
+    color: #585d64;
+    font-size: 14px;
+    line-height: 22px;
+    background-color: #f4f4f5;
+    display: block;
+    padding: 25px;
+    white-space: pre-wrap;
+    border-radius: 3px;
+}
+
+pre.blogpost-ad-code strong, pre.blogpost-ad-code b { /* for the tutorial */
+    color: #429bce;
+    font-weight: 400;
+}
+
+.blogpost-ad-hr {
+  border: 0;
+  height: 1px;
+  background: #c4ced1;
+  margin: 60px auto 40px auto;
+}

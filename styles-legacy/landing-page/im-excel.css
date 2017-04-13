@@ -142,6 +142,10 @@ LANDING PAGE - EXCEL TEMPLATE
   color: #fff;
 }
 
+.hubspot-modal--style .hs-form {
+  background-color: inherit !important;
+}
+
 /* Background colours for the pop up modals */
 
 .bg--ocean-blue {

@@ -50,6 +50,7 @@ p.blogpost-ad-copy--cta {
 
 .blogpost-ad-free-trial--img {
     padding: 0;
+    margin: 40px 0;
 }
 
 .blogpost-ad-free-trial--text {
@@ -58,15 +59,17 @@ p.blogpost-ad-copy--cta {
 }
 
 .blogpost-ad-free-trial--text h3 {
-    margin: 0;
+    margin: 0 !important;
     padding: 0;
     color: #d4f2f4;
+    font-size: 18px !important;
 }
 
 .blogpost-ad-free-trial--text p {
     font-size: 16px;
     line-height: 26.5px;
     color: #6fd5d9;
+    margin: 16px 0 !important;
 }
 
 pre.blogpost-ad-code {

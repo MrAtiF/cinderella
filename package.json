@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/MrAtiF/tradegecko-website-styles",
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
   },
   "devDependencies": {
     "gulp-append": "^0.3.4"

@@ -26,6 +26,10 @@ PRICING V2
     color: #70cf32;
     text-decoration: none;
 }
+.pricing-wrapper a.poa-cta {
+    color: #2fb628;
+    transition: all ease .1s;
+}
 .pricing-wrapper a:hover {
     color: #ffffff;
     transition: all ease .1s;

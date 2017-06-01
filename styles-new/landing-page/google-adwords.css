@@ -245,6 +245,19 @@ LANDING PAGE - GOOGLE ADWORDS
     min-height: 540px;
 }
 
+.adwords-form-simple {
+    position: absolute;
+    background: #429bce;
+    padding: 33px;
+    top: 0;
+    left: 58%;
+    z-index: 1;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 460px;
+    min-height: 540px;
+}
+
 .adwords-form-header {
     text-align: center;
     font-family: Raleway,sans-serif;
@@ -252,6 +265,20 @@ LANDING PAGE - GOOGLE ADWORDS
     color: #fff;
     line-height: 1.5;
     margin: 0 8px 15px 0;
+}
+
+.adwords-form-simple-header {
+    text-align: center;
+    font-family: Raleway,sans-serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.5;
+    margin: 10px 0 40px 0;
+}
+
+.adwords-form-simple-header img {
+    max-width: 105px;
+    margin-top: 20px;
 }
 
 .adwords-form-header-div {
@@ -263,19 +290,24 @@ LANDING PAGE - GOOGLE ADWORDS
     color: #d2e1ea;
 }
 
-.adwords-form form .input {
+.adwords-form form .input,
+.adwords-form-simple form .input {
     margin-bottom: 10px;
     background-color: #fff;
     box-shadow: inset 0 .0625rem 0 0 #e2e6e8;
     border-radius: 3px;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 .adwords-form input:-webkit-autofill,
-.adwords-form select:-webkit-autofill {
+.adwords-form select:-webkit-autofill,
+.adwords-form-simple input:-webkit-autofill,
+.adwords-form-simple select:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
 .adwords-form form input,
-.adwords-form form select {
+.adwords-form form select,
+.adwords-form-simple form input,
+.adwords-form-simple form select {
     background: none;
     color: #6c7279;
     font-family: "Open Sans",sans-serif;
@@ -290,10 +322,12 @@ LANDING PAGE - GOOGLE ADWORDS
     appearance: none;
     outline: none;
 }
-.adwords-form form .select {
+.adwords-form form .select,
+.adwords-form-simple form .select {
     position:relative;
 }
-.adwords-form form .select:after {
+.adwords-form form .select:after,
+.adwords-form-simple form .select:after{
     content: "\f0d7";
     position: absolute;
     right: 20px;
@@ -306,16 +340,19 @@ LANDING PAGE - GOOGLE ADWORDS
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.adwords-form form .hs-form-required {
+.adwords-form form .hs-form-required,
+.adwords-form-simple form .hs-form-required {
     display: none;
 }
-.adwords-form .hs-error-msgs label{
+.adwords-form .hs-error-msgs label,
+.adwords-form-simple .hs-error-msgs label{
     font-size: 13px;
     display: block;
     padding-bottom: 15px;
     color: #fff;
 }
-.adwords-form .hs-error-msgs label:before{
+.adwords-form .hs-error-msgs label:before,
+.adwords-form-simple .hs-error-msgs label:before {
     content: "^ ";
     font-weight: 700;
     color: #70cf32;
@@ -323,7 +360,11 @@ LANDING PAGE - GOOGLE ADWORDS
 .adwords-form form .actions {
     margin-right: 8px;
 }
-.adwords-form form input[type="submit"]{
+.adwords-form-simple form .actions {
+    margin-right: 0;
+}
+.adwords-form form input[type="submit"],
+.adwords-form-simple form input[type="submit"] {
     font-family: "Raleway",sans-serif;
     background-color: #70cf32;
     color: #fff;
@@ -336,7 +377,8 @@ LANDING PAGE - GOOGLE ADWORDS
     box-shadow: inset 0 .0625rem 0 0 #a0fb65;
 }
 
-.adwords-form form input[type="submit"]:hover{
+.adwords-form form input[type="submit"]:hover,
+.adwords-form-simple form input[type="submit"]:hover {
     -webkit-transform: translateY(-.0625rem);
     transform: translateY(-.0625rem);
     -webkit-transition-duration: .25s;
@@ -352,7 +394,20 @@ LANDING PAGE - GOOGLE ADWORDS
     padding-right: 8px;
     max-width: 320px;
 }
-.adwords-form-fineprint a {
+.adwords-form-simple-fineprint {
+    display: block;
+    color: #d2e1ea;
+    text-align: center;
+    margin: 40px auto 10px;
+    padding-right: 0px;
+    max-width: 320px;
+}
+.adwords-form-simple-fineprint span {
+    color: #ffffff;
+    font-weight: 700;
+}
+.adwords-form-fineprint a,
+.adwords-form-simple-fineprint a {
     color: #fff;
 }
 
@@ -363,7 +418,8 @@ LANDING PAGE - GOOGLE ADWORDS
         padding-right: 4%;
         padding-left: 4%;
     }
-    .adwords-form {
+    .adwords-form,
+    .adwords-form-simple {
         left: 53%;
     }
 }
@@ -383,7 +439,8 @@ LANDING PAGE - GOOGLE ADWORDS
     .adwords-lp .main-banner__head-line {
         font-size: 30px;
     }
-    .adwords-form {
+    .adwords-form,
+    .adwords-form-simple {
         width: 400px;
         right: 20px;
         left: initial;
@@ -440,7 +497,15 @@ LANDING PAGE - GOOGLE ADWORDS
         max-width: initial;
         padding: 30px 22px 20px 30px;
     }
-    .adwords-form form fieldset {
+    .adwords-form-simple {
+        position: initial;
+        width: 100%;
+        border-radius: 0;
+        max-width: initial;
+        padding: 30px;
+    }
+    .adwords-form form fieldset,
+    .adwords-form-simple form fieldset {
         max-width: initial;
     }
     .adwords-lp .benefits-panel {

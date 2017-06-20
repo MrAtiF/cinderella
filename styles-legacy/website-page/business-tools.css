@@ -113,6 +113,10 @@ TOOLS PAGE
   background-image:url("http://resources.tradegecko.com/hs-fs/hub/407937/file-2141578531-png/tradegecko_images/tag_popular.png");
 }
 
+.tools-tag-new {
+  background-image:url("https://resources.tradegecko.com/hs-fs/hub/407937/file-2141578521.png");
+}
+
 @media (max-width: 1024px) {
     .tools-content {
         text-align: justify;

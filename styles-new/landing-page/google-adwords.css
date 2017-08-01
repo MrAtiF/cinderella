@@ -37,6 +37,16 @@ LANDING PAGE - GOOGLE ADWORDS
     background-position: center top;
     background-size: initial;
 }
+.adwords-amer-us {
+    background-image: url('https://resources.tradegecko.com/hubfs/landing-page-conversion/landingpage-masthead-generic-02.jpg');
+    background-position: center top;
+    background-size: initial;
+}
+.adwords-worldmap {
+    background-image: url('https://www.tradegecko.com/hubfs/site/images/landing_pages/ae-booking-page/masthead-background-world-map.png');
+    background-position: center top 20px;
+    background-size: initial;
+}
 .adwords-header {
     max-width: 1280px;
     padding: 0 20px !important;

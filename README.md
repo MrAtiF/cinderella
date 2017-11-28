@@ -1,3 +1,6 @@
+# THIS REPOSITORY IS NO LONGER USED ON TRADEGECKO.COM AND CAN BE SAFELY DELETED
+
+
 # Cinderella
 This repo aims to provide a more efficient, clean and collaborative way of writing and editing CSS for **TradeGecko's Marketing Website**.
 
